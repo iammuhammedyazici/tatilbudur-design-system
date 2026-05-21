@@ -2,21 +2,41 @@
   "name": "@iammuhammedyazici/tatilbudur-design-system",
   "version": "0.1.0",
   "description": "TatilBudur Design System — icons & components",
-  "private": true,
   "type": "module",
-"scripts": {
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iammuhammedyazici/tatilbudur-design-system.git"
+  },
+  "scripts": {
     "build:icons": "svgr --typescript --out-dir src/icons src/svg",
+    "build:lib": "tsc --project tsconfig.lib.json",
+    "build": "npm run build:icons && npm run build:lib",
     "storybook": "npm run build:icons && storybook dev -p 6006",
-    "build-storybook": "npm run build:icons && storybook build"
+    "build-storybook": "npm run build:icons && storybook build",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "design-system",
     "icons",
     "react",
-    "react-native"
+    "react-native",
+    "tatilbudur"
   ],
   "author": "Muhammed YAZICI",
   "license": "UNLICENSED",
+  "peerDependencies": {
+    "react": ">=17"
+  },
   "devDependencies": {
     "@chromatic-com/storybook": "^5.2.1",
     "@storybook/addon-a11y": "^10.4.0",
