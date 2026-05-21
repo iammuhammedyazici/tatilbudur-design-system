@@ -1,6 +1,6 @@
 {
   "name": "@iammuhammedyazici/tatilbudur-design-system",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TatilBudur Design System — icons & components",
   "type": "module",
   "main": "./dist/web/index.js",
@@ -31,17 +31,17 @@
     "type": "git",
     "url": "git+https://github.com/iammuhammedyazici/tatilbudur-design-system.git"
   },
-"scripts": {
-  "clean": "rm -rf dist src/icons",
-  "build:icons:web": "svgr --typescript --out-dir src/icons/web src/svg",
-  "build:icons:native": "svgr --config-file ./svgr.native.config.cjs --out-dir src/icons/native src/svg",
-  "build:icons": "npm run build:icons:web && npm run build:icons:native",
-  "build:lib": "tsc --project tsconfig.lib.json",
-  "build": "npm run clean && npm run build:icons && npm run build:lib",
-  "storybook": "npm run build:icons:web && storybook dev -p 6006",
-  "build-storybook": "npm run build:icons:web && storybook build",
-  "prepublishOnly": "npm run build"
-},
+  "scripts": {
+    "clean": "rm -rf dist src/icons",
+    "build:icons:web": "svgr --typescript --out-dir src/icons/web src/svg",
+    "build:icons:native": "svgr --config-file ./svgr.native.config.cjs --out-dir src/icons/native src/svg",
+    "build:icons": "npm run build:icons:web && npm run build:icons:native",
+    "build:lib": "tsc --project tsconfig.lib.json",
+    "build": "npm run clean && npm run build:icons && npm run build:lib",
+    "storybook": "npm run build:icons:web && storybook dev -p 6006",
+    "build-storybook": "npm run build:icons:web && storybook build",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "design-system",
     "icons",
