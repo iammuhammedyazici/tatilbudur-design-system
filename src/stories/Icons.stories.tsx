@@ -3,7 +3,7 @@ import React, { useState, useMemo, useRef } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 
 // src/icons/ klasöründeki tüm icon'ları otomatik import et
-const iconModules = import.meta.glob('../icons/*.tsx', { eager: true });
+const iconModules = import.meta.glob('../icons/web/*.tsx', { eager: true });
 
 type IconType = {
   name: string;

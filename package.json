@@ -3,8 +3,22 @@
   "version": "0.1.1",
   "description": "TatilBudur Design System — icons & components",
   "type": "module",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/web/index.js",
+  "types": "./dist/web/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/web/index.js",
+      "types": "./dist/web/index.d.ts"
+    },
+    "./web": {
+      "import": "./dist/web/index.js",
+      "types": "./dist/web/index.d.ts"
+    },
+    "./native": {
+      "import": "./dist/native/index.js",
+      "types": "./dist/native/index.d.ts"
+    }
+  },
   "files": [
     "dist",
     "README.md"
@@ -17,14 +31,17 @@
     "type": "git",
     "url": "git+https://github.com/iammuhammedyazici/tatilbudur-design-system.git"
   },
-  "scripts": {
-    "build:icons": "svgr --typescript --out-dir src/icons src/svg",
-    "build:lib": "tsc --project tsconfig.lib.json",
-    "build": "npm run build:icons && npm run build:lib",
-    "storybook": "npm run build:icons && storybook dev -p 6006",
-    "build-storybook": "npm run build:icons && storybook build",
-    "prepublishOnly": "npm run build"
-  },
+"scripts": {
+  "clean": "rm -rf dist src/icons",
+  "build:icons:web": "svgr --typescript --out-dir src/icons/web src/svg",
+  "build:icons:native": "svgr --config-file ./svgr.native.config.cjs --out-dir src/icons/native src/svg",
+  "build:icons": "npm run build:icons:web && npm run build:icons:native",
+  "build:lib": "tsc --project tsconfig.lib.json",
+  "build": "npm run clean && npm run build:icons && npm run build:lib",
+  "storybook": "npm run build:icons:web && storybook dev -p 6006",
+  "build-storybook": "npm run build:icons:web && storybook build",
+  "prepublishOnly": "npm run build"
+},
   "keywords": [
     "design-system",
     "icons",
@@ -35,7 +52,13 @@
   "author": "Muhammed YAZICI",
   "license": "UNLICENSED",
   "peerDependencies": {
-    "react": ">=17"
+    "react": ">=17",
+    "react-native-svg": ">=12"
+  },
+  "peerDependenciesMeta": {
+    "react-native-svg": {
+      "optional": true
+    }
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^5.2.1",
@@ -53,6 +76,8 @@
     "playwright": "^1.60.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
+    "react-native": "^0.85.3",
+    "react-native-svg": "^15.15.5",
     "storybook": "^10.4.0",
     "typescript": "^6.0.3",
     "vite": "^8.0.14",
