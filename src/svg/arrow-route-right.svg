@@ -1,0 +1,4 @@
+<svg viewBox="0 0 280 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <line x1="0" y1="14" x2="240" y2="14" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+ <polygon points="240,5 280,14 240,23" fill="currentColor"/>
+</svg>

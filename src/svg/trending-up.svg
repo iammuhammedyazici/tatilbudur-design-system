@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 13 64 30" fill="none">
+ <path d="M10 40 L26 26 L38 34 L54 16"
+ stroke="currentColor"
+ stroke-width="6"
+ stroke-linecap="butt"
+ stroke-linejoin="miter"/>
+ <path d="M44 16 H54 V26"
+ stroke="currentColor"
+ stroke-width="6"
+ stroke-linecap="butt"
+ stroke-linejoin="miter"/>
+</svg>

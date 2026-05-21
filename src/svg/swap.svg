@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+ <defs>
+ <clipPath id="qedhj8faqa">
+ <path data-name="Rectangle 2453" fill="currentColor" d="M0 0h10.032v8.293H0z"/>
+ </clipPath>
+ </defs>
+ <g data-name="Group 7545">
+ <g data-name="Ellipse 27" fill="currentColor" stroke="currentColor">
+ <circle cx="12" cy="12" r="12" stroke="none"/>
+ <circle cx="12" cy="12" r="11.5" fill="none"/>
+ </g>
+ <g data-name="Group 7558" transform="rotate(90 4.607 11.607)" style="clip-path:url(#qedhj8faqa)">
+ <path data-name="Path 3183" d="M4.684 4.6 3.191 6.1V0h-1v6.1L.7 4.6l-.7.7 2.342 2.35a.5.5 0 0 0 .7 0l2.346-2.342z" transform="translate(4.645 .497)" fill="currentColor"/>
+ <path data-name="Path 3184" d="M3.191 7.8V1.7l1.493 1.491.7-.7L3.045.146a.5.5 0 0 0-.7 0L0 2.488l.7.7L2.2 1.7v6.1z" fill="currentColor"/>
+ </g>
+ </g>
+</svg>

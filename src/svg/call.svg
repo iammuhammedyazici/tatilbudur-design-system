@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11.385 13.002">
+ <defs>
+ <clipPath id="0oo184z9ya">
+ <path data-name="Rectangle 236" fill="currentColor" d="M0 0h11.385v13.002H0z"/>
+ </clipPath>
+ </defs>
+ <g data-name="Group 825">
+ <g data-name="Group 824" style="clip-path:url(#0oo184z9ya)">
+ <path data-name="Path 328" d="M8.31 8.384a.812.812 0 0 0-1.11.336l-.471.891a9.355 9.355 0 0 1-2.37-2.085 9.517 9.517 0 0 1-1.513-2.79l.992-.269a.82.82 0 0 0 .572-1.009L3.636.6A.82.82 0 0 0 2.628.029l-1.564.42a.751.751 0 0 0-.4.269C-.751 2.013.173 5.593 2.745 8.838c2.639 3.295 6.018 4.993 7.548 3.766l.067-.05v-.017a1.781 1.781 0 0 0 .168-.2l.756-1.429a.812.812 0 0 0-.335-1.108z" transform="translate(-.001)" fill="currentColor"/>
+ <path data-name="Path 329" d="m11.13 17.238.37-3.564a.18.18 0 0 0-.185-.2l-3.581.05a.184.184 0 0 0-.134.3l.723.773-2.068 1.884a.234.234 0 0 0-.017.319l1.479 1.614a.234.234 0 0 0 .319.017l2.064-1.883.723.79a.173.173 0 0 0 .3-.1" transform="translate(-1.157 -11.207)" fill="currentColor"/>
+ </g>
+ </g>
+</svg>

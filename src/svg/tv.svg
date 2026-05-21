@@ -1,0 +1,24 @@
+<svg
+ xmlns="http://www.w3.org/2000/svg"
+ viewBox="0 0 15 11"
+ >
+ <defs>
+ <clipPath id="a">
+ <path
+ transform="translate(0 .429)"
+ fill="currentColor"
+ d="M0 0h15v11H0z"
+ />
+ </clipPath>
+ </defs>
+ <g>
+ <g transform="translate(0 -.428)" fill="currentColor">
+ <path
+ d="M12.695 10.032H9.059v-.519H5.942v.519H2.305a.52.52 0 0 0 0 1.039h10.39a.52.52 0 0 0 0-1.039"
+ />
+ <path
+ d="M14.773-.357H.227a.491.491 0 0 0-.519.519v8.312a.491.491 0 0 0 .519.519h14.546a.491.491 0 0 0 .519-.519V.162a.491.491 0 0 0-.519-.519"
+ />
+ </g>
+ </g>
+ </svg>

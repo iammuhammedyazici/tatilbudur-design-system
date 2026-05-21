@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.174 11.363">
+ <defs>
+ <clipPath id="clip-path">
+ <path id="Rectangle_230" data-name="Rectangle 230" class="cls-1" d="M0 0h17.174v11.363H0z"/>
+ </clipPath>
+ <style>
+ .cls-1{fill:#3f536c}
+ </style>
+ </defs>
+ <g id="kampanya">
+ <g id="Group_809" data-name="Group 809" style="clip-path:url(#clip-path)">
+ <path id="Path_322" data-name="Path 322" class="cls-1" d="M68.917 37.093a.572.572 0 0 0-.809.809l1.336 1.336a.572.572 0 0 0 .809-.809z" transform="translate(-54.987 -29.891)"/>
+ <path id="Path_323" data-name="Path 323" class="cls-1" d="M68.458 2.466a.573.573 0 0 0 .4-.168L70.195.962a.572.572 0 0 0-.809-.809L68.05 1.489a.572.572 0 0 0 .4.977z" transform="translate(-54.929)"/>
+ <path id="Path_324" data-name="Path 324" class="cls-1" d="M10.671 5.006a1.034 1.034 0 0 0-.109 0V3.179a.865.865 0 0 0-1.374-.7L7.135 3.975H1.387A1.385 1.385 0 0 0 0 5.359v2.536a1.385 1.385 0 0 0 1.385 1.383h.855v2.967a.99.99 0 0 0 .99.99h.2a.99.99 0 0 0 .99-.99V9.278h2.71l2.053 1.5a.864.864 0 0 0 1.374-.7V8.244h.109a1.622 1.622 0 0 0 0-3.244z" transform="translate(0 -1.873)"/>
+ <path id="Path_325" data-name="Path 325" class="cls-1" d="M76.57 21.915h-1.888a.572.572 0 1 0 0 1.145h1.888a.572.572 0 0 0 0-1.145" transform="translate(-59.968 -17.733)"/>
+ </g>
+ </g>
+</svg>

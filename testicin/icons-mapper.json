@@ -1,0 +1,1511 @@
+{
+  "_meta": {
+    "generatedAt": "2026-05-21T16:04:16.740Z",
+    "totalIconBlocks": 416,
+    "uniqueCanonicalIcons": 162,
+    "singleColorExported": 161,
+    "multiColorExported": 1,
+    "skipped": 0
+  },
+  "nameMap": {
+    "search-tab-menu": "tab-search",
+    "reservations-tab-menu": "tab-bookings",
+    "home-tab-menu": "tab-home",
+    "categories-tab-menu": "tab-categories",
+    "profile-tab-menu": "tab-profile",
+    "yakinimdaki-oteller": "nearby-hotels",
+    "aquapark": "aquapark",
+    "denize-sifir": "beachfront",
+    "chevron-right": "chevron-right",
+    "calender": "calendar",
+    "reservation-calender": "reservation-calendar",
+    "bus": "bus",
+    "world": "globe",
+    "stars": "star",
+    "star": "star",
+    "balayi-konsepti": "honeymoon",
+    "balayi": "honeymoon",
+    "pet-friendly": "pet-friendly",
+    "no-smoke": "no-smoking",
+    "guvenli-turizm-sertifikali": "health-safety-certified",
+    "guvenli-turizm-sertifikasi": "health-safety-certified",
+    "ozel-plaj": "private-beach",
+    "mavi-bayrakli": "blue-flag-beach",
+    "mavi-bayrakli-plaj": "blue-flag-beach",
+    "covid": "health-measures",
+    "kum-cakil-plaj": "sand-pebble-beach",
+    "kum-plaj": "sandy-beach",
+    "kumlu-plaj": "sandy-beach",
+    "cakil-plaj": "pebble-beach",
+    "cakilli-plaj": "pebble-beach",
+    "su-kaydiragi": "waterslide",
+    "yetiskin-oteli": "adult-only",
+    "ucretsiz-a-la-carte-restoran": "free-ala-carte",
+    "ucretsiz-a-la-carte-restoranli": "free-ala-carte",
+    "cocuk-dostu": "family-friendly",
+    "engelli-dostu-otel": "accessibility",
+    "tekerlekli-sandalyeye-uygun": "wheelchair-accessible",
+    "tekerlekli-sandalyaye-uygun": "wheelchair-accessible",
+    "denizi-kademeli-derinlesen-otel": "gradual-seabed",
+    "spa-merkezi": "spa",
+    "aile-oteli": "family-hotel",
+    "deniz-manzarali": "sea-view",
+    "sig-deniz": "shallow-water",
+    "denizi-sig-otel": "shallow-water",
+    "2-cocuk-ucretsiz": "two-children-free",
+    "telefon": "phone",
+    "call-center": "call-center",
+    "evcil-hayvan-dostu": "pet-friendly",
+    "ucretsiz-transfer": "free-transfer",
+    "shuttle-servis": "free-transfer",
+    "kartsiz-odeme": "no-card-payment",
+    "kartsiz-rezervasyon": "no-card-payment",
+    "checkout-nopay": "no-card-payment",
+    "kredi-karti": "credit-card",
+    "credit-card": "credit-card",
+    "kaporali-odeme": "deposit-payment",
+    "kismi-odeme": "deposit-payment",
+    "metrekare": "square-meters",
+    "ucretsiz-iptal": "free-cancellation",
+    "close-circle": "close-circle",
+    "edit": "edit",
+    "pen": "edit",
+    "duzenle": "edit",
+    "delete": "trash",
+    "remove": "trash",
+    "sil": "trash",
+    "shield": "shield",
+    "secure": "shield",
+    "safety": "shield",
+    "4te1": "quarter-payment",
+    "pay-quarter": "quarter-payment",
+    "angle-down": "chevron-down",
+    "arrow-down": "chevron-down",
+    "angle-up": "chevron-up",
+    "arrow-up": "chevron-up",
+    "gemi-turu": "cruise",
+    "gemi-turlari": "cruise",
+    "around-world": "international-tours",
+    "yurtdisi-turlar": "international-tours",
+    "building": "building",
+    "yurtici-oteller": "building",
+    "kultur-turlari": "culture-tours",
+    "cyprus": "cyprus",
+    "kibris-turlari": "cyprus",
+    "lcd-plazma-tv": "tv",
+    "tv": "tv",
+    "dus": "shower",
+    "fransiz-balkon": "french-balcony",
+    "jakuzi": "jacuzzi",
+    "banyo": "bathroom",
+    "somine": "fireplace",
+    "kasa": "safe-box",
+    "emanet-kasa": "safe-box",
+    "cami": "mosque",
+    "minibar": "minibar",
+    "mini-bar": "minibar",
+    "klima": "air-conditioning",
+    "split-klima": "air-conditioning",
+    "internet": "internet",
+    "wifi": "wifi",
+    "wireless": "wifi",
+    "balkon": "balcony",
+    "sac-kurutma-makinasi": "hair-dryer",
+    "a-la-carte-restoran": "ala-carte",
+    "0-6-yas-ucretsiz": "children-free",
+    "0-5-yas-ucretsiz": "children-free",
+    "0-3-yas-ucretsiz": "children-free",
+    "merkezi-klima": "central-ac",
+    "vrv-klima": "central-ac",
+    "yari-merkezi-klima": "central-ac",
+    "sigara-icilmez": "no-smoking",
+    "kuvet": "bathtub",
+    "tesis-aktiviteleri": "activities",
+    "onemli-notlar": "note",
+    "note": "note",
+    "havuz-ve-plaj": "pool-and-beach",
+    "facility": "facility",
+    "genel-ozellikler": "facility",
+    "konsept-ozellikleri": "amenities",
+    "concept": "amenities",
+    "checklist": "amenities",
+    "best-price": "best-price",
+    "best-price-new-premium": "best-price-premium",
+    "best-price-new": "best-price-new",
+    "tb-star-01": "tb-star",
+    "tbicon-premium": "logo-premium",
+    "tbicon": "logo",
+    "logo": "logo",
+    "calendar": "calendar",
+    "calendar-white": "calendar",
+    "copy": "copy",
+    "4te1-pay": "quarter-payment",
+    "dart": "best-deal",
+    "en-uygun-oda": "best-deal",
+    "covid-19-tedbirleri": "health-measures",
+    "close-modal": "close",
+    "warning-icon": "warning",
+    "success-icon": "success",
+    "error-icon": "error",
+    "timer": "timer",
+    "map-icon": "map",
+    "map-trip": "map-trip",
+    "comment": "comment",
+    "clock": "clock",
+    "file-upload": "upload",
+    "badge": "badge",
+    "plus-filled": "plus-filled",
+    "plus-empty": "plus-outline",
+    "arrow-right": "arrow-right",
+    "person": "person",
+    "bell": "bell",
+    "bell-2": "bell-dot",
+    "settings": "settings",
+    "sale-office": "sale-office",
+    "about-us": "tb-about-us",
+    "lock": "lock",
+    "info": "info",
+    "authorise": "authorize",
+    "phone": "phone",
+    "marker": "marker",
+    "logout": "logout",
+    "corporate": "corporate",
+    "eye": "eye",
+    "tb-baggage": "baggage",
+    "tb-building": "building-tb",
+    "tb-cable-car": "cable-car",
+    "tb-airport": "airport",
+    "tb-club-1": "tb-club-1",
+    "tb-club-2": "tb-club-2",
+    "tb-club-3": "tb-club-3",
+    "frame": "frame",
+    "map-marker": "map-marker",
+    "vector-right": "vector-right",
+    "information-orange": "info-orange",
+    "room-detail-campaign": "room-campaign",
+    "otobus-ile-ulasim": "transport",
+    "ucak-ile-ulasim": "transport",
+    "kesin-kalkis": "guaranteed-departure",
+    "pin-filled": "pin",
+    "plane": "plane",
+    "upgrade": "upgrade",
+    "check": "check",
+    "tour-program": "tour-itinerary",
+    "tur-programi": "tour-itinerary",
+    "visa-program": "visa",
+    "tour-condition": "tour-conditions",
+    "tour-hotels": "tour-hotels",
+    "fill-timer": "timer-fill",
+    "information": "info",
+    "tb-short-logo": "logo-short",
+    "credit-timer": "credit-timer",
+    "arrow-left": "arrow-left",
+    "premium-danisman": "premium-advisor",
+    "premium-whatsapp": "premium-whatsapp",
+    "premium-transfer": "premium-transfer",
+    "flight": "flight",
+    "flight-package": "flight-package",
+    "dynamic-package": "flight-package",
+    "fly-room": "fly-room",
+    "campaign-percentage": "percentage",
+    "otel-icon": "hotel",
+    "plane-icon": "plane",
+    "flight-and-transfer": "flight-transfer",
+    "car": "car",
+    "tb-club-menu": "tb-club-menu",
+    "round-trip": "round-trip",
+    "passenger": "passenger",
+    "bed": "bed",
+    "heart-filled": "heart-filled",
+    "favorites-heart": "favorites",
+    "heart": "heart",
+    "cancel": "cancel",
+    "close-button": "close-button",
+    "discount-icon": "discount-icon",
+    "campaign-arrow-down": "campaign-arrow-down",
+    "campaign-arrow-right": "campaign-arrow-right",
+    "share": "share",
+    "premium": "premium",
+    "sharePremium": "share-premium"
+  },
+  "singleColorIcons": [
+    {
+      "canonical": "tab-search",
+      "originalNames": [
+        "search-tab-menu"
+      ],
+      "file": "tab-search.svg"
+    },
+    {
+      "canonical": "tab-bookings",
+      "originalNames": [
+        "reservations-tab-menu"
+      ],
+      "file": "tab-bookings.svg"
+    },
+    {
+      "canonical": "tab-home",
+      "originalNames": [
+        "home-tab-menu"
+      ],
+      "file": "tab-home.svg"
+    },
+    {
+      "canonical": "tab-categories",
+      "originalNames": [
+        "categories-tab-menu"
+      ],
+      "file": "tab-categories.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "tab-profile",
+      "originalNames": [
+        "profile-tab-menu"
+      ],
+      "file": "tab-profile.svg"
+    },
+    {
+      "canonical": "nearby-hotels",
+      "originalNames": [
+        "yakinimdaki-oteller"
+      ],
+      "file": "nearby-hotels.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "aquapark",
+      "originalNames": [
+        "aquapark"
+      ],
+      "file": "aquapark.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "beachfront",
+      "originalNames": [
+        "denize-sifir"
+      ],
+      "file": "beachfront.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "chevron-right",
+      "originalNames": [
+        "chevron-right"
+      ],
+      "file": "chevron-right.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "calendar",
+      "originalNames": [
+        "calender"
+      ],
+      "file": "calendar.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "reservation-calendar",
+      "originalNames": [
+        "reservation-calender"
+      ],
+      "file": "reservation-calendar.svg"
+    },
+    {
+      "canonical": "bus",
+      "originalNames": [
+        "bus"
+      ],
+      "file": "bus.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "globe",
+      "originalNames": [
+        "world"
+      ],
+      "file": "globe.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "star",
+      "originalNames": [
+        "stars",
+        "star"
+      ],
+      "file": "star.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "honeymoon",
+      "originalNames": [
+        "balayi-konsepti",
+        "balayi"
+      ],
+      "file": "honeymoon.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "pet-friendly",
+      "originalNames": [
+        "pet-friendly"
+      ],
+      "file": "pet-friendly.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "no-smoking",
+      "originalNames": [
+        "no-smoke"
+      ],
+      "file": "no-smoking.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "health-safety-certified",
+      "originalNames": [
+        "guvenli-turizm-sertifikali"
+      ],
+      "file": "health-safety-certified.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "private-beach",
+      "originalNames": [
+        "ozel-plaj"
+      ],
+      "file": "private-beach.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "blue-flag-beach",
+      "originalNames": [
+        "mavi-bayrakli",
+        "mavi-bayrakli-plaj"
+      ],
+      "file": "blue-flag-beach.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "health-measures",
+      "originalNames": [
+        "covid"
+      ],
+      "file": "health-measures.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "sand-pebble-beach",
+      "originalNames": [
+        "kum-cakil-plaj",
+        "kum-plaj",
+        "kumlu-plaj",
+        "cakil-plaj",
+        "cakilli-plaj"
+      ],
+      "file": "sand-pebble-beach.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "waterslide",
+      "originalNames": [
+        "su-kaydiragi"
+      ],
+      "file": "waterslide.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "adult-only",
+      "originalNames": [
+        "yetiskin-oteli"
+      ],
+      "file": "adult-only.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "free-ala-carte",
+      "originalNames": [
+        "ucretsiz-a-la-carte-restoran",
+        "ucretsiz-a-la-carte-restoranli"
+      ],
+      "file": "free-ala-carte.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "family-friendly",
+      "originalNames": [
+        "cocuk-dostu"
+      ],
+      "file": "family-friendly.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "accessibility",
+      "originalNames": [
+        "engelli-dostu-otel",
+        "tekerlekli-sandalyeye-uygun",
+        "tekerlekli-sandalyaye-uygun"
+      ],
+      "file": "accessibility.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "gradual-seabed",
+      "originalNames": [
+        "denizi-kademeli-derinlesen-otel"
+      ],
+      "file": "gradual-seabed.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "spa",
+      "originalNames": [
+        "spa-merkezi"
+      ],
+      "file": "spa.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "family-hotel",
+      "originalNames": [
+        "aile-oteli"
+      ],
+      "file": "family-hotel.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "sea-view",
+      "originalNames": [
+        "deniz-manzarali"
+      ],
+      "file": "sea-view.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "shallow-water",
+      "originalNames": [
+        "sig-deniz",
+        "denizi-sig-otel"
+      ],
+      "file": "shallow-water.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "two-children-free",
+      "originalNames": [
+        "2-cocuk-ucretsiz"
+      ],
+      "file": "two-children-free.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "phone",
+      "originalNames": [
+        "telefon"
+      ],
+      "file": "phone.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "call-center",
+      "originalNames": [
+        "call-center"
+      ],
+      "file": "call-center.svg"
+    },
+    {
+      "canonical": "free-transfer",
+      "originalNames": [
+        "ucretsiz-transfer",
+        "shuttle-servis"
+      ],
+      "file": "free-transfer.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "no-card-payment",
+      "originalNames": [
+        "kartsiz-odeme",
+        "kartsiz-rezervasyon",
+        "checkout-nopay"
+      ],
+      "file": "no-card-payment.svg"
+    },
+    {
+      "canonical": "credit-card",
+      "originalNames": [
+        "kredi-karti",
+        "credit-card"
+      ],
+      "file": "credit-card.svg"
+    },
+    {
+      "canonical": "deposit-payment",
+      "originalNames": [
+        "kaporali-odeme",
+        "kismi-odeme"
+      ],
+      "file": "deposit-payment.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "square-meters",
+      "originalNames": [
+        "metrekare"
+      ],
+      "file": "square-meters.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "free-cancellation",
+      "originalNames": [
+        "ucretsiz-iptal"
+      ],
+      "file": "free-cancellation.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "close-circle",
+      "originalNames": [
+        "close-circle"
+      ],
+      "file": "close-circle.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "edit",
+      "originalNames": [
+        "edit",
+        "pen",
+        "duzenle"
+      ],
+      "file": "edit.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "trash",
+      "originalNames": [
+        "delete",
+        "remove",
+        "sil"
+      ],
+      "file": "trash.svg"
+    },
+    {
+      "canonical": "shield",
+      "originalNames": [
+        "shield",
+        "secure",
+        "safety"
+      ],
+      "file": "shield.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "quarter-payment",
+      "originalNames": [
+        "4te1",
+        "pay-quarter"
+      ],
+      "file": "quarter-payment.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "chevron-down",
+      "originalNames": [
+        "angle-down",
+        "arrow-down"
+      ],
+      "file": "chevron-down.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "chevron-up",
+      "originalNames": [
+        "angle-up",
+        "arrow-up"
+      ],
+      "file": "chevron-up.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "cruise",
+      "originalNames": [
+        "gemi-turu",
+        "gemi-turlari"
+      ],
+      "file": "cruise.svg"
+    },
+    {
+      "canonical": "international-tours",
+      "originalNames": [
+        "around-world",
+        "yurtdisi-turlar"
+      ],
+      "file": "international-tours.svg"
+    },
+    {
+      "canonical": "building",
+      "originalNames": [
+        "building",
+        "yurtici-oteller"
+      ],
+      "file": "building.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "culture-tours",
+      "originalNames": [
+        "kultur-turlari"
+      ],
+      "file": "culture-tours.svg"
+    },
+    {
+      "canonical": "cyprus",
+      "originalNames": [
+        "cyprus",
+        "kibris-turlari"
+      ],
+      "file": "cyprus.svg"
+    },
+    {
+      "canonical": "tv",
+      "originalNames": [
+        "lcd-plazma-tv",
+        "tv"
+      ],
+      "file": "tv.svg"
+    },
+    {
+      "canonical": "shower",
+      "originalNames": [
+        "dus"
+      ],
+      "file": "shower.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "french-balcony",
+      "originalNames": [
+        "fransiz-balkon"
+      ],
+      "file": "french-balcony.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "jacuzzi",
+      "originalNames": [
+        "jakuzi"
+      ],
+      "file": "jacuzzi.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "bathroom",
+      "originalNames": [
+        "banyo"
+      ],
+      "file": "bathroom.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "fireplace",
+      "originalNames": [
+        "somine"
+      ],
+      "file": "fireplace.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "safe-box",
+      "originalNames": [
+        "kasa",
+        "emanet-kasa"
+      ],
+      "file": "safe-box.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "mosque",
+      "originalNames": [
+        "cami"
+      ],
+      "file": "mosque.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "minibar",
+      "originalNames": [
+        "minibar",
+        "mini-bar"
+      ],
+      "file": "minibar.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "air-conditioning",
+      "originalNames": [
+        "klima",
+        "split-klima"
+      ],
+      "file": "air-conditioning.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "internet",
+      "originalNames": [
+        "internet"
+      ],
+      "file": "internet.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "wifi",
+      "originalNames": [
+        "wifi",
+        "wireless"
+      ],
+      "file": "wifi.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "balcony",
+      "originalNames": [
+        "balkon"
+      ],
+      "file": "balcony.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "hair-dryer",
+      "originalNames": [
+        "sac-kurutma-makinasi"
+      ],
+      "file": "hair-dryer.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "ala-carte",
+      "originalNames": [
+        "a-la-carte-restoran"
+      ],
+      "file": "ala-carte.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "children-free",
+      "originalNames": [
+        "0-6-yas-ucretsiz",
+        "0-5-yas-ucretsiz",
+        "0-3-yas-ucretsiz"
+      ],
+      "file": "children-free.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "central-ac",
+      "originalNames": [
+        "merkezi-klima",
+        "vrv-klima",
+        "yari-merkezi-klima"
+      ],
+      "file": "central-ac.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "bathtub",
+      "originalNames": [
+        "kuvet"
+      ],
+      "file": "bathtub.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "activities",
+      "originalNames": [
+        "tesis-aktiviteleri"
+      ],
+      "file": "activities.svg"
+    },
+    {
+      "canonical": "note",
+      "originalNames": [
+        "onemli-notlar",
+        "note"
+      ],
+      "file": "note.svg"
+    },
+    {
+      "canonical": "pool-and-beach",
+      "originalNames": [
+        "havuz-ve-plaj"
+      ],
+      "file": "pool-and-beach.svg"
+    },
+    {
+      "canonical": "facility",
+      "originalNames": [
+        "facility",
+        "genel-ozellikler"
+      ],
+      "file": "facility.svg"
+    },
+    {
+      "canonical": "amenities",
+      "originalNames": [
+        "konsept-ozellikleri",
+        "concept",
+        "checklist"
+      ],
+      "file": "amenities.svg"
+    },
+    {
+      "canonical": "best-price",
+      "originalNames": [
+        "best-price"
+      ],
+      "file": "best-price.svg"
+    },
+    {
+      "canonical": "best-price-premium",
+      "originalNames": [
+        "best-price-new-premium"
+      ],
+      "file": "best-price-premium.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "best-price-new",
+      "originalNames": [
+        "best-price-new"
+      ],
+      "file": "best-price-new.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "tb-star",
+      "originalNames": [
+        "tb-star-01"
+      ],
+      "file": "tb-star.svg"
+    },
+    {
+      "canonical": "logo-premium",
+      "originalNames": [
+        "tbicon-premium"
+      ],
+      "file": "logo-premium.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "copy",
+      "originalNames": [
+        "copy"
+      ],
+      "file": "copy.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "best-deal",
+      "originalNames": [
+        "dart",
+        "en-uygun-oda"
+      ],
+      "file": "best-deal.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "close",
+      "originalNames": [
+        "close-modal"
+      ],
+      "file": "close.svg"
+    },
+    {
+      "canonical": "warning",
+      "originalNames": [
+        "warning-icon"
+      ],
+      "file": "warning.svg"
+    },
+    {
+      "canonical": "success",
+      "originalNames": [
+        "success-icon"
+      ],
+      "file": "success.svg"
+    },
+    {
+      "canonical": "error",
+      "originalNames": [
+        "error-icon"
+      ],
+      "file": "error.svg"
+    },
+    {
+      "canonical": "timer",
+      "originalNames": [
+        "timer"
+      ],
+      "file": "timer.svg"
+    },
+    {
+      "canonical": "map",
+      "originalNames": [
+        "map-icon"
+      ],
+      "file": "map.svg"
+    },
+    {
+      "canonical": "map-trip",
+      "originalNames": [
+        "map-trip"
+      ],
+      "file": "map-trip.svg"
+    },
+    {
+      "canonical": "comment",
+      "originalNames": [
+        "comment"
+      ],
+      "file": "comment.svg"
+    },
+    {
+      "canonical": "clock",
+      "originalNames": [
+        "clock"
+      ],
+      "file": "clock.svg"
+    },
+    {
+      "canonical": "upload",
+      "originalNames": [
+        "file-upload"
+      ],
+      "file": "upload.svg"
+    },
+    {
+      "canonical": "badge",
+      "originalNames": [
+        "badge"
+      ],
+      "file": "badge.svg"
+    },
+    {
+      "canonical": "plus-filled",
+      "originalNames": [
+        "plus-filled"
+      ],
+      "file": "plus-filled.svg"
+    },
+    {
+      "canonical": "plus-outline",
+      "originalNames": [
+        "plus-empty"
+      ],
+      "file": "plus-outline.svg"
+    },
+    {
+      "canonical": "arrow-right",
+      "originalNames": [
+        "arrow-right"
+      ],
+      "file": "arrow-right.svg"
+    },
+    {
+      "canonical": "person",
+      "originalNames": [
+        "person"
+      ],
+      "file": "person.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "bell",
+      "originalNames": [
+        "bell"
+      ],
+      "file": "bell.svg"
+    },
+    {
+      "canonical": "bell-dot",
+      "originalNames": [
+        "bell-2"
+      ],
+      "file": "bell-dot.svg"
+    },
+    {
+      "canonical": "settings",
+      "originalNames": [
+        "settings"
+      ],
+      "file": "settings.svg"
+    },
+    {
+      "canonical": "sale-office",
+      "originalNames": [
+        "sale-office"
+      ],
+      "file": "sale-office.svg"
+    },
+    {
+      "canonical": "tb-about-us",
+      "originalNames": [
+        "about-us"
+      ],
+      "file": "tb-about-us.svg"
+    },
+    {
+      "canonical": "lock",
+      "originalNames": [
+        "lock"
+      ],
+      "file": "lock.svg"
+    },
+    {
+      "canonical": "info",
+      "originalNames": [
+        "info"
+      ],
+      "file": "info.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "authorize",
+      "originalNames": [
+        "authorise"
+      ],
+      "file": "authorize.svg"
+    },
+    {
+      "canonical": "marker",
+      "originalNames": [
+        "marker"
+      ],
+      "file": "marker.svg"
+    },
+    {
+      "canonical": "logout",
+      "originalNames": [
+        "logout"
+      ],
+      "file": "logout.svg"
+    },
+    {
+      "canonical": "corporate",
+      "originalNames": [
+        "corporate"
+      ],
+      "file": "corporate.svg"
+    },
+    {
+      "canonical": "eye",
+      "originalNames": [
+        "eye"
+      ],
+      "file": "eye.svg"
+    },
+    {
+      "canonical": "baggage",
+      "originalNames": [
+        "tb-baggage"
+      ],
+      "file": "baggage.svg"
+    },
+    {
+      "canonical": "building-tb",
+      "originalNames": [
+        "tb-building"
+      ],
+      "file": "building-tb.svg"
+    },
+    {
+      "canonical": "cable-car",
+      "originalNames": [
+        "tb-cable-car"
+      ],
+      "file": "cable-car.svg"
+    },
+    {
+      "canonical": "airport",
+      "originalNames": [
+        "tb-airport"
+      ],
+      "file": "airport.svg"
+    },
+    {
+      "canonical": "tb-club-1",
+      "originalNames": [
+        "tb-club-1"
+      ],
+      "file": "tb-club-1.svg"
+    },
+    {
+      "canonical": "tb-club-2",
+      "originalNames": [
+        "tb-club-2"
+      ],
+      "file": "tb-club-2.svg"
+    },
+    {
+      "canonical": "tb-club-3",
+      "originalNames": [
+        "tb-club-3"
+      ],
+      "file": "tb-club-3.svg"
+    },
+    {
+      "canonical": "frame",
+      "originalNames": [
+        "frame"
+      ],
+      "file": "frame.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "map-marker",
+      "originalNames": [
+        "map-marker"
+      ],
+      "file": "map-marker.svg"
+    },
+    {
+      "canonical": "vector-right",
+      "originalNames": [
+        "vector-right"
+      ],
+      "file": "vector-right.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "info-orange",
+      "originalNames": [
+        "information-orange"
+      ],
+      "file": "info-orange.svg"
+    },
+    {
+      "canonical": "room-campaign",
+      "originalNames": [
+        "room-detail-campaign"
+      ],
+      "file": "room-campaign.svg"
+    },
+    {
+      "canonical": "transport",
+      "originalNames": [
+        "otobus-ile-ulasim",
+        "ucak-ile-ulasim"
+      ],
+      "file": "transport.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "guaranteed-departure",
+      "originalNames": [
+        "kesin-kalkis"
+      ],
+      "file": "guaranteed-departure.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "pin",
+      "originalNames": [
+        "pin-filled"
+      ],
+      "file": "pin.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "plane",
+      "originalNames": [
+        "plane"
+      ],
+      "file": "plane.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "upgrade",
+      "originalNames": [
+        "upgrade"
+      ],
+      "file": "upgrade.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "check",
+      "originalNames": [
+        "check"
+      ],
+      "file": "check.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "tour-itinerary",
+      "originalNames": [
+        "tour-program",
+        "tur-programi"
+      ],
+      "file": "tour-itinerary.svg"
+    },
+    {
+      "canonical": "visa",
+      "originalNames": [
+        "visa-program"
+      ],
+      "file": "visa.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "tour-conditions",
+      "originalNames": [
+        "tour-condition"
+      ],
+      "file": "tour-conditions.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "tour-hotels",
+      "originalNames": [
+        "tour-hotels"
+      ],
+      "file": "tour-hotels.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "timer-fill",
+      "originalNames": [
+        "fill-timer"
+      ],
+      "file": "timer-fill.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "logo-short",
+      "originalNames": [
+        "tb-short-logo"
+      ],
+      "file": "logo-short.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "credit-timer",
+      "originalNames": [
+        "credit-timer"
+      ],
+      "file": "credit-timer.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "arrow-left",
+      "originalNames": [
+        "arrow-left"
+      ],
+      "file": "arrow-left.svg"
+    },
+    {
+      "canonical": "premium-advisor",
+      "originalNames": [
+        "premium-danisman"
+      ],
+      "file": "premium-advisor.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "premium-whatsapp",
+      "originalNames": [
+        "premium-whatsapp"
+      ],
+      "file": "premium-whatsapp.svg"
+    },
+    {
+      "canonical": "premium-transfer",
+      "originalNames": [
+        "premium-transfer"
+      ],
+      "file": "premium-transfer.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "flight",
+      "originalNames": [
+        "flight"
+      ],
+      "file": "flight.svg"
+    },
+    {
+      "canonical": "flight-package",
+      "originalNames": [
+        "flight-package",
+        "dynamic-package"
+      ],
+      "file": "flight-package.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "fly-room",
+      "originalNames": [
+        "fly-room"
+      ],
+      "file": "fly-room.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "percentage",
+      "originalNames": [
+        "campaign-percentage"
+      ],
+      "file": "percentage.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "hotel",
+      "originalNames": [
+        "otel-icon"
+      ],
+      "file": "hotel.svg"
+    },
+    {
+      "canonical": "flight-transfer",
+      "originalNames": [
+        "flight-and-transfer"
+      ],
+      "file": "flight-transfer.svg"
+    },
+    {
+      "canonical": "car",
+      "originalNames": [
+        "car"
+      ],
+      "file": "car.svg"
+    },
+    {
+      "canonical": "tb-club-menu",
+      "originalNames": [
+        "tb-club-menu"
+      ],
+      "file": "tb-club-menu.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "round-trip",
+      "originalNames": [
+        "round-trip"
+      ],
+      "file": "round-trip.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "passenger",
+      "originalNames": [
+        "passenger"
+      ],
+      "file": "passenger.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "bed",
+      "originalNames": [
+        "bed"
+      ],
+      "file": "bed.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "heart-filled",
+      "originalNames": [
+        "heart-filled"
+      ],
+      "file": "heart-filled.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "favorites",
+      "originalNames": [
+        "favorites-heart"
+      ],
+      "file": "favorites.svg"
+    },
+    {
+      "canonical": "heart",
+      "originalNames": [
+        "heart"
+      ],
+      "file": "heart.svg",
+      "_hasViewBox": true
+    },
+    {
+      "canonical": "cancel",
+      "originalNames": [
+        "cancel"
+      ],
+      "file": "cancel.svg"
+    },
+    {
+      "canonical": "close-button",
+      "originalNames": [
+        "close-button"
+      ],
+      "file": "close-button.svg"
+    },
+    {
+      "canonical": "discount-icon",
+      "originalNames": [
+        "discount-icon"
+      ],
+      "file": "discount-icon.svg"
+    },
+    {
+      "canonical": "campaign-arrow-down",
+      "originalNames": [
+        "campaign-arrow-down"
+      ],
+      "file": "campaign-arrow-down.svg"
+    },
+    {
+      "canonical": "campaign-arrow-right",
+      "originalNames": [
+        "campaign-arrow-right"
+      ],
+      "file": "campaign-arrow-right.svg"
+    },
+    {
+      "canonical": "share",
+      "originalNames": [
+        "share"
+      ],
+      "file": "share.svg"
+    },
+    {
+      "canonical": "premium",
+      "originalNames": [
+        "premium"
+      ],
+      "file": "premium.svg"
+    },
+    {
+      "canonical": "share-premium",
+      "originalNames": [
+        "sharePremium"
+      ],
+      "file": "share-premium.svg"
+    }
+  ],
+  "multiColorIcons": [
+    {
+      "canonical": "logo",
+      "originalNames": [
+        "tbicon",
+        "logo"
+      ],
+      "reasons": [
+        "embedded-image",
+        "pattern-with-use"
+      ],
+      "file": "logo.svg",
+      "note": "currentColor ile export edildi ama orijinal multi-color idi"
+    }
+  ],
+  "skippedIcons": []
+}

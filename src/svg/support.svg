@@ -1,0 +1,14 @@
+<svg id="musteriiliskileri" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.315 11.781">
+ <defs>
+ <clipPath id="clip-path">
+ <path id="Rectangle_236" data-name="Rectangle 236" class="cls-1" d="M0 0h10.315v11.781H0z"/>
+ </clipPath>
+ <style>
+ .cls-1{fill:#3f536c}
+ </style>
+ </defs>
+ <g id="Group_824" data-name="Group 824" style="clip-path:url(#clip-path)">
+ <path id="Path_328" data-name="Path 328" class="cls-1" d="M7.529 7.6a.736.736 0 0 0-1.005.3l-.424.808A8.476 8.476 0 0 1 3.95 6.82a8.623 8.623 0 0 1-1.371-2.529l.9-.244A.743.743 0 0 0 4 3.134L3.295.544a.743.743 0 0 0-.914-.518L.964.407A.68.68 0 0 0 .6.651C-.681 1.824.157 5.068 2.487 8.008c2.391 2.985 5.453 4.524 6.839 3.412l.061-.046v-.015a1.613 1.613 0 0 0 .152-.183l.685-1.295a.736.736 0 0 0-.3-1.005z"/>
+ <path id="Path_329" data-name="Path 329" class="cls-1" d="M10.666 16.884 11 13.655a.163.163 0 0 0-.168-.183l-3.244.046a.166.166 0 0 0-.122.274l.655.7L6.249 16.2a.212.212 0 0 0-.015.289l1.34 1.462a.212.212 0 0 0 .289.015l1.873-1.706.655.716a.157.157 0 0 0 .274-.091" transform="translate(-1.629 -11.42)"/>
+ </g>
+</svg>

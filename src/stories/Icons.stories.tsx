@@ -209,11 +209,13 @@ const DetailPanel = ({
           top: 0,
           right: 0,
           bottom: 0,
-          width: '420px',
+          width: 'clamp(380px, 30vw, 480px)',
           maxWidth: '100vw',
-          background: '#FFFFFF',
+          background: 'rgba(255, 255, 255, 0.98)',
+          backdropFilter: 'blur(12px)',
           borderLeft: '1px solid #E5E7EB',
-          boxShadow: '-8px 0 24px rgba(0, 0, 0, 0.08)',
+          boxShadow: '-8px 0 32px rgba(0, 0, 0, 0.12)',
+          WebkitBackdropFilter: 'blur(12px)',
           zIndex: 9999,
           display: 'flex',
           flexDirection: 'column',
@@ -575,15 +577,28 @@ const IconGallery = ({ size, color }: { size: number; color: string }) => {
   }, [search]);
 
   return (
-    <div style={{ padding: '8px 0' }}>
-      {/* Header */}
+    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', overflow: 'hidden', background: '#FAFBFC' }}>
+      <style>{`
+        html, body, #storybook-root { height: 100% !important; margin: 0 !important; padding: 0 !important; overflow: hidden !important; }
+      `}</style>
+      {/* Search Bar */}
+      <div
+        style={{
+          flexShrink: 0,
+          zIndex: 100,
+          background: 'rgba(255, 255, 255, 0.95)',
+          backdropFilter: 'blur(8px)',
+          WebkitBackdropFilter: 'blur(8px)',
+          borderBottom: '1px solid #E5E7EB',
+          padding: '16px 32px',
+        }}
+      >
       <div
         style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
           gap: 16,
-          marginBottom: 20,
         }}
       >
         <div style={{ position: 'relative', flex: 1, maxWidth: 480 }}>
@@ -635,11 +650,19 @@ const IconGallery = ({ size, color }: { size: number; color: string }) => {
           icon
         </div>
       </div>
+      </div>
 
+      {/* Scrollable content */}
+      <div style={{ flex: 1, overflowY: 'auto', padding: '24px 32px' }}>
       {/* Empty state */}
       {filteredIcons.length === 0 ? (
         <div
           style={{
+            minHeight: '60vh',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
             padding: '48px 24px',
             textAlign: 'center',
             color: '#9CA3AF',
@@ -657,8 +680,8 @@ const IconGallery = ({ size, color }: { size: number; color: string }) => {
         <div
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(130px, 1fr))',
-            gap: 12,
+            gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))',
+            gap: 16,
           }}
         >
           {filteredIcons.map((icon) => (
@@ -678,6 +701,7 @@ const IconGallery = ({ size, color }: { size: number; color: string }) => {
       {selectedIcon && (
         <DetailPanel icon={selectedIcon} onClose={() => setSelectedIcon(null)} />
       )}
+      </div>
     </div>
   );
 };
@@ -686,7 +710,11 @@ const meta = {
   title: 'Icons/Gallery',
   component: IconGallery,
   parameters: {
-    layout: 'padded',
+    layout: 'fullscreen',
+    html: {
+      root: '#storybook-root',
+      selector: '#storybook-root',
+    },
   },
   tags: ['autodocs'],
   argTypes: {

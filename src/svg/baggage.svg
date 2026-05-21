@@ -1,0 +1,15 @@
+<svg viewBox="100 40 300 440" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <rect x="120" y="140" width="260" height="300" rx="60" stroke="currentColor" stroke-width="40"/>
+ 
+ <path d="M190 140V90C190 73.4315 203.431 60 220 60H280C296.569 60 310 73.4315 310 90V140"
+ stroke="currentColor" stroke-width="40" stroke-linecap="round"/>
+ 
+ <line x1="190" y1="250" x2="310" y2="250"
+ stroke="currentColor" stroke-width="30" stroke-linecap="round"/>
+ 
+ <line x1="190" y1="340" x2="310" y2="340"
+ stroke="currentColor" stroke-width="30" stroke-linecap="round"/>
+ 
+ <circle cx="170" cy="455" r="20" fill="currentColor"/>
+ <circle cx="330" cy="455" r="20" fill="currentColor"/>
+</svg>

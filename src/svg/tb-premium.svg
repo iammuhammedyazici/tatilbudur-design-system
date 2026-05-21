@@ -1,0 +1,1100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218.412 24.199">
+ <defs>
+ <clipPath id="mbgl4k0qta">
+ <path data-name="Path 3759" d="M610.448 546.8a6.73 6.73 0 0 0-4.922-2.03h-2.3v-2.386a2.331 2.331 0 0 0-4.662 0v9.324a6.687 6.687 0 0 0 2.057 4.923 6.756 6.756 0 0 0 4.937 2.043 6.664 6.664 0 0 0 4.909-2.043 6.951 6.951 0 0 0-.014-9.832zm-2.619 4.909a2.246 2.246 0 0 1-.7 1.632 2.19 2.19 0 0 1-1.6.672 2.341 2.341 0 0 1-2.3-2.3v-2.276h2.331a2.249 2.249 0 0 1 2.276 2.276z" transform="translate(-598.559 -540.05)" fill="currentColor"/>
+ </clipPath>
+ <clipPath id="grz51qg6yb">
+ <path data-name="Path 3821" d="M619.685 539.844a1.312 1.312 0 1 0-2.623 0v2.909h2.622z" transform="translate(-617.063 -538.532)" fill="currentColor"/>
+ </clipPath>
+ <clipPath id="ms9xa2e65c">
+ <path data-name="Path 3883" d="M641.529 552.183a1.331 1.331 0 0 0-1.882-1.882l-2.053 2.11 1.882 1.882z" transform="translate(-637.594 -549.916)" fill="currentColor"/>
+ </clipPath>
+ <clipPath id="x4g5a97z4d">
+ <path data-name="Path 3945" d="M617.073 606.235a1.312 1.312 0 1 0 2.623 0v-2.908h-2.628z" transform="translate(-617.073 -603.327)" fill="currentColor"/>
+ </clipPath>
+ <clipPath id="2g0dilsv3e">
+ <path data-name="Path 4007" d="M649.381 573.731h-2.909v2.623h2.909a1.312 1.312 0 1 0 0-2.623z" transform="translate(-646.472 -573.731)" fill="currentColor"/>
+ </clipPath>
+ <clipPath id="5m6vir9r0f">
+ <path data-name="Path 4069" d="m639.476 591.674-1.882 1.882 2.053 2.054a1.331 1.331 0 1 0 1.882-1.882z" transform="translate(-637.594 -591.674)" fill="currentColor"/>
+ </clipPath>
+ <clipPath id="u4pkizl70g">
+ <path data-name="Path 4131" d="M564.078 554.015h-.567a2.341 2.341 0 0 1-2.3-2.3v-2.258h2.871a2.331 2.331 0 0 0 0-4.662H561.2v-2.377a2.342 2.342 0 0 0-2.331-2.331 2.289 2.289 0 0 0-1.659.686 2.221 2.221 0 0 0-.7 1.645v2.375h-.759a2.331 2.331 0 0 0 0 4.662h.759v2.26a7 7 0 0 0 6.993 6.966h.577a2.331 2.331 0 0 0 0-4.662z" transform="translate(-553.418 -540.084)" fill="currentColor"/>
+ </clipPath>
+ </defs>
+ <g data-name="Group 7287">
+ <g data-name="Group 7284">
+ <g data-name="Group 7282">
+ <g data-name="Group 7263">
+ <path data-name="Path 3698" d="M610.448 546.8a6.73 6.73 0 0 0-4.922-2.03h-2.3v-2.386a2.331 2.331 0 0 0-4.662 0v9.324a6.687 6.687 0 0 0 2.057 4.923 6.756 6.756 0 0 0 4.937 2.043 6.664 6.664 0 0 0 4.909-2.043 6.951 6.951 0 0 0-.014-9.832zm-2.619 4.909a2.246 2.246 0 0 1-.7 1.632 2.19 2.19 0 0 1-1.6.672 2.341 2.341 0 0 1-2.3-2.3v-2.276h2.331a2.249 2.249 0 0 1 2.276 2.276z" transform="translate(-584.641 -539.582)" fill="currentColor"/>
+ <g data-name="Group 7262" style="clip-path:url(#mbgl4k0qta)" transform="translate(13.918 .468)">
+ <g data-name="Group 7261">
+ <path data-name="Path 3699" d="m558.509 562.633.183-.184-.183-.184z" transform="translate(-570.858 -555.416)" fill="currentColor"/>
+ <path data-name="Path 3700" d="m558.509 551.072.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-570.858 -544.223)" fill="currentColor"/>
+ <path data-name="Rectangle 2459" transform="rotate(-44.997 -3.838 15.617)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2460" transform="rotate(-45 -5.667 11.2)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2461" transform="rotate(-45.003 -7.496 6.782)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2462" transform="rotate(-45 -9.327 2.365)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3701" d="m592.845 511.932-.182.183 2.587 2.586 2.587-2.586-.182-.183z" transform="translate(-594.481 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3702" d="m608.85 511.932.182.183.182-.183z" transform="translate(-605.677 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3703" d="m558.509 579.412.183-.184-.183-.184z" transform="translate(-570.858 -567.021)" fill="currentColor"/>
+ <path data-name="Path 3704" d="m558.509 567.851.183.184 2.587-2.586-2.587-2.587-.183.184z" transform="translate(-570.858 -555.828)" fill="currentColor"/>
+ <path data-name="Rectangle 2463" transform="rotate(-45 2.403 18.204)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2464" transform="rotate(-44.997 .578 13.787)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2465" transform="rotate(-44.997 -1.25 9.37)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2466" transform="rotate(-45.003 -3.08 4.953)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2467" transform="rotate(-45.003 -4.91 .539)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2468" transform="rotate(-44.993 -6.74 -3.878)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3705" d="m609.624 511.932-.182.183 2.587 2.586 2.587-2.586-.182-.183z" transform="translate(-606.086 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3706" d="m625.629 511.932.183.183.182-.183z" transform="translate(-617.283 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3707" d="m558.509 584.63.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-570.858 -567.434)" fill="currentColor"/>
+ <path data-name="Rectangle 2469" transform="rotate(-44.997 8.653 20.79)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2470" transform="rotate(-45.003 6.822 16.372)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2471" transform="rotate(-45 4.994 11.957)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2472" transform="rotate(-45 3.164 7.54)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2473" transform="rotate(-44.997 1.336 3.125)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2474" transform="rotate(-45.003 -.494 -1.29)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2475" transform="rotate(-45.003 -2.323 -5.707)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2476" transform="rotate(-44.99 -4.154 -10.125)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3708" d="m626.4 511.932-.182.183 2.587 2.586 2.587-2.586-.182-.183z" transform="translate(-617.692 -520.602)" fill="currentColor"/>
+ <path data-name="Rectangle 2477" transform="rotate(-45 14.897 23.376)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2478" transform="rotate(-44.997 13.069 18.96)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2479" transform="rotate(-44.996 11.24 14.544)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2480" transform="rotate(-45 9.409 10.13)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2481" transform="rotate(-45 7.58 5.714)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2482" transform="rotate(-45 5.751 1.297)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2483" transform="rotate(-44.997 3.923 -3.12)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2484" transform="rotate(-45 2.093 -7.536)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2485" transform="rotate(-45.003 .264 -11.952)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2486" transform="rotate(-45 -1.563 -16.369)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2487" transform="rotate(-44.997 19.315 21.547)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2488" transform="rotate(-45 17.482 17.135)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2489" transform="rotate(-45 15.654 12.714)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2490" transform="rotate(-44.997 13.827 8.298)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2491" transform="rotate(-45 11.997 3.885)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2492" transform="rotate(-45 10.167 -.533)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2493" transform="rotate(-44.997 8.338 -4.95)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2494" transform="rotate(-44.997 6.51 -9.366)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2495" transform="rotate(-45.003 4.68 -13.78)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2496" transform="rotate(-45.003 2.85 -18.196)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2497" transform="rotate(-45.003 23.727 19.716)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2498" transform="rotate(-45 21.9 15.3)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2499" transform="rotate(-45 20.07 10.886)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2500" transform="rotate(-45 18.24 6.473)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2501" transform="rotate(-44.996 16.414 2.053)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2502" transform="rotate(-45.003 14.583 -2.362)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2503" transform="rotate(-45 12.756 -6.777)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2504" transform="rotate(-45 10.924 -11.194)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2505" transform="rotate(-44.997 9.096 -15.611)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2506" transform="rotate(-45 7.267 -20.026)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2507" transform="rotate(-45 28.144 17.894)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3709" d="m643.182 511.932-.182.182 2.587 2.587 2.587-2.587-.183-.182z" transform="translate(-629.298 -520.602)" fill="currentColor"/>
+ <path data-name="Rectangle 2508" transform="rotate(-45.003 26.314 13.473)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2509" transform="rotate(-44.997 1.02 -22.615)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3710" d="m659.962 511.932-.182.182 2.587 2.587 2.587-2.587-.182-.182z" transform="translate(-640.904 -520.602)" fill="currentColor"/>
+ <path data-name="Rectangle 2510" transform="rotate(-45 24.486 9.062)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2511" transform="rotate(-45.003 5.438 -24.44)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3711" d="m670.756 517.7.183-.184v-4.806l-.183-.184-2.587 2.587z" transform="translate(-646.706 -521.011)" fill="currentColor"/>
+ <path data-name="Rectangle 2512" transform="rotate(-45 22.658 4.645)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3712" d="m670.756 534.477.183-.183v-4.806l-.183-.184-2.587 2.587z" transform="translate(-646.706 -532.617)" fill="currentColor"/>
+ <path data-name="Rectangle 2513" transform="rotate(-44.997 20.83 .223)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2514" transform="rotate(-44.997 19 -4.193)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2515" transform="rotate(-45 17.173 -8.605)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2516" transform="rotate(-45 15.34 -13.023)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2517" transform="rotate(-44.997 13.512 -17.441)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2518" transform="rotate(-44.997 11.683 -21.857)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3713" d="m597.651 624.36.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-594.481 -596.448)" fill="currentColor"/>
+ <path data-name="Rectangle 2519" transform="rotate(-45 30.732 11.643)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3714" d="m659.187 511.932.183.182.182-.182z" transform="translate(-640.494 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3715" d="m675.967 511.932.182.182.182-.182z" transform="translate(-652.1 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3716" d="m676.741 511.932-.182.182.183.184v-.366z" transform="translate(-652.509 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3717" d="M676.742 529.075v-.367l-.183.184z" transform="translate(-652.509 -532.205)" fill="currentColor"/>
+ <path data-name="Rectangle 2520" transform="rotate(-45.003 28.9 7.227)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2521" transform="rotate(-44.997 27.075 2.81)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2522" transform="rotate(-45 25.244 -1.605)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2523" transform="rotate(-45 23.414 -6.02)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2524" transform="rotate(-44.996 21.588 -10.438)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2525" transform="rotate(-45.003 19.756 -14.851)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2526" transform="rotate(-45 17.932 -19.267)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3718" d="m670.756 551.256.183-.184v-4.806l-.183-.184-2.587 2.587z" transform="translate(-646.706 -544.223)" fill="currentColor"/>
+ <path data-name="Path 3719" d="m609.211 630.163-.185-.185-.185.185z" transform="translate(-605.671 -602.251)" fill="currentColor"/>
+ <path data-name="Path 3720" d="m614.43 624.36.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-606.086 -596.448)" fill="currentColor"/>
+ <path data-name="Rectangle 2527" transform="rotate(-44.997 33.32 5.397)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2528" transform="rotate(-45.003 31.488 .982)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2529" transform="rotate(-45 29.66 -3.433)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2530" transform="rotate(-45 27.834 -7.845)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2531" transform="rotate(-44.997 26.003 -12.268)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2532" transform="rotate(-44.997 24.174 -16.684)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3721" d="m670.756 568.035.183-.184v-4.806l-.183-.184-2.587 2.587z" transform="translate(-646.706 -555.828)" fill="currentColor"/>
+ <path data-name="Path 3722" d="M676.742 562.633v-.368l-.183.184z" transform="translate(-652.509 -555.416)" fill="currentColor"/>
+ <path data-name="Path 3723" d="m625.991 630.163-.185-.185-.185.185z" transform="translate(-617.277 -602.251)" fill="currentColor"/>
+ <path data-name="Path 3724" d="m631.209 624.36.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-617.692 -596.448)" fill="currentColor"/>
+ <path data-name="Rectangle 2533" transform="rotate(-45 35.908 -.84)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2534" transform="rotate(-45.003 34.074 -5.262)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2535" transform="rotate(-44.997 32.249 -9.68)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2536" transform="rotate(-45 30.418 -14.095)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3725" d="m670.756 584.814.183-.184v-4.805l-.183-.184-2.587 2.587z" transform="translate(-646.706 -567.434)" fill="currentColor"/>
+ <path data-name="Path 3726" d="M676.742 579.412v-.368l-.183.184z" transform="translate(-652.509 -567.021)" fill="currentColor"/>
+ <path data-name="Path 3727" d="m642.768 630.162-.185-.185-.186.185z" transform="translate(-628.881 -602.25)" fill="currentColor"/>
+ <path data-name="Path 3728" d="m647.987 624.359.186-.185-2.587-2.587-2.586 2.587.185.185z" transform="translate(-629.298 -596.446)" fill="currentColor"/>
+ <path data-name="Rectangle 2537" transform="rotate(-45 38.495 -7.085)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2538" transform="rotate(-45 36.661 -11.508)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3729" d="m670.754 601.592.184-.184V596.6l-.184-.184-2.587 2.587z" transform="translate(-646.705 -579.039)" fill="currentColor"/>
+ <path data-name="Path 3730" d="M676.74 596.19v-.368l-.184.184z" transform="translate(-652.508 -578.626)" fill="currentColor"/>
+ <path data-name="Path 3731" d="m659.547 630.162-.186-.185-.186.185z" transform="translate(-640.486 -602.25)" fill="currentColor"/>
+ <path data-name="Path 3732" d="m664.766 624.359.185-.185-2.587-2.587-2.587 2.587.186.185z" transform="translate(-640.902 -596.446)" fill="currentColor"/>
+ <path data-name="Path 3733" d="m670.754 618.371.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-646.705 -590.644)" fill="currentColor"/>
+ <path data-name="Path 3734" d="M676.74 612.969v-.369l-.184.184z" transform="translate(-652.508 -590.231)" fill="currentColor"/>
+ <path data-name="Path 3735" d="m676.325 630.162-.184-.184-.185.185z" transform="translate(-652.092 -602.25)" fill="currentColor"/>
+ <path data-name="Path 3736" d="M676.74 629.749v-.368l-.184.184z" transform="translate(-652.508 -601.837)" fill="currentColor"/>
+ <path data-name="Path 3737" d="m642.409 511.932.182.182.182-.182z" transform="translate(-628.889 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3738" d="M676.742 545.855v-.367l-.183.183z" transform="translate(-652.509 -543.811)" fill="currentColor"/>
+ <path data-name="Path 3739" d="M558.509 511.932v.388l.194-.195-.193-.193z" transform="translate(-570.858 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3740" d="m558.512 511.932.193.193.193-.193z" transform="translate(-570.86 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3741" d="m558.509 529.1.194-.195-.194-.194z" transform="translate(-570.858 -532.205)" fill="currentColor"/>
+ <path data-name="Path 3742" d="m558.509 517.538.194.194 2.587-2.587-2.587-2.587-.194.195z" transform="translate(-570.858 -521.035)" fill="currentColor"/>
+ <path data-name="Path 3743" d="m559.332 511.932-.193.193 2.587 2.587 2.587-2.587-.193-.193z" transform="translate(-571.294 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3744" d="m575.291 511.932.193.193.193-.193z" transform="translate(-582.466 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3745" d="m558.509 545.876.194-.194-.194-.194z" transform="translate(-570.858 -543.811)" fill="currentColor"/>
+ <path data-name="Path 3746" d="m558.509 534.317.194.194 2.587-2.587-2.587-2.587-.194.195z" transform="translate(-570.858 -532.641)" fill="currentColor"/>
+ <path data-name="Rectangle 2539" transform="rotate(-45 -10.068 13.02)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2540" transform="rotate(-45 -11.895 8.604)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3747" d="m576.111 511.932-.193.193 2.587 2.587 2.587-2.587-.193-.193z" transform="translate(-582.9 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3748" d="m592.071 511.932.193.193.193-.193z" transform="translate(-594.072 -520.602)" fill="currentColor"/>
+ <path data-name="Path 3749" d="m558.509 596.191.183-.184-.183-.184z" transform="translate(-570.858 -578.627)" fill="currentColor"/>
+ <path data-name="Path 3750" d="m558.509 612.97.183-.184-.183-.184z" transform="translate(-570.858 -590.233)" fill="currentColor"/>
+ <path data-name="Path 3751" d="m558.509 601.409.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-570.858 -579.039)" fill="currentColor"/>
+ <path data-name="Path 3752" d="m558.509 629.749.183-.184-.183-.184z" transform="translate(-570.858 -601.838)" fill="currentColor"/>
+ <path data-name="Path 3753" d="m558.509 618.189.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-570.858 -590.645)" fill="currentColor"/>
+ <path data-name="Rectangle 2541" transform="rotate(-45.003 21.14 25.962)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3754" d="M558.509 630.163h.369l-.185-.185-.183.184z" transform="translate(-570.858 -602.251)" fill="currentColor"/>
+ <path data-name="Path 3755" d="m564.092 624.36.186-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-571.27 -596.448)" fill="currentColor"/>
+ <path data-name="Rectangle 2542" transform="rotate(-44.997 25.56 24.134)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3756" d="m575.653 630.163-.185-.185-.185.185z" transform="translate(-582.459 -602.251)" fill="currentColor"/>
+ <path data-name="Path 3757" d="m580.872 624.36.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-582.876 -596.448)" fill="currentColor"/>
+ <path data-name="Path 3758" d="m592.433 630.163-.185-.185-.185.185z" transform="translate(-594.066 -602.251)" fill="currentColor"/>
+ </g>
+ </g>
+ </g>
+ <g data-name="Group 7266">
+ <path data-name="Path 3760" d="M619.685 539.844a1.312 1.312 0 1 0-2.623 0v2.909h2.622z" transform="translate(-597.439 -538.532)" fill="currentColor"/>
+ <g data-name="Group 7265" style="clip-path:url(#grz51qg6yb)" transform="translate(19.624)">
+ <g data-name="Group 7264">
+ <path data-name="Path 3761" d="m560.329 553.332.183-.183-.183-.184z" transform="translate(-577.822 -548.514)" fill="currentColor"/>
+ <path data-name="Path 3762" d="m560.329 541.771.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-577.822 -537.32)" fill="currentColor"/>
+ <path data-name="Rectangle 2543" transform="rotate(-45 -9.31 20.624)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2544" transform="rotate(-45 -11.138 16.207)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2545" transform="rotate(-45 -12.966 11.792)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2546" transform="rotate(-45 -14.795 7.375)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3763" d="m594.664 502.631-.182.182 2.587 2.587 2.587-2.587-.183-.182z" transform="translate(-601.444 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3764" d="m610.669 502.631.183.182.182-.182z" transform="translate(-612.641 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3765" d="m560.329 570.111.183-.184-.183-.184z" transform="translate(-577.822 -560.119)" fill="currentColor"/>
+ <path data-name="Path 3766" d="m560.329 558.55.183.184 2.587-2.586-2.587-2.587-.183.184z" transform="translate(-577.822 -548.926)" fill="currentColor"/>
+ <path data-name="Rectangle 2547" transform="rotate(-44.997 -3.06 23.214)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2548" transform="rotate(-45 -4.89 18.795)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2549" transform="rotate(-44.996 -6.719 14.381)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2550" transform="rotate(-45.004 -8.548 9.963)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2551" transform="rotate(-45.003 -10.376 5.548)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2552" transform="rotate(-45 -12.208 1.13)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3767" d="m611.444 502.631-.182.182 2.586 2.587 2.587-2.587-.183-.182z" transform="translate(-613.051 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3768" d="m627.448 502.631.183.182.182-.182z" transform="translate(-624.246 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3769" d="m560.329 575.329.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-577.822 -560.532)" fill="currentColor"/>
+ <path data-name="Rectangle 2553" transform="rotate(-45 3.18 25.8)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2554" transform="rotate(-45.003 1.355 21.38)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2555" transform="rotate(-45 -.476 16.968)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2556" transform="rotate(-45 -2.306 12.55)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2557" transform="rotate(-44.993 -4.133 8.135)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2558" transform="rotate(-44.997 -5.961 3.718)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2559" transform="rotate(-45 -7.79 -.698)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2560" transform="rotate(-45 -9.62 -5.113)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Path 3770" d="m628.223 502.631-.182.182 2.587 2.587 2.587-2.587-.182-.182z" transform="translate(-624.656 -513.7)" fill="currentColor"/>
+ <path data-name="Rectangle 2561" transform="rotate(-45 9.425 28.388)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2562" transform="rotate(-45 7.6 23.968)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2563" transform="rotate(-45 5.771 19.553)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2564" transform="rotate(-45 3.94 15.139)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2565" transform="rotate(-45.003 2.113 10.722)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2566" transform="rotate(-45 .282 6.306)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2567" transform="rotate(-45 -1.545 1.89)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2568" transform="rotate(-45 -3.374 -2.527)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2569" transform="rotate(-45.003 -5.202 -6.942)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2570" transform="rotate(-45.003 -7.032 -11.357)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2571" transform="rotate(-45 13.842 26.56)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2572" transform="rotate(-45.003 12.014 22.139)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2573" transform="rotate(-45 10.184 17.727)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2574" transform="rotate(-44.996 8.36 13.309)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2575" transform="rotate(-45 6.528 8.893)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2576" transform="rotate(-45 4.7 4.478)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2577" transform="rotate(-44.997 2.87 .06)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2578" transform="rotate(-44.993 1.04 -4.357)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2579" transform="rotate(-45 -.786 -8.771)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2580" transform="rotate(-45.004 -2.615 -13.185)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2581" transform="rotate(-45.003 18.26 24.726)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2582" transform="rotate(-45.004 16.43 20.31)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2583" transform="rotate(-45 14.6 15.9)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2584" transform="rotate(-45 12.772 11.481)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2585" transform="rotate(-45.003 10.944 7.063)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2586" transform="rotate(-45 9.116 2.647)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2587" transform="rotate(-45.003 7.287 -1.768)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2588" transform="rotate(-45 5.456 -6.184)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2589" transform="rotate(-44.993 3.627 -10.602)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2590" transform="rotate(-45 1.802 -15.017)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2591" transform="rotate(-45 22.675 22.904)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3771" d="m645 502.631-.182.182 2.587 2.587 2.586-2.587-.182-.182z" transform="translate(-636.261 -513.7)" fill="currentColor"/>
+ <path data-name="Rectangle 2592" transform="rotate(-45 20.846 18.488)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2593" transform="rotate(-45 -4.442 -17.605)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3772" d="m661.781 502.631-.182.182 2.587 2.587 2.587-2.587-.182-.182z" transform="translate(-647.867 -513.7)" fill="currentColor"/>
+ <path data-name="Rectangle 2594" transform="rotate(-44.997 19.02 14.067)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2595" transform="rotate(-45.003 -.03 -19.431)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3773" d="m672.575 508.4.184-.184v-4.807l-.184-.184-2.587 2.587z" transform="translate(-653.67 -514.109)" fill="currentColor"/>
+ <path data-name="Rectangle 2596" transform="rotate(-45 17.19 9.654)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3774" d="m672.575 525.176.184-.183v-4.806l-.184-.184-2.587 2.586z" transform="translate(-653.67 -525.716)" fill="currentColor"/>
+ <path data-name="Rectangle 2597" transform="rotate(-44.997 15.361 5.234)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2598" transform="rotate(-44.996 13.533 .818)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2599" transform="rotate(-45.003 11.701 -3.597)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2600" transform="rotate(-45.004 9.873 -8.012)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2601" transform="rotate(-44.99 8.044 -12.433)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2602" transform="rotate(-45 6.215 -16.845)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3775" d="m599.47 615.059.186-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-601.444 -589.546)" fill="currentColor"/>
+ <path data-name="Rectangle 2603" transform="rotate(-45 25.262 16.657)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3776" d="m661.007 502.631.182.182.182-.182z" transform="translate(-647.458 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3777" d="m677.786 502.631.182.182.182-.182z" transform="translate(-659.063 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3778" d="m678.56 502.631-.182.182.184.184v-.366z" transform="translate(-659.472 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3779" d="M678.562 519.775v-.367l-.184.184z" transform="translate(-659.472 -525.304)" fill="currentColor"/>
+ <path data-name="Rectangle 2604" transform="rotate(-45 23.434 12.242)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2605" transform="rotate(-45 21.606 7.825)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2606" transform="rotate(-45 19.777 3.408)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2607" transform="rotate(-45 17.946 -1.01)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2608" transform="rotate(-44.997 16.12 -5.427)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2609" transform="rotate(-45 14.289 -9.843)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2610" transform="rotate(-45.003 12.46 -14.257)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3780" d="m672.575 541.955.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-653.67 -537.32)" fill="currentColor"/>
+ <path data-name="Path 3781" d="m611.031 620.862-.185-.185-.185.185z" transform="translate(-612.635 -595.348)" fill="currentColor"/>
+ <path data-name="Path 3782" d="m616.251 615.059.185-.185-2.587-2.587-2.586 2.587.185.185z" transform="translate(-613.051 -589.546)" fill="currentColor"/>
+ <path data-name="Rectangle 2611" transform="rotate(-44.997 27.853 10.408)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2612" transform="rotate(-45 26.023 5.997)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2613" transform="rotate(-45 24.193 1.58)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2614" transform="rotate(-45 22.365 -2.836)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2615" transform="rotate(-44.997 20.534 -7.257)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2616" transform="rotate(-44.996 18.706 -11.674)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3783" d="m672.575 558.734.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-653.67 -548.926)" fill="currentColor"/>
+ <path data-name="Path 3784" d="M678.562 553.332v-.367l-.184.184z" transform="translate(-659.472 -548.514)" fill="currentColor"/>
+ <path data-name="Path 3785" d="m627.811 620.862-.185-.185-.185.185z" transform="translate(-624.241 -595.348)" fill="currentColor"/>
+ <path data-name="Path 3786" d="m633.029 615.059.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-624.656 -589.546)" fill="currentColor"/>
+ <path data-name="Rectangle 2617" transform="rotate(-45 30.438 4.163)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2618" transform="rotate(-45 28.61 -.248)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2619" transform="rotate(-45 26.782 -4.665)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2620" transform="rotate(-45 24.953 -9.082)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3787" d="m672.575 575.513.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-653.67 -560.532)" fill="currentColor"/>
+ <path data-name="Path 3788" d="M678.562 570.111v-.368l-.184.184z" transform="translate(-659.472 -560.119)" fill="currentColor"/>
+ <path data-name="Path 3789" d="m644.587 620.861-.185-.185-.186.185z" transform="translate(-635.844 -595.348)" fill="currentColor"/>
+ <path data-name="Path 3790" d="m649.807 615.058.185-.185-2.587-2.587-2.586 2.587.185.185z" transform="translate(-636.261 -589.545)" fill="currentColor"/>
+ <path data-name="Rectangle 2621" transform="rotate(-45.004 33.02 -2.08)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2622" transform="rotate(-44.993 31.198 -6.5)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3791" d="m672.573 592.291.185-.184V587.3l-.185-.184-2.587 2.587z" transform="translate(-653.668 -572.136)" fill="currentColor"/>
+ <path data-name="Path 3792" d="M678.56 586.889v-.368l-.185.184z" transform="translate(-659.471 -571.724)" fill="currentColor"/>
+ <path data-name="Path 3793" d="m661.367 620.861-.186-.185-.186.185z" transform="translate(-647.449 -595.348)" fill="currentColor"/>
+ <path data-name="Path 3794" d="m666.585 615.058.185-.185-2.587-2.587-2.587 2.587.186.185z" transform="translate(-647.866 -589.545)" fill="currentColor"/>
+ <path data-name="Path 3795" d="m672.573 609.07.185-.184v-4.805l-.185-.185-2.587 2.587z" transform="translate(-653.668 -583.742)" fill="currentColor"/>
+ <path data-name="Path 3796" d="M678.56 603.668v-.368l-.185.184z" transform="translate(-659.471 -583.329)" fill="currentColor"/>
+ <path data-name="Path 3797" d="m678.145 620.861-.185-.184-.185.185z" transform="translate(-659.056 -595.348)" fill="currentColor"/>
+ <path data-name="Path 3798" d="M678.56 620.447v-.368l-.185.184z" transform="translate(-659.471 -594.935)" fill="currentColor"/>
+ <path data-name="Path 3799" d="m644.229 502.631.182.182.182-.182z" transform="translate(-635.853 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3800" d="M678.562 536.554v-.367l-.184.183z" transform="translate(-659.472 -536.909)" fill="currentColor"/>
+ <path data-name="Path 3801" d="M560.329 502.631v.388l.195-.195-.194-.193z" transform="translate(-577.822 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3802" d="m560.332 502.631.194.193.193-.193z" transform="translate(-577.824 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3803" d="m560.329 519.8.194-.195-.194-.194z" transform="translate(-577.822 -525.304)" fill="currentColor"/>
+ <path data-name="Path 3804" d="m560.329 508.238.194.194 2.587-2.586-2.586-2.587-.195.195z" transform="translate(-577.822 -514.134)" fill="currentColor"/>
+ <path data-name="Path 3805" d="m561.153 502.631-.193.193 2.586 2.587 2.587-2.587-.193-.193z" transform="translate(-578.259 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3806" d="m577.111 502.631.193.193.193-.193z" transform="translate(-589.429 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3807" d="m560.329 536.575.195-.194-.195-.194z" transform="translate(-577.822 -536.909)" fill="currentColor"/>
+ <path data-name="Path 3808" d="m560.329 525.016.195.194 2.586-2.587-2.587-2.587-.194.195z" transform="translate(-577.822 -525.739)" fill="currentColor"/>
+ <path data-name="Rectangle 2623" transform="rotate(-44.993 -15.534 18.034)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2624" transform="rotate(-45 -17.366 13.612)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3809" d="m577.931 502.631-.193.193 2.587 2.587 2.587-2.587-.193-.193z" transform="translate(-589.863 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3810" d="m593.89 502.631.193.193.193-.193z" transform="translate(-601.035 -513.7)" fill="currentColor"/>
+ <path data-name="Path 3811" d="m560.329 586.89.183-.184-.183-.184z" transform="translate(-577.822 -571.725)" fill="currentColor"/>
+ <path data-name="Path 3812" d="m560.329 603.669.183-.184-.183-.184z" transform="translate(-577.822 -583.33)" fill="currentColor"/>
+ <path data-name="Path 3813" d="m560.329 592.108.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-577.822 -572.137)" fill="currentColor"/>
+ <path data-name="Path 3814" d="m560.329 620.448.183-.184-.183-.184z" transform="translate(-577.822 -594.936)" fill="currentColor"/>
+ <path data-name="Path 3815" d="m560.329 608.888.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-577.822 -583.743)" fill="currentColor"/>
+ <path data-name="Rectangle 2625" transform="rotate(-45 15.67 30.977)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3816" d="M560.329 620.862h.369l-.185-.185-.183.184z" transform="translate(-577.822 -595.348)" fill="currentColor"/>
+ <path data-name="Path 3817" d="m565.912 615.059.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-578.233 -589.546)" fill="currentColor"/>
+ <path data-name="Rectangle 2626" transform="rotate(-45 20.091 29.142)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3818" d="m577.474 620.862-.185-.185-.185.185z" transform="translate(-589.424 -595.348)" fill="currentColor"/>
+ <path data-name="Path 3819" d="m582.693 615.059.185-.185-2.587-2.587-2.586 2.587.185.185z" transform="translate(-589.84 -589.546)" fill="currentColor"/>
+ <path data-name="Path 3820" d="m594.252 620.862-.185-.185-.185.185z" transform="translate(-601.03 -595.348)" fill="currentColor"/>
+ </g>
+ </g>
+ </g>
+ <g data-name="Group 7269">
+ <path data-name="Path 3822" d="M641.529 552.183a1.331 1.331 0 0 0-1.882-1.882l-2.053 2.11 1.882 1.882z" transform="translate(-611.64 -546.406)" fill="currentColor"/>
+ <g data-name="Group 7268" style="clip-path:url(#ms9xa2e65c)" transform="translate(25.954 3.51)">
+ <g data-name="Group 7267">
+ <path data-name="Path 3823" d="m558.4 551.752.183-.184-.183-.184z" transform="translate(-582.817 -550.931)" fill="currentColor"/>
+ <path data-name="Path 3824" d="m558.4 540.192.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-582.817 -539.739)" fill="currentColor"/>
+ <path data-name="Rectangle 2627" transform="rotate(-44.997 -17.595 26.988)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2628" transform="rotate(-44.993 -19.425 22.574)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2629" transform="rotate(-45 -21.257 18.152)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2630" transform="rotate(-45.003 -23.08 13.737)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3825" d="m592.734 501.052-.183.182 2.587 2.587 2.587-2.587-.183-.182z" transform="translate(-606.44 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3826" d="m608.739 501.052.183.182.182-.182z" transform="translate(-617.636 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3827" d="m558.4 568.532.183-.184-.183-.184z" transform="translate(-582.817 -562.537)" fill="currentColor"/>
+ <path data-name="Path 3828" d="m558.4 556.971.183.184 2.587-2.586-2.587-2.587-.183.184z" transform="translate(-582.817 -551.344)" fill="currentColor"/>
+ <path data-name="Rectangle 2631" transform="rotate(-45 -11.355 29.574)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2632" transform="rotate(-45 -13.183 25.156)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2633" transform="rotate(-45.003 -15.006 20.74)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2634" transform="rotate(-44.997 -16.836 16.327)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2635" transform="rotate(-45 -18.669 11.907)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2636" transform="rotate(-44.993 -20.497 7.497)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Path 3829" d="m609.514 501.052-.182.182 2.587 2.587 2.586-2.587-.182-.182z" transform="translate(-618.047 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3830" d="m625.518 501.052.182.182.183-.182z" transform="translate(-629.242 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3831" d="m558.4 573.75.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-582.817 -562.95)" fill="currentColor"/>
+ <path data-name="Rectangle 2637" transform="rotate(-44.99 -5.102 32.166)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2638" transform="rotate(-45 -6.938 27.744)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2639" transform="rotate(-45 -8.767 23.329)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2640" transform="rotate(-45.003 -10.591 18.91)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2641" transform="rotate(-45.003 -12.42 14.496)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2642" transform="rotate(-44.986 -14.253 10.084)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2643" transform="rotate(-45 -16.08 5.661)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2644" transform="rotate(-45.003 -17.907 1.248)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3832" d="m626.293 501.052-.183.182 2.587 2.587 2.586-2.587-.182-.182z" transform="translate(-629.651 -516.118)" fill="currentColor"/>
+ <path data-name="Rectangle 2645" transform="rotate(-45 1.135 34.75)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2646" transform="rotate(-45 -.688 30.33)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2647" transform="rotate(-44.997 -2.516 25.917)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2648" transform="rotate(-45.01 -4.346 21.495)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2649" transform="rotate(-45 -6.18 17.084)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2650" transform="rotate(-45 -8.007 12.666)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2651" transform="rotate(-45.003 -9.833 8.251)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2652" transform="rotate(-44.996 -11.663 3.836)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2653" transform="rotate(-45 -13.492 -.583)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2654" transform="rotate(-45.004 -15.32 -4.996)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2655" transform="rotate(-45 5.558 32.917)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2656" transform="rotate(-45 3.723 28.505)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2657" transform="rotate(-45.003 1.899 24.085)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2658" transform="rotate(-44.997 .071 19.671)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2659" transform="rotate(-45 -1.762 15.256)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2660" transform="rotate(-45 -3.59 10.839)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2661" transform="rotate(-45.003 -5.418 6.422)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2662" transform="rotate(-45 -7.246 2.006)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2663" transform="rotate(-44.997 -9.076 -2.41)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2664" transform="rotate(-45 -10.905 -6.828)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2665" transform="rotate(-45 9.973 31.089)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2666" transform="rotate(-45.003 8.143 26.671)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2667" transform="rotate(-45 6.311 22.26)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2668" transform="rotate(-44.993 4.487 17.842)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2669" transform="rotate(-44.997 2.658 13.425)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2670" transform="rotate(-45.01 .828 9.008)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2671" transform="rotate(-44.997 -1.002 4.593)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2672" transform="rotate(-45.003 -2.83 .176)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2673" transform="rotate(-45.003 -4.659 -4.238)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2674" transform="rotate(-45 -6.489 -8.657)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2675" transform="rotate(-45.003 14.388 29.258)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3833" d="m643.073 501.052-.182.182 2.587 2.587 2.586-2.587-.182-.182z" transform="translate(-641.258 -516.118)" fill="currentColor"/>
+ <path data-name="Rectangle 2676" transform="rotate(-45 12.56 24.843)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2677" transform="rotate(-45.007 -12.73 -11.24)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3834" d="m659.85 501.052-.182.182 2.587 2.587 2.586-2.587-.182-.182z" transform="translate(-652.862 -516.118)" fill="currentColor"/>
+ <path data-name="Rectangle 2678" transform="rotate(-44.993 10.734 20.43)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2679" transform="rotate(-45 -8.316 -13.073)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3835" d="m670.645 506.818.184-.184v-4.806l-.184-.184-2.586 2.587z" transform="translate(-658.666 -516.527)" fill="currentColor"/>
+ <path data-name="Rectangle 2680" transform="rotate(-45 8.9 16.014)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3836" d="m670.645 523.6.184-.184v-4.806l-.184-.183-2.586 2.586z" transform="translate(-658.666 -528.134)" fill="currentColor"/>
+ <path data-name="Rectangle 2681" transform="rotate(-45.003 7.073 11.596)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2682" transform="rotate(-45 5.243 7.181)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2683" transform="rotate(-45.01 3.414 2.765)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2684" transform="rotate(-45 1.585 -1.651)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2685" transform="rotate(-45 -.244 -6.068)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2686" transform="rotate(-45.003 -2.073 -10.482)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3837" d="m597.54 613.48.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-606.44 -591.963)" fill="currentColor"/>
+ <path data-name="Rectangle 2687" transform="rotate(-45 16.972 23.02)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Path 3838" d="m659.078 501.052.182.182.182-.182z" transform="translate(-652.454 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3839" d="m675.857 501.052.182.182.182-.182z" transform="translate(-664.059 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3840" d="m676.63 501.052-.182.182.184.184v-.366z" transform="translate(-664.468 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3841" d="M676.631 518.194v-.368l-.184.184z" transform="translate(-664.468 -527.721)" fill="currentColor"/>
+ <path data-name="Rectangle 2688" transform="rotate(-45 15.147 18.598)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2689" transform="rotate(-45.003 13.316 14.182)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2690" transform="rotate(-44.997 11.49 9.767)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2691" transform="rotate(-45.004 9.66 5.35)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2692" transform="rotate(-44.997 7.831 .935)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2693" transform="rotate(-45 6.002 -3.48)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2694" transform="rotate(-45 4.173 -7.896)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Path 3842" d="m670.644 540.376.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-658.664 -539.739)" fill="currentColor"/>
+ <path data-name="Path 3843" d="m609.1 619.283-.185-.185-.185.185z" transform="translate(-617.63 -597.767)" fill="currentColor"/>
+ <path data-name="Path 3844" d="m614.32 613.48.185-.185-2.586-2.587-2.587 2.587.185.185z" transform="translate(-618.047 -591.963)" fill="currentColor"/>
+ <path data-name="Rectangle 2695" transform="rotate(-45.003 19.562 16.77)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2696" transform="rotate(-44.997 17.734 12.353)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2697" transform="rotate(-45.004 15.903 7.937)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2698" transform="rotate(-45 14.075 3.525)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2699" transform="rotate(-45 12.247 -.892)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2700" transform="rotate(-44.997 10.418 -5.31)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3845" d="m670.644 557.155.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-658.664 -551.344)" fill="currentColor"/>
+ <path data-name="Path 3846" d="M676.631 551.752v-.368l-.184.184z" transform="translate(-664.468 -550.931)" fill="currentColor"/>
+ <path data-name="Path 3847" d="m625.88 619.283-.185-.185-.185.185z" transform="translate(-629.236 -597.767)" fill="currentColor"/>
+ <path data-name="Path 3848" d="m631.1 613.48.185-.185-2.586-2.587-2.587 2.587.185.185z" transform="translate(-629.651 -591.963)" fill="currentColor"/>
+ <path data-name="Rectangle 2701" transform="rotate(-45.003 22.148 10.525)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2702" transform="rotate(-45 20.32 6.109)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2703" transform="rotate(-45 18.492 1.696)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2704" transform="rotate(-45 16.664 -2.72)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3849" d="m670.644 573.934.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-658.664 -562.95)" fill="currentColor"/>
+ <path data-name="Path 3850" d="M676.631 568.532v-.368l-.184.184z" transform="translate(-664.468 -562.537)" fill="currentColor"/>
+ <path data-name="Path 3851" d="m642.658 619.282-.186-.185-.185.185z" transform="translate(-640.84 -597.765)" fill="currentColor"/>
+ <path data-name="Path 3852" d="m647.876 613.479.186-.185-2.587-2.587-2.586 2.587.186.185z" transform="translate(-641.257 -591.963)" fill="currentColor"/>
+ <path data-name="Rectangle 2705" transform="rotate(-45 24.737 4.284)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2706" transform="rotate(-45.007 22.904 -.134)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3853" d="m670.643 590.711.185-.184v-4.805l-.185-.185-2.587 2.587z" transform="translate(-658.664 -574.554)" fill="currentColor"/>
+ <path data-name="Path 3854" d="M676.63 585.31v-.368l-.185.184z" transform="translate(-664.466 -574.142)" fill="currentColor"/>
+ <path data-name="Path 3855" d="m659.436 619.282-.186-.185-.186.185z" transform="translate(-652.445 -597.765)" fill="currentColor"/>
+ <path data-name="Path 3856" d="m664.655 613.479.185-.185-2.587-2.587-2.586 2.587.186.185z" transform="translate(-652.862 -591.963)" fill="currentColor"/>
+ <path data-name="Path 3857" d="m670.643 607.491.185-.184V602.5l-.185-.184-2.587 2.587z" transform="translate(-658.664 -586.16)" fill="currentColor"/>
+ <path data-name="Path 3858" d="M676.63 602.089v-.368l-.185.184z" transform="translate(-664.466 -585.747)" fill="currentColor"/>
+ <path data-name="Path 3859" d="m676.214 619.282-.185-.184-.185.185z" transform="translate(-664.051 -597.765)" fill="currentColor"/>
+ <path data-name="Path 3860" d="M676.63 618.868v-.368l-.185.184z" transform="translate(-664.466 -597.353)" fill="currentColor"/>
+ <path data-name="Path 3861" d="m642.3 501.052.183.182.182-.182z" transform="translate(-640.848 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3862" d="M676.631 534.974v-.368l-.184.184z" transform="translate(-664.468 -539.326)" fill="currentColor"/>
+ <path data-name="Path 3863" d="M558.4 501.052v.388l.195-.195-.194-.193z" transform="translate(-582.817 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3864" d="m558.4 501.052.194.193.193-.193z" transform="translate(-582.819 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3865" d="m558.4 518.217.195-.2-.195-.194z" transform="translate(-582.817 -527.722)" fill="currentColor"/>
+ <path data-name="Path 3866" d="m558.4 506.658.195.194 2.586-2.586-2.586-2.587-.195.195z" transform="translate(-582.817 -516.551)" fill="currentColor"/>
+ <path data-name="Path 3867" d="m559.222 501.052-.192.193 2.586 2.587 2.587-2.587-.193-.193z" transform="translate(-583.254 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3868" d="m575.18 501.052.193.193.193-.193z" transform="translate(-594.425 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3869" d="m558.4 534.994.195-.194-.195-.195z" transform="translate(-582.817 -539.326)" fill="currentColor"/>
+ <path data-name="Path 3870" d="m558.4 523.436.195.195 2.586-2.587-2.586-2.587-.195.195z" transform="translate(-582.817 -528.157)" fill="currentColor"/>
+ <path data-name="Rectangle 2707" transform="rotate(-45 -23.82 24.393)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2708" transform="rotate(-45 -25.655 19.973)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3871" d="m576 501.052-.193.193 2.587 2.587 2.587-2.587-.193-.193z" transform="translate(-594.858 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3872" d="m591.959 501.052.193.193.193-.193z" transform="translate(-606.03 -516.118)" fill="currentColor"/>
+ <path data-name="Path 3873" d="m558.4 585.311.183-.184-.183-.184z" transform="translate(-582.817 -574.143)" fill="currentColor"/>
+ <path data-name="Path 3874" d="m558.4 602.09.183-.184-.183-.184z" transform="translate(-582.817 -585.749)" fill="currentColor"/>
+ <path data-name="Path 3875" d="m558.4 590.529.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-582.817 -574.555)" fill="currentColor"/>
+ <path data-name="Path 3876" d="m558.4 618.869.183-.184-.183-.184z" transform="translate(-582.817 -597.354)" fill="currentColor"/>
+ <path data-name="Path 3877" d="m558.4 607.308.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-582.817 -586.161)" fill="currentColor"/>
+ <path data-name="Rectangle 2709" transform="rotate(-44.993 7.39 37.338)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3878" d="M558.4 619.283h.369l-.185-.185-.183.184z" transform="translate(-582.817 -597.767)" fill="currentColor"/>
+ <path data-name="Path 3879" d="m563.981 613.48.186-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-583.229 -591.963)" fill="currentColor"/>
+ <path data-name="Rectangle 2710" transform="rotate(-45 11.796 35.508)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3880" d="m575.542 619.283-.185-.185-.186.185z" transform="translate(-594.419 -597.767)" fill="currentColor"/>
+ <path data-name="Path 3881" d="m580.762 613.48.185-.185-2.586-2.587-2.587 2.587.185.185z" transform="translate(-594.835 -591.963)" fill="currentColor"/>
+ <path data-name="Path 3882" d="m592.322 619.283-.185-.185-.185.185z" transform="translate(-606.025 -597.767)" fill="currentColor"/>
+ </g>
+ </g>
+ </g>
+ <g data-name="Group 7272">
+ <path data-name="Path 3884" d="M617.073 606.235a1.312 1.312 0 1 0 2.623 0v-2.908h-2.628z" transform="translate(-597.446 -583.349)" fill="currentColor"/>
+ <g data-name="Group 7271" style="clip-path:url(#x4g5a97z4d)" transform="translate(19.627 19.978)">
+ <g data-name="Group 7270">
+ <path data-name="Path 3885" d="m556.853 550.524.184-.184-.184-.184z" transform="translate(-575.421 -566.55)" fill="currentColor"/>
+ <path data-name="Path 3886" d="m556.853 538.964.184.184 2.587-2.587-2.587-2.587-.184.184z" transform="translate(-575.421 -555.358)" fill="currentColor"/>
+ <path data-name="Rectangle 2711" transform="rotate(-45 -35.008 11.494)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2712" transform="rotate(-45 -36.833 7.085)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2713" transform="rotate(-45 -38.666 2.662)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2714" transform="rotate(-45 -40.492 -1.748)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3887" d="m591.188 499.824-.183.182 2.587 2.587 2.587-2.587-.182-.182z" transform="translate(-599.043 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3888" d="m607.194 499.824.182.182.182-.182z" transform="translate(-610.24 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3889" d="m556.853 567.3.184-.184-.184-.184z" transform="translate(-575.421 -578.156)" fill="currentColor"/>
+ <path data-name="Path 3890" d="m556.853 555.743.184.184 2.587-2.587-2.587-2.587-.184.184z" transform="translate(-575.421 -566.963)" fill="currentColor"/>
+ <path data-name="Rectangle 2715" transform="rotate(-45 -28.764 14.082)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2716" transform="rotate(-45 -30.593 9.667)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2717" transform="rotate(-45.003 -32.415 5.254)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2718" transform="rotate(-45 -34.246 .84)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2719" transform="rotate(-44.997 -36.078 -3.576)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2720" transform="rotate(-45 -37.905 -7.993)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3891" d="m607.968 499.824-.182.182 2.587 2.587 2.587-2.587-.183-.182z" transform="translate(-610.649 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3892" d="m623.973 499.824.183.182.182-.182z" transform="translate(-621.845 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3893" d="m556.853 572.522.184.184 2.587-2.587-2.587-2.587-.184.184z" transform="translate(-575.421 -578.569)" fill="currentColor"/>
+ <path data-name="Rectangle 2721" transform="rotate(-45 -22.518 16.67)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2722" transform="rotate(-45 -24.343 12.258)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2723" transform="rotate(-45 -26.176 7.838)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2724" transform="rotate(-45 -28.005 3.421)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2725" transform="rotate(-45 -29.831 -.99)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2726" transform="rotate(-45 -31.66 -5.405)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2727" transform="rotate(-45 -33.49 -9.828)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2728" transform="rotate(-44.997 -35.321 -14.238)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3894" d="m624.748 499.824-.182.182 2.587 2.587 2.587-2.587-.182-.182z" transform="translate(-622.255 -531.737)" fill="currentColor"/>
+ <path data-name="Rectangle 2729" transform="rotate(-45 -16.27 19.26)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2730" transform="rotate(-45 -18.103 14.843)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2731" transform="rotate(-45.003 -19.926 10.428)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2732" transform="rotate(-45 -21.756 6.013)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2733" transform="rotate(-44.997 -23.587 1.597)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2734" transform="rotate(-45 -25.416 -2.825)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2735" transform="rotate(-45.003 -27.242 -7.235)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2736" transform="rotate(-44.997 -29.076 -11.651)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2737" transform="rotate(-45 -30.902 -16.074)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2738" transform="rotate(-45 -32.731 -20.483)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2739" transform="rotate(-45 -11.853 17.432)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2740" transform="rotate(-45 -13.683 13.016)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2741" transform="rotate(-45 -15.515 8.597)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2742" transform="rotate(-45 -17.34 4.184)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2743" transform="rotate(-45 -19.17 -.232)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2744" transform="rotate(-45 -21 -4.652)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2745" transform="rotate(-44.997 -22.83 -9.064)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2746" transform="rotate(-45 -24.656 -13.485)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2747" transform="rotate(-45 -26.486 -17.896)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2748" transform="rotate(-45 -28.314 -22.318)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2749" transform="rotate(-45 -7.44 15.602)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2750" transform="rotate(-45 -9.266 11.186)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2751" transform="rotate(-45 -11.098 6.769)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2752" transform="rotate(-45 -12.926 2.352)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2753" transform="rotate(-45.003 -14.753 -2.061)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2754" transform="rotate(-44.997 -16.584 -6.477)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2755" transform="rotate(-45 -18.412 -10.898)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2756" transform="rotate(-45 -20.24 -15.315)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2757" transform="rotate(-45.003 -22.068 -19.724)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2758" transform="rotate(-45 -23.9 -24.14)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2759" transform="rotate(-45 -3.024 13.774)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3895" d="m641.526 499.824-.182.182 2.587 2.586 2.587-2.586-.182-.182z" transform="translate(-633.861 -531.737)" fill="currentColor"/>
+ <path data-name="Rectangle 2760" transform="rotate(-44.997 -4.85 9.358)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2761" transform="rotate(-44.997 -30.148 -26.728)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3896" d="m658.305 499.824-.182.182 2.587 2.586 2.587-2.586-.183-.182z" transform="translate(-645.466 -531.737)" fill="currentColor"/>
+ <path data-name="Rectangle 2762" transform="rotate(-45 -6.68 4.94)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2763" transform="rotate(-45.003 -25.726 -28.556)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3897" d="m669.1 505.589.184-.184V500.6l-.184-.184-2.588 2.584z" transform="translate(-651.269 -532.146)" fill="currentColor"/>
+ <path data-name="Rectangle 2764" transform="rotate(-45 -8.51 .526)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3898" d="m669.1 522.368.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-651.269 -543.752)" fill="currentColor"/>
+ <path data-name="Rectangle 2765" transform="rotate(-44.997 -10.34 -3.89)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2766" transform="rotate(-45 -12.166 -8.31)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2767" transform="rotate(-45 -13.996 -12.723)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2768" transform="rotate(-45 -15.824 -17.142)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2769" transform="rotate(-45 -17.652 -21.559)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2770" transform="rotate(-45.003 -19.481 -25.969)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3899" d="m595.995 612.252.185-.185-2.587-2.587-2.587 2.586.186.186z" transform="translate(-599.043 -607.583)" fill="currentColor"/>
+ <path data-name="Rectangle 2771" transform="rotate(-45 -.436 7.53)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3900" d="m657.531 499.824.182.182.182-.182z" transform="translate(-645.057 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3901" d="m674.31 499.824.183.182.182-.182z" transform="translate(-656.662 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3902" d="m675.085 499.824-.182.182.184.184v-.366z" transform="translate(-657.072 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3903" d="M675.086 516.966v-.366l-.184.184z" transform="translate(-657.072 -543.34)" fill="currentColor"/>
+ <path data-name="Rectangle 2772" transform="rotate(-45 -2.264 3.112)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2773" transform="rotate(-44.997 -4.093 -1.304)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2774" transform="rotate(-45 -5.922 -5.72)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2775" transform="rotate(-45 -7.75 -10.138)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2776" transform="rotate(-45.003 -9.58 -14.55)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2777" transform="rotate(-45 -11.41 -18.967)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2778" transform="rotate(-45 -13.239 -23.383)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3904" d="m669.1 539.148.184-.184v-4.805l-.184-.184-2.587 2.587z" transform="translate(-651.269 -555.358)" fill="currentColor"/>
+ <path data-name="Path 3905" d="m607.555 618.055-.185-.185-.185.185z" transform="translate(-610.234 -613.386)" fill="currentColor"/>
+ <path data-name="Path 3906" d="m612.774 612.252.185-.186-2.587-2.586-2.587 2.587.185.185z" transform="translate(-610.649 -607.583)" fill="currentColor"/>
+ <path data-name="Rectangle 2779" transform="rotate(-45 2.151 1.283)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2780" transform="rotate(-45 .324 -3.133)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2781" transform="rotate(-45 -1.506 -7.55)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2782" transform="rotate(-45 -3.336 -11.964)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2783" transform="rotate(-45 -5.162 -16.383)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2784" transform="rotate(-45.003 -6.992 -20.795)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3907" d="m669.1 555.927.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-651.269 -566.963)" fill="currentColor"/>
+ <path data-name="Path 3908" d="M675.086 550.524v-.368l-.184.184z" transform="translate(-657.072 -566.55)" fill="currentColor"/>
+ <path data-name="Path 3909" d="m624.336 618.054-.185-.186-.185.186z" transform="translate(-621.841 -613.384)" fill="currentColor"/>
+ <path data-name="Path 3910" d="m629.553 612.252.186-.186-2.587-2.586-2.587 2.586.185.186z" transform="translate(-622.255 -607.583)" fill="currentColor"/>
+ <path data-name="Rectangle 2785" transform="rotate(-45 4.74 -4.962)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2786" transform="rotate(-45 2.912 -9.377)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2787" transform="rotate(-45 1.08 -13.794)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2788" transform="rotate(-45 -.746 -18.211)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3911" d="m669.1 572.706.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-651.269 -578.569)" fill="currentColor"/>
+ <path data-name="Path 3912" d="M675.086 567.3v-.368l-.184.184z" transform="translate(-657.072 -578.156)" fill="currentColor"/>
+ <path data-name="Path 3913" d="m641.112 618.054-.185-.186-.185.186z" transform="translate(-633.444 -613.384)" fill="currentColor"/>
+ <path data-name="Path 3914" d="m646.33 612.251.186-.186-2.587-2.587-2.587 2.587.186.186z" transform="translate(-633.859 -607.582)" fill="currentColor"/>
+ <path data-name="Rectangle 2789" transform="rotate(-44.997 7.325 -11.208)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2790" transform="rotate(-45 5.499 -15.624)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3915" d="m669.1 589.483.185-.185v-4.8l-.185-.185-2.587 2.587z" transform="translate(-651.268 -590.173)" fill="currentColor"/>
+ <path data-name="Path 3916" d="M675.085 584.081v-.369l-.185.184z" transform="translate(-657.07 -589.76)" fill="currentColor"/>
+ <path data-name="Path 3917" d="m657.891 618.054-.186-.186-.185.186z" transform="translate(-645.049 -613.384)" fill="currentColor"/>
+ <path data-name="Path 3918" d="m663.11 612.251.185-.186-2.587-2.587-2.587 2.587.186.186z" transform="translate(-645.465 -607.582)" fill="currentColor"/>
+ <path data-name="Path 3919" d="m669.1 606.263.185-.184v-4.8l-.185-.184-2.587 2.587z" transform="translate(-651.268 -601.779)" fill="currentColor"/>
+ <path data-name="Path 3920" d="M675.085 600.859v-.369l-.185.185z" transform="translate(-657.07 -601.365)" fill="currentColor"/>
+ <path data-name="Path 3921" d="m674.67 618.054-.185-.185-.185.186z" transform="translate(-656.655 -613.384)" fill="currentColor"/>
+ <path data-name="Path 3922" d="M675.085 617.639v-.369l-.185.184z" transform="translate(-657.07 -612.971)" fill="currentColor"/>
+ <path data-name="Path 3923" d="m640.754 499.824.182.182.182-.182z" transform="translate(-633.452 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3924" d="M675.086 533.746v-.368l-.184.184z" transform="translate(-657.072 -554.945)" fill="currentColor"/>
+ <path data-name="Path 3925" d="M556.853 499.824v.388l.195-.194-.194-.193z" transform="translate(-575.421 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3926" d="m556.857 499.824.194.193.192-.193z" transform="translate(-575.423 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3927" d="m556.853 516.988.194-.195-.194-.195z" transform="translate(-575.421 -543.34)" fill="currentColor"/>
+ <path data-name="Path 3928" d="m556.853 505.429.194.195 2.587-2.587-2.586-2.587-.195.194z" transform="translate(-575.421 -532.17)" fill="currentColor"/>
+ <path data-name="Path 3929" d="m557.677 499.824-.192.193 2.586 2.587 2.587-2.587-.193-.193z" transform="translate(-575.858 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3930" d="m573.635 499.824.193.193.193-.193z" transform="translate(-587.029 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3931" d="m556.853 533.767.195-.194-.195-.195z" transform="translate(-575.421 -554.945)" fill="currentColor"/>
+ <path data-name="Path 3932" d="m556.853 522.209.195.195 2.586-2.587-2.587-2.587-.194.195z" transform="translate(-575.421 -543.776)" fill="currentColor"/>
+ <path data-name="Rectangle 2791" transform="rotate(-45.003 -41.228 8.905)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2792" transform="rotate(-45 -43.064 4.483)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3933" d="m574.455 499.824-.193.193 2.587 2.587 2.587-2.587-.193-.193z" transform="translate(-587.462 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3934" d="m590.414 499.824.193.193.193-.193z" transform="translate(-598.634 -531.737)" fill="currentColor"/>
+ <path data-name="Path 3935" d="m556.853 584.083.184-.184-.184-.184z" transform="translate(-575.421 -589.762)" fill="currentColor"/>
+ <path data-name="Path 3936" d="m556.853 600.862.184-.184-.184-.184z" transform="translate(-575.421 -601.368)" fill="currentColor"/>
+ <path data-name="Path 3937" d="m556.853 589.3.184.184 2.587-2.587-2.587-2.587-.184.184z" transform="translate(-575.421 -590.174)" fill="currentColor"/>
+ <path data-name="Path 3938" d="m556.853 617.639.184-.184-.184-.184z" transform="translate(-575.421 -612.972)" fill="currentColor"/>
+ <path data-name="Path 3939" d="m556.853 606.08.184.184 2.587-2.586-2.587-2.587-.184.184z" transform="translate(-575.421 -601.78)" fill="currentColor"/>
+ <path data-name="Rectangle 2793" transform="rotate(-45 -10.028 21.847)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3940" d="M556.853 618.054h.369l-.185-.186-.184.184z" transform="translate(-575.421 -613.384)" fill="currentColor"/>
+ <path data-name="Path 3941" d="m562.437 612.252.185-.185-2.587-2.587-2.587 2.586.185.186z" transform="translate(-575.833 -607.583)" fill="currentColor"/>
+ <path data-name="Rectangle 2794" transform="rotate(-45 -5.612 20.02)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3942" d="m574 618.055-.185-.185-.185.185z" transform="translate(-587.023 -613.386)" fill="currentColor"/>
+ <path data-name="Path 3943" d="m579.216 612.252.185-.186-2.587-2.586-2.587 2.587.185.185z" transform="translate(-587.438 -607.583)" fill="currentColor"/>
+ <path data-name="Path 3944" d="m590.777 618.054-.185-.186-.185.186z" transform="translate(-598.629 -613.384)" fill="currentColor"/>
+ </g>
+ </g>
+ </g>
+ <g data-name="Group 7275">
+ <path data-name="Path 3946" d="M649.381 573.731h-2.909v2.623h2.909a1.312 1.312 0 1 0 0-2.623z" transform="translate(-617.78 -562.878)" fill="currentColor"/>
+ <g data-name="Group 7274" style="clip-path:url(#2g0dilsv3e)" transform="translate(28.692 10.853)">
+ <g data-name="Group 7273">
+ <path data-name="Path 3947" d="m558.4 552.279.183-.184-.183-.184z" transform="translate(-585.554 -558.638)" fill="currentColor"/>
+ <path data-name="Path 3948" d="m558.4 540.718.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-585.554 -547.446)" fill="currentColor"/>
+ <path data-name="Rectangle 2795" transform="rotate(-44.99 -27.634 26.707)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2796" transform="rotate(-45.007 -29.456 22.278)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2797" transform="rotate(-45 -31.294 17.864)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2798" transform="rotate(-45.003 -33.116 13.45)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3949" d="m592.734 501.578-.183.182 2.587 2.587 2.587-2.587-.183-.182z" transform="translate(-609.177 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3950" d="m608.739 501.578.183.182.182-.182z" transform="translate(-620.373 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3951" d="m558.4 569.058.183-.184-.183-.184z" transform="translate(-585.554 -570.245)" fill="currentColor"/>
+ <path data-name="Path 3952" d="m558.4 557.5.183.184 2.587-2.586-2.587-2.587-.183.184z" transform="translate(-585.554 -559.051)" fill="currentColor"/>
+ <path data-name="Rectangle 2799" transform="rotate(-45 -21.393 29.286)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2800" transform="rotate(-45 -23.215 24.87)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2801" transform="rotate(-44.997 -25.044 20.457)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2802" transform="rotate(-45.01 -26.868 16.033)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2803" transform="rotate(-45 -28.707 11.62)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2804" transform="rotate(-45 -30.535 7.201)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3953" d="m609.514 501.578-.182.182 2.587 2.587 2.586-2.587-.182-.182z" transform="translate(-620.784 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3954" d="m625.518 501.578.182.182.183-.182z" transform="translate(-631.979 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3955" d="m558.4 574.277.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-585.554 -570.657)" fill="currentColor"/>
+ <path data-name="Rectangle 2805" transform="rotate(-44.99 -15.141 31.88)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2806" transform="rotate(-45.007 -16.968 27.452)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2807" transform="rotate(-45 -18.804 23.04)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2808" transform="rotate(-45.003 -20.627 18.624)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2809" transform="rotate(-44.997 -22.457 14.211)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2810" transform="rotate(-45 -24.286 9.795)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2811" transform="rotate(-45 -26.118 5.374)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2812" transform="rotate(-45.003 -27.943 .961)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3956" d="m626.293 501.578-.183.182 2.587 2.587 2.586-2.587-.182-.182z" transform="translate(-632.388 -523.825)" fill="currentColor"/>
+ <path data-name="Rectangle 2813" transform="rotate(-45 -8.902 34.46)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2814" transform="rotate(-45 -10.73 30.044)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2815" transform="rotate(-44.997 -12.553 25.63)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2816" transform="rotate(-45.01 -14.38 21.207)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2817" transform="rotate(-45 -16.217 16.796)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2818" transform="rotate(-44.993 -18.043 12.383)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2819" transform="rotate(-44.997 -19.87 7.965)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2820" transform="rotate(-45.01 -21.695 3.546)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2821" transform="rotate(-44.997 -23.53 -.867)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2822" transform="rotate(-45.003 -25.356 -5.284)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2823" transform="rotate(-45 -4.48 32.63)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2824" transform="rotate(-45 -6.314 28.216)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2825" transform="rotate(-45.003 -8.137 23.798)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2826" transform="rotate(-44.997 -9.966 19.385)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2827" transform="rotate(-45 -11.796 14.968)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2828" transform="rotate(-45 -13.628 10.55)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2829" transform="rotate(-45.003 -15.454 6.135)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2830" transform="rotate(-44.993 -17.286 1.72)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2831" transform="rotate(-45 -19.113 -2.699)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2832" transform="rotate(-45 -20.942 -7.116)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2833" transform="rotate(-45 -.063 30.802)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2834" transform="rotate(-45.003 -1.893 26.384)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2835" transform="rotate(-45 -3.726 21.97)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2836" transform="rotate(-45 -5.555 17.554)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2837" transform="rotate(-44.997 -7.38 13.139)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2838" transform="rotate(-45.01 -9.207 8.72)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2839" transform="rotate(-44.997 -11.039 4.307)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2840" transform="rotate(-45.004 -12.867 -.11)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2841" transform="rotate(-44.997 -14.697 -4.525)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2842" transform="rotate(-45 -16.525 -8.945)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2843" transform="rotate(-45.007 4.35 28.969)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3957" d="m643.073 501.578-.182.182 2.587 2.587 2.586-2.587-.182-.182z" transform="translate(-643.995 -523.825)" fill="currentColor"/>
+ <path data-name="Rectangle 2844" transform="rotate(-45 2.523 24.558)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2845" transform="rotate(-45 -22.77 -11.533)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3958" d="m659.85 501.578-.182.182 2.587 2.587 2.586-2.587-.182-.182z" transform="translate(-655.599 -523.825)" fill="currentColor"/>
+ <path data-name="Rectangle 2846" transform="rotate(-44.993 .696 20.143)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2847" transform="rotate(-45 -18.354 -13.362)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3959" d="m670.645 507.343.184-.184v-4.806l-.184-.184-2.586 2.587z" transform="translate(-661.403 -524.235)" fill="currentColor"/>
+ <path data-name="Rectangle 2848" transform="rotate(-45 -1.138 15.725)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3960" d="m670.645 524.122.184-.183v-4.806l-.184-.184-2.586 2.587z" transform="translate(-661.403 -535.84)" fill="currentColor"/>
+ <path data-name="Rectangle 2849" transform="rotate(-45.003 -2.964 11.309)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2850" transform="rotate(-44.993 -4.793 6.895)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2851" transform="rotate(-45 -6.622 2.478)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2852" transform="rotate(-45 -8.452 -1.94)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2853" transform="rotate(-45 -10.28 -6.357)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2854" transform="rotate(-44.997 -12.11 -10.77)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3961" d="m597.54 614.007.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-609.177 -599.671)" fill="currentColor"/>
+ <path data-name="Rectangle 2855" transform="rotate(-44.997 6.94 22.73)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Path 3962" d="m659.078 501.578.182.182.182-.182z" transform="translate(-655.191 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3963" d="m675.857 501.578.182.182.182-.182z" transform="translate(-666.796 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3964" d="m676.63 501.578-.182.182.184.184v-.366z" transform="translate(-667.205 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3965" d="M676.631 518.721v-.368l-.184.184z" transform="translate(-667.205 -535.428)" fill="currentColor"/>
+ <path data-name="Rectangle 2856" transform="rotate(-45 5.11 18.312)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2857" transform="rotate(-45.003 3.28 13.895)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2858" transform="rotate(-44.997 1.452 9.48)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2859" transform="rotate(-45.003 -.377 5.064)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2860" transform="rotate(-44.997 -2.206 .649)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2861" transform="rotate(-45 -4.035 -3.768)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2862" transform="rotate(-45 -5.864 -8.184)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Path 3966" d="m670.644 540.9.184-.184v-4.805l-.184-.184-2.587 2.587z" transform="translate(-661.401 -547.446)" fill="currentColor"/>
+ <path data-name="Path 3967" d="m609.1 619.809-.185-.185-.185.185z" transform="translate(-620.367 -605.474)" fill="currentColor"/>
+ <path data-name="Path 3968" d="m614.32 614.007.185-.185-2.586-2.587-2.587 2.587.185.185z" transform="translate(-620.784 -599.671)" fill="currentColor"/>
+ <path data-name="Rectangle 2863" transform="rotate(-45 9.524 16.486)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2864" transform="rotate(-44.997 7.698 12.067)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2865" transform="rotate(-45.004 5.867 7.65)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2866" transform="rotate(-45 4.038 3.236)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2867" transform="rotate(-45 2.209 -1.18)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2868" transform="rotate(-44.997 .38 -5.597)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3969" d="m670.644 557.681.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-661.401 -559.051)" fill="currentColor"/>
+ <path data-name="Path 3970" d="M676.631 552.279v-.368l-.184.184z" transform="translate(-667.205 -558.638)" fill="currentColor"/>
+ <path data-name="Path 3971" d="m625.88 619.809-.185-.185-.185.185z" transform="translate(-631.973 -605.474)" fill="currentColor"/>
+ <path data-name="Path 3972" d="m631.1 614.007.185-.185-2.586-2.587-2.587 2.587.185.185z" transform="translate(-632.388 -599.671)" fill="currentColor"/>
+ <path data-name="Rectangle 2869" transform="rotate(-45 12.112 10.242)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2870" transform="rotate(-45 10.284 5.822)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2871" transform="rotate(-45 8.455 1.408)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2872" transform="rotate(-45 6.626 -3.01)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3973" d="m670.644 574.461.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-661.401 -570.657)" fill="currentColor"/>
+ <path data-name="Path 3974" d="M676.631 569.058v-.368l-.184.184z" transform="translate(-667.205 -570.245)" fill="currentColor"/>
+ <path data-name="Path 3975" d="m642.658 619.808-.186-.186-.185.186z" transform="translate(-643.577 -605.472)" fill="currentColor"/>
+ <path data-name="Path 3976" d="m647.876 614.005.186-.186-2.587-2.587-2.586 2.587.186.186z" transform="translate(-643.994 -599.67)" fill="currentColor"/>
+ <path data-name="Rectangle 2873" transform="rotate(-44.993 14.701 3.992)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2874" transform="rotate(-45.003 12.868 -.422)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3977" d="m670.643 591.238.185-.184v-4.805l-.185-.185-2.587 2.587z" transform="translate(-661.401 -582.261)" fill="currentColor"/>
+ <path data-name="Path 3978" d="M676.63 585.836v-.368l-.185.184z" transform="translate(-667.203 -581.849)" fill="currentColor"/>
+ <path data-name="Path 3979" d="m659.436 619.808-.186-.186-.186.186z" transform="translate(-655.182 -605.472)" fill="currentColor"/>
+ <path data-name="Path 3980" d="m664.655 614.005.185-.186-2.587-2.587-2.586 2.587.186.186z" transform="translate(-655.599 -599.67)" fill="currentColor"/>
+ <path data-name="Path 3981" d="m670.643 608.017.185-.184v-4.805l-.185-.184-2.587 2.587z" transform="translate(-661.401 -593.867)" fill="currentColor"/>
+ <path data-name="Path 3982" d="M676.63 602.615v-.368l-.185.184z" transform="translate(-667.203 -593.455)" fill="currentColor"/>
+ <path data-name="Path 3983" d="m676.214 619.808-.185-.185-.185.186z" transform="translate(-666.788 -605.472)" fill="currentColor"/>
+ <path data-name="Path 3984" d="M676.63 619.394v-.368l-.185.184z" transform="translate(-667.203 -605.06)" fill="currentColor"/>
+ <path data-name="Path 3985" d="m642.3 501.578.183.182.182-.182z" transform="translate(-643.585 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3986" d="M676.631 535.5v-.367l-.184.183z" transform="translate(-667.205 -547.035)" fill="currentColor"/>
+ <path data-name="Path 3987" d="M558.4 501.578v.388l.195-.195-.194-.193z" transform="translate(-585.554 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3988" d="m558.4 501.578.194.193.193-.193z" transform="translate(-585.556 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3989" d="m558.4 518.743.195-.195-.195-.194z" transform="translate(-585.554 -535.429)" fill="currentColor"/>
+ <path data-name="Path 3990" d="m558.4 507.184.195.194 2.586-2.586-2.586-2.587-.195.2z" transform="translate(-585.554 -524.259)" fill="currentColor"/>
+ <path data-name="Path 3991" d="m559.222 501.578-.192.193 2.586 2.587 2.587-2.587-.193-.193z" transform="translate(-585.991 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3992" d="m575.18 501.578.193.193.193-.193z" transform="translate(-597.162 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3993" d="m558.4 535.522.195-.194-.195-.194z" transform="translate(-585.554 -547.035)" fill="currentColor"/>
+ <path data-name="Path 3994" d="m558.4 523.964.195.194 2.586-2.587-2.586-2.587-.195.195z" transform="translate(-585.554 -535.865)" fill="currentColor"/>
+ <path data-name="Rectangle 2875" transform="rotate(-45.004 -33.855 24.103)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2876" transform="rotate(-45.007 -35.681 19.685)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 3995" d="m576 501.578-.193.193 2.587 2.587 2.587-2.587-.193-.193z" transform="translate(-597.595 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3996" d="m591.959 501.578.193.193.193-.193z" transform="translate(-608.767 -523.825)" fill="currentColor"/>
+ <path data-name="Path 3997" d="m558.4 585.837.183-.184-.183-.184z" transform="translate(-585.554 -581.85)" fill="currentColor"/>
+ <path data-name="Path 3998" d="m558.4 602.617.183-.184-.183-.184z" transform="translate(-585.554 -593.456)" fill="currentColor"/>
+ <path data-name="Path 3999" d="m558.4 591.056.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-585.554 -582.263)" fill="currentColor"/>
+ <path data-name="Path 4000" d="m558.4 619.4.183-.184-.183-.184z" transform="translate(-585.554 -605.061)" fill="currentColor"/>
+ <path data-name="Path 4001" d="m558.4 607.834.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-585.554 -593.868)" fill="currentColor"/>
+ <path data-name="Rectangle 2877" transform="rotate(-44.993 -2.65 37.052)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Path 4002" d="M558.4 619.809h.369l-.185-.185-.183.184z" transform="translate(-585.554 -605.474)" fill="currentColor"/>
+ <path data-name="Path 4003" d="m563.981 614.007.186-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-585.966 -599.671)" fill="currentColor"/>
+ <path data-name="Rectangle 2878" transform="rotate(-45.003 1.765 35.215)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4004" d="m575.542 619.809-.185-.185-.186.185z" transform="translate(-597.156 -605.474)" fill="currentColor"/>
+ <path data-name="Path 4005" d="m580.762 614.007.185-.185-2.586-2.587-2.587 2.587.185.185z" transform="translate(-597.572 -599.671)" fill="currentColor"/>
+ <path data-name="Path 4006" d="m592.322 619.809-.185-.185-.185.185z" transform="translate(-608.762 -605.474)" fill="currentColor"/>
+ </g>
+ </g>
+ </g>
+ <g data-name="Group 7278">
+ <path data-name="Path 4008" d="m639.476 591.674-1.882 1.882 2.053 2.054a1.331 1.331 0 1 0 1.882-1.882z" transform="translate(-611.64 -575.289)" fill="currentColor"/>
+ <g data-name="Group 7277" style="clip-path:url(#5m6vir9r0f)" transform="translate(25.954 16.385)">
+ <g data-name="Group 7276">
+ <path data-name="Path 4009" d="m557.52 551.226.184-.184-.184-.184z" transform="translate(-582.209 -563.443)" fill="currentColor"/>
+ <path data-name="Path 4010" d="m557.52 539.665.184.184 2.587-2.587-2.587-2.587-.184.184z" transform="translate(-582.209 -552.25)" fill="currentColor"/>
+ <path data-name="Rectangle 2879" transform="rotate(-44.997 -33.469 20.795)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2880" transform="rotate(-45 -35.295 16.377)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2881" transform="rotate(-44.999 -37.126 11.962)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2882" transform="rotate(-45.004 -38.952 7.544)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4011" d="m591.856 500.526-.183.182 2.588 2.587 2.586-2.587-.183-.182z" transform="translate(-605.832 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4012" d="m607.861 500.526.183.182.182-.182z" transform="translate(-617.028 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4013" d="m557.52 568 .184-.184-.184-.184z" transform="translate(-582.209 -575.048)" fill="currentColor"/>
+ <path data-name="Path 4014" d="m557.52 556.444.184.184 2.587-2.586-2.587-2.587-.184.184z" transform="translate(-582.209 -563.856)" fill="currentColor"/>
+ <path data-name="Rectangle 2883" transform="rotate(-44.997 -27.223 23.382)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2884" transform="rotate(-45 -29.057 18.96)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2885" transform="rotate(-45 -30.88 14.548)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2886" transform="rotate(-45.003 -32.707 10.131)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2887" transform="rotate(-44.993 -34.544 5.719)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2888" transform="rotate(-45 -36.368 1.3)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4015" d="m608.636 500.526-.182.182 2.587 2.587 2.587-2.587-.183-.182z" transform="translate(-617.438 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4016" d="m624.639 500.526.183.182.182-.182z" transform="translate(-628.633 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4017" d="m557.52 573.224.184.184 2.587-2.587-2.587-2.587-.184.184z" transform="translate(-582.209 -575.461)" fill="currentColor"/>
+ <path data-name="Rectangle 2889" transform="rotate(-44.99 -20.98 25.973)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2890" transform="rotate(-45 -22.811 21.548)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2891" transform="rotate(-45 -24.635 17.135)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2892" transform="rotate(-45 -26.468 12.716)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2893" transform="rotate(-45 -28.298 8.298)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2894" transform="rotate(-45 -30.125 3.882)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2895" transform="rotate(-45 -31.951 -.53)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2896" transform="rotate(-45 -33.783 -4.951)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4018" d="m625.415 500.526-.182.182 2.587 2.587 2.586-2.587-.182-.182z" transform="translate(-629.044 -528.63)" fill="currentColor"/>
+ <path data-name="Rectangle 2897" transform="rotate(-44.997 -14.732 28.555)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2898" transform="rotate(-45.003 -16.56 24.135)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2899" transform="rotate(-45 -18.396 19.72)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2900" transform="rotate(-45.01 -20.216 15.301)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2901" transform="rotate(-45 -22.052 10.887)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2902" transform="rotate(-45.004 -23.876 6.472)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2903" transform="rotate(-45 -25.71 2.054)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2904" transform="rotate(-45 -27.535 -2.357)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2905" transform="rotate(-45 -29.366 -6.78)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2906" transform="rotate(-45.003 -31.192 -11.19)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2907" transform="rotate(-45 -10.316 26.724)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2908" transform="rotate(-45 -12.145 22.309)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2909" transform="rotate(-45.007 -13.973 17.89)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2910" transform="rotate(-44.986 -15.807 13.482)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2911" transform="rotate(-45.007 -17.63 9.058)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2912" transform="rotate(-45 -19.464 4.642)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2913" transform="rotate(-45 -21.293 .225)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2914" transform="rotate(-45 -23.12 -4.187)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2915" transform="rotate(-45.003 -24.947 -8.603)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2916" transform="rotate(-45 -26.78 -13.024)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2917" transform="rotate(-45 -5.9 24.896)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2918" transform="rotate(-45.003 -7.73 20.478)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2919" transform="rotate(-45 -9.562 16.063)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2920" transform="rotate(-45 -11.39 11.646)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2921" transform="rotate(-44.993 -13.218 7.233)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2922" transform="rotate(-45 -15.047 2.814)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2923" transform="rotate(-45 -16.875 -1.6)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2924" transform="rotate(-45.007 -18.7 -6.015)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2925" transform="rotate(-44.993 -20.538 -10.432)" fill="currentColor" d="M0 0h3.658v3.659H0z"/>
+ <path data-name="Rectangle 2926" transform="rotate(-45 -22.362 -14.847)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2927" transform="rotate(-45.003 -1.485 23.065)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4019" d="m642.195 500.526-.182.182 2.587 2.592 2.587-2.587-.182-.182z" transform="translate(-640.65 -528.63)" fill="currentColor"/>
+ <path data-name="Rectangle 2928" transform="rotate(-45 -3.318 18.65)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2929" transform="rotate(-45 -28.607 -17.44)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4020" d="m658.974 500.526-.182.182 2.587 2.587 2.586-2.587-.182-.182z" transform="translate(-652.255 -528.63)" fill="currentColor"/>
+ <path data-name="Rectangle 2930" transform="rotate(-45 -5.145 14.234)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2931" transform="rotate(-45 -24.191 -19.264)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4021" d="m669.767 506.291.184-.183V501.3l-.184-.184-2.587 2.587z" transform="translate(-658.058 -529.039)" fill="currentColor"/>
+ <path data-name="Rectangle 2932" transform="rotate(-45 -6.974 9.817)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4022" d="m669.767 523.07.184-.183v-4.807l-.184-.184-2.587 2.587z" transform="translate(-658.058 -540.644)" fill="currentColor"/>
+ <path data-name="Rectangle 2933" transform="rotate(-45.003 -8.8 5.402)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2934" transform="rotate(-45 -10.631 .984)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2935" transform="rotate(-45.01 -12.456 -3.43)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2936" transform="rotate(-44.993 -14.29 -7.845)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2937" transform="rotate(-44.997 -16.118 -12.262)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2938" transform="rotate(-45.01 -17.94 -16.675)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4023" d="m596.662 612.953.186-.185-2.586-2.587-2.588 2.587.185.185z" transform="translate(-605.832 -604.475)" fill="currentColor"/>
+ <path data-name="Rectangle 2939" transform="rotate(-45 1.1 16.822)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4024" d="m658.2 500.526.182.182.182-.182z" transform="translate(-651.846 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4025" d="m674.978 500.526.182.182.183-.182z" transform="translate(-663.451 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4026" d="m675.752 500.526-.183.182.184.184v-.366z" transform="translate(-663.86 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4027" d="M675.753 517.669v-.369l-.184.183z" transform="translate(-663.86 -540.233)" fill="currentColor"/>
+ <path data-name="Rectangle 2940" transform="rotate(-45 -.728 12.405)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2941" transform="rotate(-45 -2.556 7.99)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2942" transform="rotate(-45 -4.385 3.573)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2943" transform="rotate(-45 -6.214 -.842)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2944" transform="rotate(-44.986 -8.047 -5.259)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2945" transform="rotate(-45 -9.871 -9.676)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2946" transform="rotate(-45.003 -11.7 -14.09)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4028" d="m669.766 539.849.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-658.057 -552.25)" fill="currentColor"/>
+ <path data-name="Path 4029" d="m608.223 618.756-.185-.185-.186.185z" transform="translate(-617.022 -610.278)" fill="currentColor"/>
+ <path data-name="Path 4030" d="m613.442 612.953.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-617.438 -604.475)" fill="currentColor"/>
+ <path data-name="Rectangle 2947" transform="rotate(-45 3.689 10.576)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2948" transform="rotate(-45 1.86 6.16)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2949" transform="rotate(-45.003 .031 1.744)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2950" transform="rotate(-44.993 -1.799 -2.671)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2951" transform="rotate(-45.003 -3.626 -7.087)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2952" transform="rotate(-44.997 -5.456 -11.504)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4031" d="m669.766 556.628.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-658.057 -563.856)" fill="currentColor"/>
+ <path data-name="Path 4032" d="M675.753 551.226v-.368l-.184.184z" transform="translate(-663.86 -563.443)" fill="currentColor"/>
+ <path data-name="Path 4033" d="m625 618.756-.185-.185-.185.185z" transform="translate(-628.628 -610.278)" fill="currentColor"/>
+ <path data-name="Path 4034" d="m630.221 612.953.185-.185-2.586-2.587-2.587 2.587.185.185z" transform="translate(-629.044 -604.475)" fill="currentColor"/>
+ <path data-name="Rectangle 2953" transform="rotate(-45.003 6.275 4.33)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2954" transform="rotate(-44.993 4.447 -.085)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2955" transform="rotate(-45 2.618 -4.5)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2956" transform="rotate(-45.003 .789 -8.916)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4035" d="m669.766 573.407.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-658.057 -575.461)" fill="currentColor"/>
+ <path data-name="Path 4036" d="M675.753 568v-.368l-.184.184z" transform="translate(-663.86 -575.048)" fill="currentColor"/>
+ <path data-name="Path 4037" d="m641.78 618.755-.185-.185-.185.185z" transform="translate(-640.233 -610.277)" fill="currentColor"/>
+ <path data-name="Path 4038" d="m647 612.952.185-.185-2.585-2.587-2.587 2.587.185.185z" transform="translate(-640.648 -604.474)" fill="currentColor"/>
+ <path data-name="Rectangle 2957" transform="rotate(-45 8.863 -1.912)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2958" transform="rotate(-45 7.033 -6.33)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4039" d="m669.766 590.185.184-.184V585.2l-.184-.184-2.586 2.584z" transform="translate(-658.057 -587.066)" fill="currentColor"/>
+ <path data-name="Path 4040" d="M675.753 584.783v-.368l-.184.184z" transform="translate(-663.86 -586.653)" fill="currentColor"/>
+ <path data-name="Path 4041" d="m658.559 618.755-.185-.185-.185.185z" transform="translate(-651.838 -610.277)" fill="currentColor"/>
+ <path data-name="Path 4042" d="m663.778 612.952.186-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-652.254 -604.474)" fill="currentColor"/>
+ <path data-name="Path 4043" d="m669.766 606.964.184-.184v-4.805l-.184-.185-2.587 2.587z" transform="translate(-658.057 -598.671)" fill="currentColor"/>
+ <path data-name="Path 4044" d="M675.753 601.563v-.368l-.184.184z" transform="translate(-663.86 -598.259)" fill="currentColor"/>
+ <path data-name="Path 4045" d="m675.337 618.755-.184-.184-.186.185z" transform="translate(-663.444 -610.277)" fill="currentColor"/>
+ <path data-name="Path 4046" d="M675.753 618.341v-.368l-.184.184z" transform="translate(-663.86 -609.864)" fill="currentColor"/>
+ <path data-name="Path 4047" d="m641.42 500.526.183.182.182-.182z" transform="translate(-640.24 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4048" d="M675.753 534.448v-.367l-.184.183z" transform="translate(-663.86 -551.839)" fill="currentColor"/>
+ <path data-name="Path 4049" d="M557.52 500.526v.388l.195-.195-.193-.193z" transform="translate(-582.209 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4050" d="m557.524 500.526.193.193.193-.193z" transform="translate(-582.212 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4051" d="m557.52 517.691.195-.195-.195-.194z" transform="translate(-582.209 -540.233)" fill="currentColor"/>
+ <path data-name="Path 4052" d="m557.52 506.131.195.194 2.587-2.586-2.587-2.587-.195.195z" transform="translate(-582.209 -529.063)" fill="currentColor"/>
+ <path data-name="Path 4053" d="m558.345 500.526-.193.193 2.587 2.587 2.586-2.587-.193-.193z" transform="translate(-582.646 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4054" d="m574.3 500.526.193.193.194-.193z" transform="translate(-593.818 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4055" d="m557.52 534.469.195-.194-.195-.194z" transform="translate(-582.209 -551.839)" fill="currentColor"/>
+ <path data-name="Path 4056" d="m557.52 522.91.195.194 2.587-2.587-2.587-2.587-.195.2z" transform="translate(-582.209 -540.668)" fill="currentColor"/>
+ <path data-name="Rectangle 2959" transform="rotate(-45 -39.7 18.192)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2960" transform="rotate(-45 -41.527 13.777)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4057" d="m575.123 500.526-.194.193 2.587 2.587 2.587-2.587-.194-.193z" transform="translate(-594.25 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4058" d="m591.082 500.526.194.193.192-.193z" transform="translate(-605.423 -528.63)" fill="currentColor"/>
+ <path data-name="Path 4059" d="m557.52 584.784.184-.184-.184-.184z" transform="translate(-582.209 -586.654)" fill="currentColor"/>
+ <path data-name="Path 4060" d="m557.52 601.563.184-.184-.184-.184z" transform="translate(-582.209 -598.26)" fill="currentColor"/>
+ <path data-name="Path 4061" d="m557.52 590 .184.184 2.587-2.587-2.587-2.587-.184.184z" transform="translate(-582.209 -587.067)" fill="currentColor"/>
+ <path data-name="Path 4062" d="m557.52 618.343.184-.184-.184-.184z" transform="translate(-582.209 -609.866)" fill="currentColor"/>
+ <path data-name="Path 4063" d="m557.52 606.782.184.184 2.587-2.587-2.587-2.587-.184.184z" transform="translate(-582.209 -598.672)" fill="currentColor"/>
+ <path data-name="Rectangle 2961" transform="rotate(-44.997 -8.487 31.142)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4064" d="M557.52 618.756h.369l-.186-.185-.184.184z" transform="translate(-582.209 -610.278)" fill="currentColor"/>
+ <path data-name="Path 4065" d="m563.1 612.953.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-582.621 -604.475)" fill="currentColor"/>
+ <path data-name="Rectangle 2962" transform="rotate(-45 -4.071 29.31)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4066" d="m574.665 618.756-.185-.185-.185.185z" transform="translate(-593.812 -610.278)" fill="currentColor"/>
+ <path data-name="Path 4067" d="m579.884 612.953.184-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-594.227 -604.475)" fill="currentColor"/>
+ <path data-name="Path 4068" d="m591.445 618.756-.185-.185-.184.185z" transform="translate(-605.418 -610.278)" fill="currentColor"/>
+ </g>
+ </g>
+ </g>
+ <g data-name="Group 7281">
+ <path data-name="Path 4070" d="M564.078 554.015h-.567a2.341 2.341 0 0 1-2.3-2.3v-2.258h2.871a2.331 2.331 0 0 0 0-4.662H561.2v-2.377a2.342 2.342 0 0 0-2.331-2.331 2.289 2.289 0 0 0-1.659.686 2.221 2.221 0 0 0-.7 1.645v2.375h-.759a2.331 2.331 0 0 0 0 4.662h.759v2.26a7 7 0 0 0 6.993 6.966h.577a2.331 2.331 0 0 0 0-4.662z" transform="translate(-553.418 -539.605)" fill="currentColor"/>
+ <g data-name="Group 7280" style="clip-path:url(#u4pkizl70g)" transform="translate(0 .479)">
+ <g data-name="Group 7279">
+ <path data-name="Path 4071" d="m522.145 575.907.183-.184-.183-.184z" transform="translate(-531.787 -564.607)" fill="currentColor"/>
+ <path data-name="Path 4072" d="m522.145 564.346.183.184 2.587-2.587-2.587-2.586-.183.183z" transform="translate(-531.787 -553.413)" fill="currentColor"/>
+ <path data-name="Rectangle 2963" transform="rotate(-44.997 2.444 14.389)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2964" transform="rotate(-45 .613 9.974)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2965" transform="rotate(-45.007 -1.214 5.556)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2966" transform="rotate(-44.996 -3.044 1.14)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4073" d="m556.481 525.206-.182.182 2.587 2.586 2.587-2.586-.182-.182z" transform="translate(-555.41 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4074" d="m572.486 525.206.182.182.183-.182z" transform="translate(-566.606 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4075" d="m522.145 592.684.183-.183-.183-.184z" transform="translate(-531.787 -576.211)" fill="currentColor"/>
+ <path data-name="Path 4076" d="m522.145 581.125.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-531.787 -565.019)" fill="currentColor"/>
+ <path data-name="Rectangle 2967" transform="rotate(-45 8.686 16.979)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2968" transform="rotate(-44.997 6.86 12.56)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2969" transform="rotate(-45 5.03 8.143)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2970" transform="rotate(-45 3.202 3.729)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2971" transform="rotate(-45.007 1.372 -.687)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2972" transform="rotate(-44.996 -.457 -5.104)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4077" d="m573.26 525.206-.183.182 2.587 2.586 2.587-2.586-.182-.182z" transform="translate(-567.015 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4078" d="m589.265 525.206.182.182.182-.182z" transform="translate(-578.212 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4079" d="m522.145 597.9.183.184 2.587-2.587-2.587-2.587-.183.183z" transform="translate(-531.787 -576.625)" fill="currentColor"/>
+ <path data-name="Rectangle 2973" transform="rotate(-44.997 14.936 19.564)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2974" transform="rotate(-45 13.105 15.147)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2975" transform="rotate(-45 11.275 10.733)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2976" transform="rotate(-44.997 9.447 6.314)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2977" transform="rotate(-45 7.617 1.898)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2978" transform="rotate(-45 5.789 -2.517)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2979" transform="rotate(-45.004 3.96 -6.932)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2980" transform="rotate(-44.996 2.13 -11.35)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4080" d="m590.039 525.206-.182.182 2.587 2.586 2.587-2.586-.182-.182z" transform="translate(-578.621 -529.793)" fill="currentColor"/>
+ <path data-name="Rectangle 2981" transform="rotate(-44.997 21.181 22.15)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2982" transform="rotate(-45 19.35 17.733)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2983" transform="rotate(-45 17.521 13.317)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2984" transform="rotate(-45 15.692 8.901)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2985" transform="rotate(-45 13.862 4.489)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2986" transform="rotate(-44.996 12.034 .07)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2987" transform="rotate(-44.997 10.204 -4.347)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2988" transform="rotate(-45 8.378 -8.761)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2989" transform="rotate(-45 6.55 -13.178)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2990" transform="rotate(-44.996 4.716 -17.595)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2991" transform="rotate(-44.997 25.597 20.32)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2992" transform="rotate(-45 23.766 15.904)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2993" transform="rotate(-45 21.936 11.488)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2994" transform="rotate(-45 20.108 7.072)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2995" transform="rotate(-45 18.28 2.66)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2996" transform="rotate(-45 16.45 -1.757)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 2997" transform="rotate(-44.997 14.62 -6.177)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2998" transform="rotate(-45 12.794 -10.59)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 2999" transform="rotate(-45 10.962 -15.007)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3000" transform="rotate(-45.004 9.133 -19.421)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 3001" transform="rotate(-45 30.01 18.49)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3002" transform="rotate(-44.997 28.184 14.075)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3003" transform="rotate(-45 26.353 9.658)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3004" transform="rotate(-45 24.524 5.248)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3005" transform="rotate(-44.997 22.696 .827)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3006" transform="rotate(-45 20.865 -3.589)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3007" transform="rotate(-45.007 19.034 -8.003)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3008" transform="rotate(-44.996 17.207 -12.422)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3009" transform="rotate(-44.997 15.378 -16.838)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3010" transform="rotate(-45 13.554 -21.251)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3011" transform="rotate(-45.003 34.424 16.661)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4081" d="m606.818 525.206-.183.182 2.587 2.587 2.587-2.587-.182-.182z" transform="translate(-590.227 -529.793)" fill="currentColor"/>
+ <path data-name="Rectangle 3012" transform="rotate(-45 32.596 12.246)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3013" transform="rotate(-45 7.303 -23.84)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4082" d="m623.6 525.206-.182.182 2.582 2.586 2.587-2.587-.182-.182z" transform="translate(-601.833 -529.793)" fill="currentColor"/>
+ <path data-name="Rectangle 3014" transform="rotate(-44.996 30.771 7.83)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3015" transform="rotate(-45.007 11.72 -25.664)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4083" d="m634.391 530.97.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-607.635 -530.201)" fill="currentColor"/>
+ <path data-name="Rectangle 3016" transform="rotate(-44.997 28.941 3.413)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4084" d="m634.391 547.75.184-.184v-4.806l-.184-.183-2.587 2.586z" transform="translate(-607.635 -541.808)" fill="currentColor"/>
+ <path data-name="Rectangle 3017" transform="rotate(-45 27.11 -1.002)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3018" transform="rotate(-45 25.285 -5.414)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3019" transform="rotate(-45 23.456 -9.83)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3020" transform="rotate(-45 21.627 -14.247)" fill="currentColor" d="M0 0h3.659v3.659H0z"/>
+ <path data-name="Rectangle 3021" transform="rotate(-44.997 19.794 -18.667)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3022" transform="rotate(-45 17.964 -23.082)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4085" d="m561.286 637.633.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-555.41 -605.638)" fill="currentColor"/>
+ <path data-name="Rectangle 3023" transform="rotate(-45.003 37.01 10.417)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4086" d="m622.824 525.206.182.182.182-.182z" transform="translate(-601.423 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4087" d="m639.6 525.206.182.182.182-.182z" transform="translate(-613.029 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4088" d="m640.376 525.206-.182.182.184.184v-.366z" transform="translate(-613.438 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4089" d="M640.378 542.348v-.367l-.184.184z" transform="translate(-613.438 -541.395)" fill="currentColor"/>
+ <path data-name="Rectangle 3024" transform="rotate(-44.997 35.186 6)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3025" transform="rotate(-44.997 33.358 1.584)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3026" transform="rotate(-45 31.529 -2.826)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3027" transform="rotate(-45 29.7 -7.242)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3028" transform="rotate(-44.997 27.87 -11.664)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3029" transform="rotate(-45 26.039 -16.079)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3030" transform="rotate(-45 24.215 -20.492)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4090" d="m634.391 564.53.184-.184v-4.807l-.184-.183-2.587 2.586z" transform="translate(-607.635 -553.413)" fill="currentColor"/>
+ <path data-name="Path 4091" d="m572.847 643.436-.185-.185-.185.185z" transform="translate(-566.6 -611.441)" fill="currentColor"/>
+ <path data-name="Path 4092" d="m578.066 637.633.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-567.015 -605.638)" fill="currentColor"/>
+ <path data-name="Rectangle 3031" transform="rotate(-45.003 39.597 4.172)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3032" transform="rotate(-45 37.773 -.238)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3033" transform="rotate(-44.996 35.945 -4.661)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3034" transform="rotate(-44.997 34.115 -9.077)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3035" transform="rotate(-45 32.283 -13.492)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3036" transform="rotate(-45 30.455 -17.908)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4093" d="m634.391 581.309.184-.184v-4.806l-.184-.184-2.587 2.587z" transform="translate(-607.635 -565.019)" fill="currentColor"/>
+ <path data-name="Path 4094" d="M640.378 575.907v-.368l-.184.184z" transform="translate(-613.438 -564.607)" fill="currentColor"/>
+ <path data-name="Path 4095" d="m589.627 643.436-.185-.185-.185.185z" transform="translate(-578.206 -611.441)" fill="currentColor"/>
+ <path data-name="Path 4096" d="m594.845 637.633.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-578.621 -605.638)" fill="currentColor"/>
+ <path data-name="Rectangle 3037" transform="rotate(-45.003 42.184 -2.072)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3038" transform="rotate(-44.997 40.36 -6.49)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3039" transform="rotate(-45 38.529 -10.905)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3040" transform="rotate(-44.997 36.702 -15.323)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4097" d="m634.391 598.088.184-.184V593.1l-.184-.183-2.591 2.583z" transform="translate(-607.635 -576.625)" fill="currentColor"/>
+ <path data-name="Path 4098" d="M640.378 592.684v-.367l-.184.184z" transform="translate(-613.438 -576.211)" fill="currentColor"/>
+ <path data-name="Path 4099" d="m606.4 643.435-.186-.186-.185.186z" transform="translate(-589.81 -611.439)" fill="currentColor"/>
+ <path data-name="Path 4100" d="m611.623 637.633.185-.186-2.587-2.586-2.587 2.586.186.186z" transform="translate(-590.226 -605.638)" fill="currentColor"/>
+ <path data-name="Rectangle 3041" transform="rotate(-45.003 44.77 -8.317)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3042" transform="rotate(-45 42.943 -12.734)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4101" d="m634.39 614.866.184-.184v-4.8l-.184-.184-2.587 2.587z" transform="translate(-607.634 -588.229)" fill="currentColor"/>
+ <path data-name="Path 4102" d="M640.376 609.463v-.368l-.184.184z" transform="translate(-613.436 -587.816)" fill="currentColor"/>
+ <path data-name="Path 4103" d="m623.184 643.435-.186-.186-.185.186z" transform="translate(-601.416 -611.439)" fill="currentColor"/>
+ <path data-name="Path 4104" d="m628.4 637.633.185-.186-2.585-2.586-2.587 2.586.186.186z" transform="translate(-601.831 -605.638)" fill="currentColor"/>
+ <path data-name="Path 4105" d="m634.39 631.644.184-.184v-4.805l-.184-.184-2.587 2.587z" transform="translate(-607.634 -599.835)" fill="currentColor"/>
+ <path data-name="Path 4106" d="M640.376 626.242v-.368l-.184.184z" transform="translate(-613.436 -599.421)" fill="currentColor"/>
+ <path data-name="Path 4107" d="m639.961 643.435-.184-.185-.185.186z" transform="translate(-613.021 -611.439)" fill="currentColor"/>
+ <path data-name="Path 4108" d="M640.376 643.021v-.368l-.184.184z" transform="translate(-613.436 -611.027)" fill="currentColor"/>
+ <path data-name="Path 4109" d="m606.044 525.206.182.182.183-.182z" transform="translate(-589.817 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4110" d="M640.378 559.127v-.367l-.184.184z" transform="translate(-613.438 -553.001)" fill="currentColor"/>
+ <path data-name="Path 4111" d="M522.145 525.206v.388l.194-.195-.193-.193z" transform="translate(-531.787 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4112" d="m522.148 525.206.193.193.193-.193z" transform="translate(-531.789 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4113" d="m522.145 542.37.194-.194-.194-.195z" transform="translate(-531.787 -541.395)" fill="currentColor"/>
+ <path data-name="Path 4114" d="m522.145 530.81.194.195 2.587-2.587-2.587-2.587-.194.195z" transform="translate(-531.787 -530.225)" fill="currentColor"/>
+ <path data-name="Path 4115" d="m522.969 525.206-.193.193 2.587 2.587 2.587-2.587-.193-.193z" transform="translate(-532.223 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4116" d="m538.928 525.206.193.193.193-.193z" transform="translate(-543.395 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4117" d="m522.145 559.148.194-.194-.194-.195z" transform="translate(-531.787 -553.001)" fill="currentColor"/>
+ <path data-name="Path 4118" d="m522.145 547.591.194.195 2.587-2.587-2.587-2.586-.194.194z" transform="translate(-531.787 -541.832)" fill="currentColor"/>
+ <path data-name="Rectangle 3043" transform="rotate(-45 -3.785 11.795)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Rectangle 3044" transform="rotate(-45 -5.614 7.378)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4119" d="m539.747 525.206-.193.193 2.587 2.587 2.587-2.587-.193-.193z" transform="translate(-543.828 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4120" d="m555.707 525.206.193.193.193-.193z" transform="translate(-555.001 -529.793)" fill="currentColor"/>
+ <path data-name="Path 4121" d="m522.145 609.465.183-.184-.183-.184z" transform="translate(-531.787 -587.818)" fill="currentColor"/>
+ <path data-name="Path 4122" d="m522.145 626.244.183-.184-.183-.183z" transform="translate(-531.787 -599.423)" fill="currentColor"/>
+ <path data-name="Path 4123" d="m522.145 614.683.183.183 2.587-2.587-2.587-2.586-.183.184z" transform="translate(-531.787 -588.23)" fill="currentColor"/>
+ <path data-name="Path 4124" d="m522.145 643.022.183-.184-.183-.184z" transform="translate(-531.787 -611.028)" fill="currentColor"/>
+ <path data-name="Path 4125" d="m522.145 631.461.183.184 2.587-2.587-2.587-2.587-.183.184z" transform="translate(-531.787 -599.835)" fill="currentColor"/>
+ <path data-name="Rectangle 3045" transform="rotate(-44.997 27.425 24.737)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4126" d="M522.145 643.436h.369l-.185-.185-.183.184z" transform="translate(-531.787 -611.441)" fill="currentColor"/>
+ <path data-name="Path 4127" d="m527.728 637.633.185-.185-2.587-2.587-2.587 2.587.186.185z" transform="translate(-532.198 -605.638)" fill="currentColor"/>
+ <path data-name="Rectangle 3046" transform="rotate(-45.003 31.837 22.906)" fill="currentColor" d="M0 0h3.658v3.658H0z"/>
+ <path data-name="Path 4128" d="m539.289 643.436-.185-.185-.185.185z" transform="translate(-543.388 -611.441)" fill="currentColor"/>
+ <path data-name="Path 4129" d="m544.508 637.633.185-.185-2.587-2.587-2.587 2.587.185.185z" transform="translate(-543.804 -605.638)" fill="currentColor"/>
+ <path data-name="Path 4130" d="m556.069 643.436-.186-.185-.185.185z" transform="translate(-554.995 -611.441)" fill="currentColor"/>
+ </g>
+ </g>
+ </g>
+ </g>
+ </g>
+ <g data-name="Group 7286">
+ <g data-name="Group 7285">
+ <path data-name="Path 4132" d="M696.3 543.869h8.422c4.918 0 7.891 2.729 7.891 6.67v.056c0 4.465-3.71 6.78-8.333 6.78h-3.445v5.789H696.3zm8.127 9.73c2.268 0 3.592-1.268 3.592-2.922v-.055c0-1.9-1.413-2.922-3.681-2.922h-3.5v5.9z" transform="translate(-652.248 -542.223)" fill="currentColor"/>
+ <path data-name="Path 4133" d="M779.2 543.869h9.423a8.555 8.555 0 0 1 6.007 1.957 5.847 5.847 0 0 1 1.767 4.41v.055a6.03 6.03 0 0 1-4.417 5.981l5.035 6.891h-5.3l-4.415-6.173h-3.563v6.174H779.2zm9.128 9.372c2.209 0 3.475-1.1 3.475-2.729v-.055c0-1.819-1.354-2.757-3.563-2.757h-4.505v5.54z" transform="translate(-709.586 -542.223)" fill="currentColor"/>
+ <path data-name="Path 4134" d="M867.353 543.869H882.9v3.776h-11.042v3.914h9.717v3.776h-9.717v4.052h11.189v3.776h-15.694z" transform="translate(-770.557 -542.223)" fill="currentColor"/>
+ <path data-name="Path 4135" d="M950.442 543.869h4.888l5.418 8.159 5.418-8.159h4.888v19.295h-4.505v-12.6l-5.8 8.242h-.118l-5.742-8.159v12.514h-4.446z" transform="translate(-828.027 -542.223)" fill="currentColor"/>
+ <path data-name="Path 4136" d="M1053.109 543.869h4.535v19.295h-4.535z" transform="translate(-899.038 -542.223)" fill="currentColor"/>
+ <path data-name="Path 4137" d="M1102.581 554.895v-11.026h4.535v10.915c0 3.142 1.678 4.769 4.446 4.769s4.446-1.571 4.446-4.631v-11.053h4.535v10.888c0 5.844-3.5 8.711-9.04 8.711s-8.922-2.895-8.922-8.573z" transform="translate(-933.256 -542.223)" fill="currentColor"/>
+ <path data-name="Path 4138" d="M1194.933 543.869h4.888l5.418 8.159 5.418-8.159h4.889v19.295h-4.506v-12.6l-5.8 8.242h-.118l-5.742-8.159v12.514h-4.446z" transform="translate(-997.133 -542.223)" fill="currentColor"/>
+ </g>
+ </g>
+ <path data-name="Line 127" transform="translate(37.408 1.961)" fill="none" stroke="currentColor" stroke-miterlimit="10" d="M0 0v18.83"/>
+ </g>
+</svg>

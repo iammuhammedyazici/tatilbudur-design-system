@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120">
+ 
+ <!-- Backrests -->
+ <path fill="currentColor" d="M30 65V34c0-7 5.7-13 12.7-13h9.6C59.3 21 65 27 65 34v31H30z"/>
+ <path fill="currentColor" d="M82.5 65V34c0-7 5.7-13 12.7-13h9.6c7 0 12.7 6 12.7 13v31H82.5z"/>
+ <path fill="currentColor" d="M135 65V34c0-7 5.7-13 12.7-13h9.6c7 0 12.7 6 12.7 13v31H135z"/>
+
+ <!-- Middle line -->
+ <rect fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round"
+ x="20" y="65" width="160" height="14" rx="3"/>
+
+ <!-- Legs -->
+ <rect fill="currentColor" x="41" y="79" width="8" height="20"/>
+ <rect fill="currentColor" x="96" y="79" width="8" height="20"/>
+ <rect fill="currentColor" x="151" y="79" width="8" height="20"/>
+
+ <!-- Feet -->
+ <rect fill="currentColor" x="30" y="99" width="30" height="7" rx="2.5"/>
+ <rect fill="currentColor" x="85" y="99" width="30" height="7" rx="2.5"/>
+ <rect fill="currentColor" x="140" y="99" width="30" height="7" rx="2.5"/>
+
+</svg>

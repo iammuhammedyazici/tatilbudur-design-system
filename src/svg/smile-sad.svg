@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+ <path data-name="Path 3470" d="M13.5 16.5A1.5 1.5 0 1 0 12 15a1.5 1.5 0 0 0 1.5 1.5z" transform="translate(-3 -3)"/>
+ <path data-name="Path 3471" d="M21 25.5a3 3 0 0 0-6 0h-3a6 6 0 1 1 12 0z" transform="translate(-3 -3)"/>
+ <path data-name="Path 3472" d="M24 15a1.5 1.5 0 1 1-1.5-1.5A1.5 1.5 0 0 1 24 15z" transform="translate(-3 -3)"/>
+ <path data-name="Path 3473" d="M33 18A15 15 0 1 1 18 3a15 15 0 0 1 15 15zm-3 0A12 12 0 1 1 18 6a12 12 0 0 1 12 12z" fill-rule="evenodd" transform="translate(-3 -3)"/>
+</svg>

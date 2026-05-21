@@ -1,0 +1,12 @@
+<svg data-name="Group 2699" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.045 4.633">
+ <defs>
+ <clipPath id="w0ociu4oba">
+ <path data-name="Rectangle 1982" fill="currentColor" d="M0 0h16.045v4.633H0z"/>
+ </clipPath>
+ </defs>
+ <g data-name="Group 2695" style="clip-path:url(#w0ociu4oba)">
+ <path data-name="Path 1852" d="M158.717.164a.58.58 0 0 0-.809 0 .58.58 0 0 0 0 .809l.776.776h-4.249a.573.573 0 0 0 0 1.147h4.265l-.776.759a.58.58 0 0 0 0 .809.57.57 0 0 0 .809 0l1.737-1.737a.58.58 0 0 0 0-.809z" transform="translate(-149.228 .001)" fill="currentColor"/>
+ <path data-name="Path 1853" d="M3.3 19.764a.58.58 0 0 0-.809 0l-.759.759-.759-.759a.58.58 0 0 0-.809 0 .58.58 0 0 0 0 .809l.776.742-.759.759a.58.58 0 0 0 0 .809.548.548 0 0 0 .4.169.548.548 0 0 0 .4-.169l.759-.759.759.759a.57.57 0 0 0 .809 0 .58.58 0 0 0 0-.809l-.776-.759.759-.759a.56.56 0 0 0 0-.793z" transform="translate(0 -19.009)" fill="currentColor"/>
+ <path data-name="Path 1854" d="m419.741 20.774.759-.759a.572.572 0 1 0-.809-.809l-.759.759-.759-.759a.572.572 0 0 0-.809.809l.759.759-.742.759a.58.58 0 0 0 0 .809.57.57 0 0 0 .809 0l.759-.759.759.759a.57.57 0 0 0 .809 0 .58.58 0 0 0 0-.809z" transform="translate(-404.637 -18.468)" fill="currentColor"/>
+ </g>
+</svg>

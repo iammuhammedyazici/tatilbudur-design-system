@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.959 34.826">
+ <defs>
+ <clipPath id="itakqaj33a">
+ <path data-name="Rectangle 2393" fill="currentColor" d="M0 0h18.959v34.826H0z"/>
+ </clipPath>
+ </defs>
+ <g data-name="Group 7371" style="clip-path:url(#itakqaj33a)">
+ <path data-name="Path 3132" d="M6.118 34.679a7.583 7.583 0 0 0 5.949-13.567V4.5A4.474 4.474 0 0 0 7.569 0a4.521 4.521 0 0 0-4.5 4.5v16.612a7.526 7.526 0 0 0-2.9 7.69 7.616 7.616 0 0 0 5.949 5.876zM4.014 22.49l.653-.508V4.571A2.833 2.833 0 0 1 7.5 1.741a2.9 2.9 0 0 1 2.9 2.829v17.412l.653.508a5.878 5.878 0 0 1 2.394 4.788 5.986 5.986 0 0 1-1.747 4.209 6.118 6.118 0 0 1-4.2 1.741 5.872 5.872 0 0 1-5.8-4.716 6.183 6.183 0 0 1 2.314-6.022" fill="currentColor"/>
+ <path data-name="Path 3133" d="M54.546 183.368a4.213 4.213 0 0 0 4.28-4.28c0-2.9-2.467-3.845-3.12-4.426V162.4h-2.393v12.261c-.508.58-3.7 1.741-2.975 5.3a4.236 4.236 0 0 0 4.208 3.41z" transform="translate(-46.978 -151.881)" fill="currentColor"/>
+ <path data-name="Path 3134" d="M219.535 76.158H215.4v1.669h4.135a.805.805 0 0 0 .8-.8.748.748 0 0 0-.8-.871z" transform="translate(-201.447 -71.225)" fill="currentColor"/>
+ <path data-name="Path 3135" d="M219.787 145.277a.805.805 0 0 0-.8-.8h-2.467v1.669h2.467a.928.928 0 0 0 .8-.871z" transform="translate(-202.496 -135.12)" fill="currentColor"/>
+ <path data-name="Path 3136" d="M221.453 212.477a.805.805 0 0 0-.8-.8h-4.133v1.669h4.135a.871.871 0 0 0 .8-.871z" transform="translate(-202.495 -197.967)" fill="currentColor"/>
+ </g>
+</svg>

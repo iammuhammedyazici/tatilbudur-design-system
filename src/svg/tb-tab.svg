@@ -1,0 +1,26 @@
+<svg viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+ <g filter="url(#ut7vvix2na)">
+ <rect x="4" width="54" height="54" rx="27" fill="#FBFBF9" shape-rendering="crispEdges"/>
+ <rect x="4" width="54" height="54" rx="27" fill="url(#idw077r5ab)" shape-rendering="crispEdges"/>
+ <path d="M33.504 35.649c-1.583-1.584-2.353-3.437-2.353-5.668V18.386c0-.615.224-1.129.683-1.571.468-.45.998-.669 1.623-.669.62 0 1.136.216 1.579.66.444.443.658.96.658 1.58v3.611h3.51c2.232 0 4.086.764 5.67 2.335 1.581 1.573 2.35 3.42 2.35 5.65 0 2.229-.775 4.082-2.368 5.665C43.263 37.23 41.402 38 39.17 38c-2.231 0-4.085-.77-5.667-2.351zm2.149-9.177.041 3.51c0 .977.348 1.822 1.035 2.509.686.687 1.518 1.034 2.476 1.034.956 0 1.794-.354 2.49-1.052.7-.698 1.054-1.536 1.054-2.493 0-.958-.357-1.792-1.058-2.479a3.486 3.486 0 0 0-2.519-1.03H35.653zM26.735 37.92c-2.231 0-4.09-.77-5.684-2.353a8.674 8.674 0 0 1-1.08-1.304c-.893-1.296-1.344-2.789-1.344-4.444v-3.711H17.01a2.136 2.136 0 0 1-1.576-.659 2.132 2.132 0 0 1-.658-1.576c0-.617.215-1.133.659-1.576.444-.443.96-.66 1.576-.66h1.618v-3.403c0-.616.22-1.13.669-1.57.456-.447.979-.664 1.598-.664.62 0 1.117.209 1.556.637.015.02.032.04.05.058l.014.014a2.135 2.135 0 0 1 .68 1.597v3.503h4.195c.607 0 1.116.209 1.556.639a.853.853 0 0 0 .055.064l.015.015.04.037c.43.438.638.947.638 1.556a2.15 2.15 0 0 1-.66 1.579c-.443.444-.958.66-1.577.66h-4.298v3.543c0 .701.196 1.347.584 1.92l.013.02c.136.188.262.336.394.468.692.696 1.53 1.049 2.488 1.049h.752a2.14 2.14 0 0 1 1.578.66c.11.11.21.231.297.36l.015.023c.28.38.415.8.415 1.282 0 .62-.216 1.136-.66 1.579-.443.443-.958.658-1.577.658h-.719l-.004-.001z" fill="#fff"/>
+ </g>
+ <defs>
+ <linearGradient id="idw077r5ab" x1="62.338" y1="44.205" x2="-7.359" y2="5.944" gradientUnits="userSpaceOnUse">
+ <stop stop-color="#EBBB1F"/>
+ <stop offset=".15" stop-color="#F38421"/>
+ <stop offset=".32" stop-color="#E01F4A"/>
+ <stop offset=".53" stop-color="#86287E"/>
+ <stop offset=".81" stop-color="#004DAA"/>
+ </linearGradient>
+ <filter id="ut7vvix2na" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+ <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+ <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+ <feOffset dy="4"/>
+ <feGaussianBlur stdDeviation="2"/>
+ <feComposite in2="hardAlpha" operator="out"/>
+ <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+ <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_3789_302815"/>
+ <feBlend in="SourceGraphic" in2="effect1_dropShadow_3789_302815" result="shape"/>
+ </filter>
+ </defs>
+</svg>
