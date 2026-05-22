@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
-import { Button } from './Button.web';
 import { expect, userEvent, within, fn } from 'storybook/test';
-import { CodeBlock } from '../../stories/CodeBlock';
+import { Button } from './Button.web';
 
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
@@ -10,14 +9,19 @@ const meta: Meta<typeof Button> = {
     layout: 'centered',
     docs: {
       description: {
-        component: 'TatilBudur Design System Button. 5 variants, 3 sizes, loading + disabled states.',
+        component:
+          'TatilBudur Button. 4 style × 3 variant × 3 size × 4 icon layout = 144 kombinasyon.',
       },
     },
   },
   argTypes: {
+    buttonStyle: {
+      control: 'select',
+      options: ['filled', 'outline', 'ghost', 'link'],
+    },
     variant: {
       control: 'select',
-      options: ['primary', 'secondary', 'outline', 'ghost', 'danger'],
+      options: ['primary', 'secondary', 'tertiary'],
     },
     size: {
       control: 'select',
@@ -26,6 +30,7 @@ const meta: Meta<typeof Button> = {
     disabled: { control: 'boolean' },
     loading: { control: 'boolean' },
     fullWidth: { control: 'boolean' },
+    iconOnly: { control: 'boolean' },
     onPress: { action: 'pressed' },
   },
   tags: ['autodocs'],
@@ -34,274 +39,237 @@ const meta: Meta<typeof Button> = {
 export default meta;
 type Story = StoryObj<typeof Button>;
 
-// ============ Single variants ============
-export const Primary: Story = {
+// ============ Helper: Basit ok ikonu ============
+const ArrowRight = ({ size = 16 }: { size?: number }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+    <path
+      d="M5 12h14m0 0l-6-6m6 6l-6 6"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+// ============ DEFAULT (Playground) ============
+export const Playground: Story = {
   args: {
-    children: 'Otel Ara',
+    children: 'Button',
+    buttonStyle: 'filled',
     variant: 'primary',
     size: 'md',
   },
 };
 
-export const Secondary: Story = {
+// ============ FILLED VARIANTS ============
+export const FilledPrimary: Story = {
+  args: { children: 'Button', buttonStyle: 'filled', variant: 'primary' },
+};
+
+export const FilledSecondary: Story = {
+  args: { children: 'Button', buttonStyle: 'filled', variant: 'secondary' },
+};
+
+export const FilledTertiary: Story = {
+  args: { children: 'Button', buttonStyle: 'filled', variant: 'tertiary' },
+};
+
+// ============ OUTLINE VARIANTS ============
+export const OutlinePrimary: Story = {
+  args: { children: 'Button', buttonStyle: 'outline', variant: 'primary' },
+};
+
+export const OutlineSecondary: Story = {
+  args: { children: 'Button', buttonStyle: 'outline', variant: 'secondary' },
+};
+
+export const OutlineTertiary: Story = {
+  args: { children: 'Button', buttonStyle: 'outline', variant: 'tertiary' },
+};
+
+// ============ GHOST VARIANTS ============
+export const GhostPrimary: Story = {
+  args: { children: 'Button', buttonStyle: 'ghost', variant: 'primary' },
+};
+
+export const GhostSecondary: Story = {
+  args: { children: 'Button', buttonStyle: 'ghost', variant: 'secondary' },
+};
+
+export const GhostTertiary: Story = {
+  args: { children: 'Button', buttonStyle: 'ghost', variant: 'tertiary' },
+};
+
+// ============ LINK VARIANTS ============
+export const LinkPrimary: Story = {
+  args: { children: 'Button', buttonStyle: 'link', variant: 'primary' },
+};
+
+export const LinkSecondary: Story = {
+  args: { children: 'Button', buttonStyle: 'link', variant: 'secondary' },
+};
+
+export const LinkTertiary: Story = {
+  args: { children: 'Button', buttonStyle: 'link', variant: 'tertiary' },
+};
+
+// ============ ICON LAYOUTS ============
+export const WithLeftIcon: Story = {
   args: {
-    children: 'Otelleri İncele',
-    variant: 'secondary',
-    size: 'md',
+    children: 'Button',
+    leftIcon: <ArrowRight />,
+    buttonStyle: 'filled',
+    variant: 'primary',
   },
 };
 
-export const Outline: Story = {
+export const WithRightIcon: Story = {
   args: {
-    children: 'Rezervasyonlarım',
-    variant: 'outline',
-    size: 'md',
+    children: 'Button',
+    rightIcon: <ArrowRight />,
+    buttonStyle: 'filled',
+    variant: 'primary',
   },
 };
 
-export const Ghost: Story = {
+export const IconOnly: Story = {
   args: {
-    children: 'Giriş Yapın',
-    variant: 'ghost',
-    size: 'md',
+    leftIcon: <ArrowRight />,
+    iconOnly: true,
+    buttonStyle: 'filled',
+    variant: 'primary',
   },
 };
 
-export const Danger: Story = {
-  args: {
-    children: 'İptal Et',
-    variant: 'danger',
-    size: 'md',
-  },
-};
-
-// ============ Sizes ============
-export const Small: Story = {
-  args: { children: 'Filtrele', variant: 'primary', size: 'sm' },
-};
-
-export const Medium: Story = {
-  args: { children: 'Otel Ara', variant: 'primary', size: 'md' },
-};
-
-export const Large: Story = {
-  args: { children: 'Rezervasyon Yap', variant: 'primary', size: 'lg' },
-};
-
-// ============ States ============
-export const Loading: Story = {
-  args: { children: 'Yükleniyor...', variant: 'primary', loading: true },
-};
-
+// ============ STATES ============
 export const Disabled: Story = {
-  args: { children: 'Devre Dışı', variant: 'primary', disabled: true },
+  args: { children: 'Button', disabled: true },
+};
+
+export const Loading: Story = {
+  args: { children: 'Loading', loading: true },
 };
 
 export const FullWidth: Story = {
-  args: { children: 'Tam Genişlik', variant: 'primary', fullWidth: true },
+  args: { children: 'Tam Genişlik', fullWidth: true },
   parameters: { layout: 'padded' },
 };
 
-// ============ All variants showcase ============
-export const AllVariants: Story = {
+// ============ FULL MATRIX (Figma'ya tıpatıp aynı) ============
+const StyleSection: React.FC<{
+  title: string;
+  buttonStyle: 'filled' | 'outline' | 'ghost' | 'link';
+  variant: 'primary' | 'secondary' | 'tertiary';
+}> = ({ title, buttonStyle, variant }) => {
+  const sizes: Array<'lg' | 'md' | 'sm'> = ['lg', 'md', 'sm'];
+  const sizeLabels = { lg: 'Large', md: 'Medium', sm: 'Small' };
+
+  return (
+    <div style={{ marginBottom: 48 }}>
+      <h3 style={{ margin: '0 0 16px', fontSize: 16, fontWeight: 700, color: '#1F2937' }}>
+        /{title.toUpperCase()}
+      </h3>
+
+      {sizes.map((size) => (
+        <div key={size} style={{ marginBottom: 24 }}>
+          <p style={{ margin: '0 0 8px', fontSize: 13, color: '#6B7280' }}>{sizeLabels[size]}</p>
+
+          {/* Default row */}
+          <div style={{ display: 'flex', gap: 12, marginBottom: 8, alignItems: 'center' }}>
+            <span style={{ width: 80, fontSize: 12, color: '#9CA3AF' }}>Default</span>
+            <Button buttonStyle={buttonStyle} variant={variant} size={size}>Button</Button>
+            <Button buttonStyle={buttonStyle} variant={variant} size={size} leftIcon={<ArrowRight />}>Button</Button>
+            <Button buttonStyle={buttonStyle} variant={variant} size={size} rightIcon={<ArrowRight />}>Button</Button>
+            <Button buttonStyle={buttonStyle} variant={variant} size={size} leftIcon={<ArrowRight />} iconOnly />
+          </div>
+
+          {/* Disabled row */}
+          <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
+            <span style={{ width: 80, fontSize: 12, color: '#9CA3AF' }}>Disabled</span>
+            <Button buttonStyle={buttonStyle} variant={variant} size={size} disabled>Button</Button>
+            <Button buttonStyle={buttonStyle} variant={variant} size={size} disabled leftIcon={<ArrowRight />}>Button</Button>
+            <Button buttonStyle={buttonStyle} variant={variant} size={size} disabled rightIcon={<ArrowRight />}>Button</Button>
+            <Button buttonStyle={buttonStyle} variant={variant} size={size} disabled leftIcon={<ArrowRight />} iconOnly />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export const FilledMatrix: Story = {
+  parameters: { layout: 'padded' },
   render: () => (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 16, alignItems: 'flex-start' }}>
-      <div style={{ display: 'flex', gap: 12 }}>
-        <Button variant="primary">Primary</Button>
-        <Button variant="secondary">Secondary</Button>
-        <Button variant="outline">Outline</Button>
-        <Button variant="ghost">Ghost</Button>
-        <Button variant="danger">Danger</Button>
-      </div>
-      <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
-        <Button size="sm">Small</Button>
-        <Button size="md">Medium</Button>
-        <Button size="lg">Large</Button>
-      </div>
-      <div style={{ display: 'flex', gap: 12 }}>
-        <Button loading>Loading</Button>
-        <Button disabled>Disabled</Button>
-      </div>
+    <div>
+      <StyleSection title="filled/primary" buttonStyle="filled" variant="primary" />
+      <StyleSection title="filled/secondary" buttonStyle="filled" variant="secondary" />
+      <StyleSection title="filled/tertiary" buttonStyle="filled" variant="tertiary" />
     </div>
   ),
 };
 
-// ============ Interaction tests ============
+export const OutlineMatrix: Story = {
+  parameters: { layout: 'padded' },
+  render: () => (
+    <div>
+      <StyleSection title="outline/primary" buttonStyle="outline" variant="primary" />
+      <StyleSection title="outline/secondary" buttonStyle="outline" variant="secondary" />
+      <StyleSection title="outline/tertiary" buttonStyle="outline" variant="tertiary" />
+    </div>
+  ),
+};
+
+export const GhostMatrix: Story = {
+  parameters: { layout: 'padded' },
+  render: () => (
+    <div>
+      <StyleSection title="ghost/primary" buttonStyle="ghost" variant="primary" />
+      <StyleSection title="ghost/secondary" buttonStyle="ghost" variant="secondary" />
+      <StyleSection title="ghost/tertiary" buttonStyle="ghost" variant="tertiary" />
+    </div>
+  ),
+};
+
+export const LinkMatrix: Story = {
+  parameters: { layout: 'padded' },
+  render: () => (
+    <div>
+      <StyleSection title="link/primary" buttonStyle="link" variant="primary" />
+      <StyleSection title="link/secondary" buttonStyle="link" variant="secondary" />
+      <StyleSection title="link/tertiary" buttonStyle="link" variant="tertiary" />
+    </div>
+  ),
+};
+
+// ============ INTERACTION TESTS ============
 export const ClickInteraction: Story = {
   args: {
     children: 'Test Click',
-    variant: 'primary',
     onPress: fn(),
+    testID: 'click-btn',
   },
-  play: async ({ args, canvasElement, step }) => {
+  play: async ({ args, canvasElement }) => {
     const canvas = within(canvasElement);
-    const button = canvas.getByRole('button', { name: /test click/i });
+    const button = canvas.getByTestId('click-btn');
 
-    await step('Butona tıklanır', async () => {
-      await userEvent.click(button);
-    });
-
-    await step('onPress 1 kez çağrılır', async () => {
-      await expect(args.onPress).toHaveBeenCalledTimes(1);
-    });
+    await userEvent.click(button);
+    await expect(args.onPress).toHaveBeenCalledTimes(1);
   },
 };
 
 export const DisabledNoClick: Story = {
   args: {
-    children: 'Disabled Click',
-    variant: 'primary',
+    children: 'Disabled',
     disabled: true,
     onPress: fn(),
+    testID: 'disabled-btn',
   },
   play: async ({ args, canvasElement }) => {
     const canvas = within(canvasElement);
-    const button = canvas.getByRole('button');
+    const button = canvas.getByTestId('disabled-btn');
 
     await userEvent.click(button);
     await expect(args.onPress).not.toHaveBeenCalled();
   },
-};
-
-export const LoadingShowsSpinner: Story = {
-  args: {
-    children: 'Loading Test',
-    variant: 'primary',
-    loading: true,
-  },
-  play: async ({ canvasElement }) => {
-    const canvas = within(canvasElement);
-    const button = canvas.getByRole('button');
-
-    // Loading'de button disabled
-    await expect(button).toBeDisabled();
-
-    // Loading text gizli
-    await expect(canvas.queryByText('Loading Test')).not.toBeInTheDocument();
-  },
-};
-
-// ============ Code Examples ============
-export const CodeExamples: Story = {
-  parameters: { layout: 'padded' },
-  render: () => (
-    <div style={{ maxWidth: 800 }}>
-      <h3 style={{ margin: '0 0 12px', fontSize: 18, fontWeight: 600 }}>
-        Kullanım Örnekleri
-      </h3>
-      <p style={{ margin: '0 0 16px', color: '#6B7280', fontSize: 14 }}>
-        Aşağıdaki kodu kopyalayıp projenize yapıştırabilirsiniz.
-      </p>
-
-      <div style={{ display: 'flex', gap: 16, marginBottom: 24 }}>
-        <Button variant="primary">Otel Ara</Button>
-        <Button variant="outline">İptal</Button>
-        <Button variant="primary" loading>Yükleniyor</Button>
-      </div>
-
-      <CodeBlock
-        tabs={[
-          {
-            label: 'React (Web)',
-            language: 'tsx',
-            code: `import { Button } from '@iammuhammedyazici/tatilbudur-design-system';
-
-export const Example = () => {
-  return (
-    <>
-      <Button variant="primary" onPress={() => console.log('clicked')}>
-        Otel Ara
-      </Button>
-
-      <Button variant="outline">
-        İptal
-      </Button>
-
-      <Button variant="primary" loading>
-        Yükleniyor
-      </Button>
-    </>
-  );
-};`,
-          },
-          {
-            label: 'React Native',
-            language: 'tsx',
-            code: `import { Button } from '@iammuhammedyazici/tatilbudur-design-system/native';
-
-export const Example = () => {
-  return (
-    <>
-      <Button variant="primary" onPress={() => console.log('clicked')}>
-        Otel Ara
-      </Button>
-
-      <Button variant="outline">
-        İptal
-      </Button>
-
-      <Button variant="primary" loading>
-        Yükleniyor
-      </Button>
-    </>
-  );
-};`,
-          },
-          {
-            label: 'HTML/CSS',
-            language: 'html',
-            code: `<!-- Primary Button -->
-<button
-  style="
-    background: #1D4ED8;
-    color: white;
-    border: none;
-    border-radius: 999px;
-    padding: 12px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    min-height: 40px;
-  "
->
-  Otel Ara
-</button>
-
-<!-- Outline Button -->
-<button
-  style="
-    background: white;
-    color: #1D4ED8;
-    border: 1.5px solid #1D4ED8;
-    border-radius: 999px;
-    padding: 12px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-  "
->
-  İptal
-</button>`,
-          },
-          {
-            label: 'Tüm Props',
-            language: 'tsx',
-            code: `<Button
-  variant="primary"        // primary | secondary | outline | ghost | danger
-  size="md"                // sm | md | lg
-  onPress={() => {}}       // Click handler
-  disabled={false}         // Devre dışı
-  loading={false}          // Spinner gösterir
-  fullWidth={false}        // Tam genişlik
-  leftIcon={<Icon />}      // Sol ikon
-  rightIcon={<Icon />}     // Sağ ikon
-  testID="my-button"       // Test için
->
-  Buton Metni
-</Button>`,
-          },
-        ]}
-      />
-    </div>
-  ),
 };

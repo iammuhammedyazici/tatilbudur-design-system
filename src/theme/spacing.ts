@@ -1,33 +1,36 @@
 /**
- * Spacing scale — 4px base
+ * Spacing tokens (Figma)
  */
 export const spacing = {
-  0: 0,
-  1: 4,
-  2: 8,
-  3: 12,
-  4: 16,
-  5: 20,
-  6: 24,
-  8: 32,
-  10: 40,
-  12: 48,
+  none: 0,
+  xs: 4,
+  small: 8,
+  default: 12,
+  medium: 16,
+  large: 24,
+  xl: 32,
 } as const;
 
 export const radius = {
   none: 0,
   sm: 4,
-  md: 8,
+  md: 8,        // button radius
   lg: 12,
   xl: 16,
-  full: 999,  // pill shape
+  full: 999,
 } as const;
 
 export const fontSize = {
   xs: 12,
-  sm: 14,
-  base: 16,
+  sm: 14,       // small button
+  base: 16,     // medium/large button
   lg: 18,
   xl: 20,
-  '2xl': 24,
+} as const;
+
+export const fontWeight = {
+  normal: '400',
+  medium: '500',
+  semibold: '600',
+  bold: '700',
 } as const;

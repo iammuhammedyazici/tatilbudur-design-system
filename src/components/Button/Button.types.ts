@@ -1,28 +1,32 @@
 import type { ReactNode } from 'react';
 
-export type ButtonVariant = 'primary' | 'secondary' | 'outline' | 'ghost' | 'danger';
+export type ButtonStyle = 'filled' | 'outline' | 'ghost' | 'link';
+export type ButtonVariant = 'primary' | 'secondary' | 'tertiary';
 export type ButtonSize = 'sm' | 'md' | 'lg';
 
 export interface ButtonProps {
-  /** Buton içeriği (text veya custom JSX) */
-  children: ReactNode;
+  /** Buton içeriği */
+  children?: ReactNode;
 
-  /** Görsel varyant */
+  /** Görsel stil: filled / outline / ghost / link */
+  buttonStyle?: ButtonStyle;
+
+  /** Renk varyantı: primary / secondary / tertiary */
   variant?: ButtonVariant;
 
-  /** Boyut */
+  /** Boyut: sm (32px) / md (40px) / lg (48px) */
   size?: ButtonSize;
 
   /** Tıklama handler */
   onPress?: () => void;
 
-  /** Devre dışı durum */
+  /** Devre dışı */
   disabled?: boolean;
 
-  /** Yükleniyor durumu (spinner gösterir) */
+  /** Yükleniyor */
   loading?: boolean;
 
-  /** Tam genişlik kullansın mı */
+  /** Tam genişlik */
   fullWidth?: boolean;
 
   /** Sol ikon */
@@ -31,6 +35,9 @@ export interface ButtonProps {
   /** Sağ ikon */
   rightIcon?: ReactNode;
 
-  /** Test için */
+  /** Sadece ikon (kare buton) */
+  iconOnly?: boolean;
+
+  /** Test ID */
   testID?: string;
 }
