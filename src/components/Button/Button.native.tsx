@@ -165,7 +165,7 @@ export const Button: React.FC<ButtonProps> = ({
     alignItems: 'center',
     justifyContent: 'center',
     gap: sizeTokens.gap,
-    height: sizeTokens.height,
+    minHeight: sizeTokens.height,
     minWidth: iconOnly ? undefined : sizeTokens.minWidth,
     width: iconOnly ? sizeTokens.iconOnlyWidth : fullWidth ? '100%' : undefined,
     alignSelf: fullWidth ? 'stretch' : 'flex-start',
