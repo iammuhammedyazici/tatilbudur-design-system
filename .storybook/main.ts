@@ -1,9 +1,13 @@
 import type { StorybookConfig } from '@storybook/react-vite';
 
 const config: StorybookConfig = {
+  // Öncelik mobil: şimdilik sadece *.native.stories.* dosyaları gösteriliyor.
+  // Web story'leri (Button.stories.tsx, Input.stories.tsx, Icons.stories.tsx)
+  // silinmedi, sadece bu listeden çıkarıldı — web tarafına dönüldüğünde
+  // ikinci satırı geri eklemek yeterli.
   "stories": [
-    "../src/**/*.mdx",
-    "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
+    "../src/**/*.native.stories.@(js|jsx|mjs|ts|tsx)"
+    // "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
   "addons": [
     "@chromatic-com/storybook",

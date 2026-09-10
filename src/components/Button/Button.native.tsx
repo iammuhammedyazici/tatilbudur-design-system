@@ -9,7 +9,7 @@ import {
   GestureResponderEvent,
 } from 'react-native';
 import { colors } from '../../theme/colors';
-import { spacing, radius, fontSize, fontWeight } from '../../theme/spacing';
+import { spacing, radius, fontSize } from '../../theme/spacing';
 import type { ButtonProps, ButtonStyle, ButtonVariant, ButtonSize } from './Button.types';
 
 // ============ SIZE TOKENS ============
@@ -179,8 +179,11 @@ export const Button: React.FC<ButtonProps> = ({
   const computedTextStyle: TextStyle = {
     color: stateColors.text,
     fontSize: sizeTokens.fontSize,
+    // Not: fontWeight kasıtlı olarak set edilmiyor. Android, özel bir font
+    // dosyası (fontFamily) ile birlikte fontWeight de verilirse typeface'i
+    // yanlış çözümleyip özel fontu (örn. textStyle ile geçilen 'Poppins-Bold')
+    // görmezden gelebiliyor. Ağırlık tamamen fontFamily ile belirleniyor.
     fontFamily: 'Poppins-Medium',
-    fontWeight: fontWeight.medium as TextStyle['fontWeight'],
     textDecorationLine: isLink ? 'underline' : 'none',
     includeFontPadding: false,
     textAlignVertical: 'center',
