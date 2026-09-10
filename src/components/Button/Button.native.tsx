@@ -144,6 +144,8 @@ export const Button: React.FC<ButtonProps> = ({
   rightIcon,
   iconOnly = false,
   testID,
+  style,
+  textStyle,
 }) => {
   const isDisabled = disabled || loading;
   const [isPressed, setIsPressed] = useState(false);
@@ -175,11 +177,14 @@ export const Button: React.FC<ButtonProps> = ({
     borderRadius: isLink ? radius.sm : radius.md,
   };
 
-  const textStyle: TextStyle = {
+  const computedTextStyle: TextStyle = {
     color: stateColors.text,
     fontSize: sizeTokens.fontSize,
+    fontFamily: 'Poppins-Medium',
     fontWeight: fontWeight.medium as TextStyle['fontWeight'],
     textDecorationLine: isLink ? 'underline' : 'none',
+    includeFontPadding: false,
+    textAlignVertical: 'center',
   };
 
   const handlePressIn = () => setIsPressed(true);
@@ -195,7 +200,7 @@ export const Button: React.FC<ButtonProps> = ({
       onPressIn={handlePressIn}
       onPressOut={handlePressOut}
       disabled={isDisabled}
-      style={containerStyle}
+      style={[containerStyle, style]}
       testID={testID}
     >
       {loading ? (
@@ -207,7 +212,7 @@ export const Button: React.FC<ButtonProps> = ({
           {leftIcon && <View>{leftIcon}</View>}
           {children && (
             typeof children === 'string' ? (
-              <Text style={textStyle}>{children}</Text>
+              <Text style={[computedTextStyle, textStyle]}>{children}</Text>
             ) : (
               children
             )

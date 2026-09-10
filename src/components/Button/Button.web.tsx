@@ -375,6 +375,8 @@ export const Button: React.FC<ButtonProps> = ({
   rightIcon,
   iconOnly = false,
   testID,
+  style,
+  textStyle,
 }) => {
   const isDisabled = disabled || loading;
   const [isHover, setIsHover] = React.useState(false);
@@ -427,7 +429,7 @@ export const Button: React.FC<ButtonProps> = ({
       <SpinnerKeyframes />
       <button
         type="button"
-        style={baseStyle}
+        style={{ ...baseStyle, ...style }}
         disabled={isDisabled}
         onClick={onPress}
         onMouseEnter={() => setIsHover(true)}
@@ -450,7 +452,7 @@ export const Button: React.FC<ButtonProps> = ({
             {leftIcon && (
               <span style={{ display: "inline-flex" }}>{leftIcon}</span>
             )}
-            {children && <span>{children}</span>}
+            {children && <span style={textStyle}>{children}</span>}
             {rightIcon && (
               <span style={{ display: "inline-flex" }}>{rightIcon}</span>
             )}

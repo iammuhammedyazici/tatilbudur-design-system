@@ -40,4 +40,10 @@ export interface ButtonProps {
 
   /** Test ID */
   testID?: string;
+
+  /** Container'a ek/override stil — web: React.CSSProperties, native: ViewStyle */
+  style?: any;
+
+  /** Metin stiline ek/override stil — web: React.CSSProperties, native: TextStyle */
+  textStyle?: any;
 }
