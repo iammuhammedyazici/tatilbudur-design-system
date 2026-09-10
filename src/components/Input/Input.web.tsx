@@ -1,28 +1,30 @@
 import React, { useState } from 'react';
-import { colors, spacing, radius, fontSize } from '../../theme';
+import { colors } from '../../theme/colors';
+import { spacing, radius, fontSize, fontWeight } from '../../theme/spacing';
 import type { InputProps, InputSize, InputStatus } from './Input.types';
 
-const sizeStyles: Record<InputSize, { minHeight: number; fontSize: number; padding: string }> = {
-  sm: { minHeight: 36, fontSize: fontSize.sm, padding: `${spacing[2]}px ${spacing[3]}px` },
-  md: { minHeight: 44, fontSize: fontSize.base, padding: `${spacing[3]}px ${spacing[4]}px` },
-  lg: { minHeight: 52, fontSize: fontSize.lg, padding: `${spacing[4]}px ${spacing[5]}px` },
+// ============ SIZE TOKENS (mobile-first touch targets) ============
+const sizeMap: Record<InputSize, { minHeight: number; fontSize: number; paddingV: number; paddingH: number }> = {
+  sm: { minHeight: 36, fontSize: fontSize.sm, paddingV: spacing.small, paddingH: spacing.default },
+  md: { minHeight: 44, fontSize: fontSize.base, paddingV: spacing.default, paddingH: spacing.medium },
+  lg: { minHeight: 52, fontSize: fontSize.base, paddingV: spacing.medium, paddingH: spacing.large },
 };
 
 const statusColors: Record<InputStatus, { border: string; focus: string; helper: string }> = {
   default: {
-    border: colors.gray[300],
-    focus: colors.primary[500],
-    helper: colors.gray[500],
+    border: colors.neutral.border,
+    focus: colors.primary.default,
+    helper: colors.neutral.textMuted,
   },
   error: {
-    border: colors.danger[500],
-    focus: colors.danger[600],
-    helper: colors.danger[600],
+    border: colors.error.default,
+    focus: colors.error.default,
+    helper: colors.error.default,
   },
   success: {
-    border: colors.success[500],
-    focus: colors.success[600],
-    helper: colors.success[600],
+    border: colors.success.default,
+    focus: colors.success.default,
+    helper: colors.success.default,
   },
 };
 
@@ -44,15 +46,16 @@ export const Input: React.FC<InputProps> = ({
   testID,
 }) => {
   const [focused, setFocused] = useState(false);
-  const colors_ = statusColors[status];
+  const stateColors = statusColors[status];
+  const sizeTokens = sizeMap[size];
   const isInteractive = !disabled && !readOnly;
 
-  const borderColor = focused && isInteractive ? colors_.focus : colors_.border;
+  const borderColor = focused && isInteractive ? stateColors.focus : stateColors.border;
 
   const containerStyle: React.CSSProperties = {
     display: 'inline-flex',
     flexDirection: 'column',
-    gap: spacing[1],
+    gap: spacing.xs,
     width: fullWidth ? '100%' : 'auto',
     opacity: disabled ? 0.6 : 1,
   };
@@ -60,13 +63,17 @@ export const Input: React.FC<InputProps> = ({
   const wrapperStyle: React.CSSProperties = {
     display: 'flex',
     alignItems: 'center',
-    gap: spacing[2],
+    gap: spacing.small,
     border: `1.5px solid ${borderColor}`,
     borderRadius: radius.md,
-    backgroundColor: disabled ? colors.gray[50] : colors.white,
+    backgroundColor: disabled ? colors.neutral.bg : colors.white,
     transition: 'border-color 0.15s',
-    minHeight: sizeStyles[size].minHeight,
-    padding: sizeStyles[size].padding,
+    minHeight: sizeTokens.minHeight,
+    paddingTop: sizeTokens.paddingV,
+    paddingBottom: sizeTokens.paddingV,
+    paddingLeft: sizeTokens.paddingH,
+    paddingRight: sizeTokens.paddingH,
+    boxSizing: 'border-box',
   };
 
   const inputStyle: React.CSSProperties = {
@@ -74,21 +81,21 @@ export const Input: React.FC<InputProps> = ({
     border: 'none',
     outline: 'none',
     background: 'transparent',
-    fontSize: sizeStyles[size].fontSize,
-    color: colors.gray[900],
-    fontFamily: 'inherit',
+    fontSize: sizeTokens.fontSize,
+    color: colors.neutral.text,
+    fontFamily: 'Poppins, -apple-system, BlinkMacSystemFont, sans-serif',
     minWidth: 0,
   };
 
   const labelStyle: React.CSSProperties = {
     fontSize: fontSize.sm,
-    fontWeight: 500,
-    color: colors.gray[700],
+    fontWeight: fontWeight.medium as React.CSSProperties['fontWeight'],
+    color: colors.neutral.text,
   };
 
   const helperStyle: React.CSSProperties = {
     fontSize: fontSize.xs,
-    color: colors_.helper,
+    color: stateColors.helper,
   };
 
   return (
@@ -96,13 +103,13 @@ export const Input: React.FC<InputProps> = ({
       {label && (
         <label style={labelStyle}>
           {label}
-          {required && <span style={{ color: colors.danger[500] }}> *</span>}
+          {required && <span style={{ color: colors.error.default }}> *</span>}
         </label>
       )}
 
       <div style={wrapperStyle}>
         {leftIcon && (
-          <span style={{ display: 'inline-flex', color: colors.gray[400] }}>
+          <span style={{ display: 'inline-flex', color: colors.neutral.placeholder }}>
             {leftIcon}
           </span>
         )}
@@ -121,7 +128,7 @@ export const Input: React.FC<InputProps> = ({
         />
 
         {rightIcon && (
-          <span style={{ display: 'inline-flex', color: colors.gray[400] }}>
+          <span style={{ display: 'inline-flex', color: colors.neutral.placeholder }}>
             {rightIcon}
           </span>
         )}

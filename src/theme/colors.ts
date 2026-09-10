@@ -25,9 +25,30 @@ export const colors = {
     bgHover: '#CFD4DA',
   },
 
+  // ============ STATUS ============
+  success: {
+    default: '#10B981',
+    hover: '#059669',
+    pressed: '#047857',
+    bg: '#ECFDF5',
+  },
+  error: {
+    default: '#EF4444',
+    hover: '#DC2626',
+    pressed: '#B91C1C',
+    bg: '#FEF2F2',
+  },
+
   // ============ NEUTRAL ============
   disable: '#9FA9B5',
   disableLight: '#CFD4DA',
+  neutral: {
+    bg: '#F9FAFB',
+    border: '#CFD4DA',
+    placeholder: '#9FA9B5',
+    text: '#1A2733',
+    textMuted: '#5C6B7A',
+  },
 
   // ============ BASE ============
   white: '#FFFFFF',

@@ -2,7 +2,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "rootDir": "./src/icons",
+    "rootDir": "./src",
     "declaration": true,
     "declarationMap": true,
     "module": "ESNext",
@@ -11,6 +11,6 @@
     "noEmit": false,
     "skipLibCheck": true
   },
-  "include": ["src/icons"],
-  "exclude": ["src/stories", "src/svg", "node_modules", "dist"]
+  "include": ["src/icons", "src/components", "src/theme", "src/index.web.ts", "src/index.native.ts"],
+  "exclude": ["src/stories", "src/svg", "node_modules", "dist", "**/*.stories.tsx", "**/*.test.tsx"]
 }

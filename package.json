@@ -3,20 +3,20 @@
   "version": "0.1.4",
   "description": "TatilBudur Design System — icons & components",
   "type": "module",
-  "main": "./dist/web/index.js",
-  "types": "./dist/web/index.d.ts",
+  "main": "./dist/index.web.js",
+  "types": "./dist/index.web.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/web/index.js",
-      "types": "./dist/web/index.d.ts"
+      "import": "./dist/index.web.js",
+      "types": "./dist/index.web.d.ts"
     },
     "./web": {
-      "import": "./dist/web/index.js",
-      "types": "./dist/web/index.d.ts"
+      "import": "./dist/index.web.js",
+      "types": "./dist/index.web.d.ts"
     },
     "./native": {
-      "import": "./dist/native/index.js",
-      "types": "./dist/native/index.d.ts"
+      "import": "./dist/index.native.js",
+      "types": "./dist/index.native.d.ts"
     }
   },
   "files": [
@@ -42,8 +42,8 @@
     "build-storybook": "npm run build:icons:web && storybook build",
     "prepublishOnly": "npm run build",
     "test": "vitest run --project=unit",
-"test:watch": "vitest --project=unit",
-"test:all": "vitest run"
+    "test:watch": "vitest --project=unit",
+    "test:all": "vitest run"
   },
   "keywords": [
     "design-system",

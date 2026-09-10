@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { expect, userEvent, within, fn } from 'storybook/test';
 import { Button } from './Button.web';
+import { CodeBlock } from '../../stories/CodeBlock';
 
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
@@ -238,6 +239,158 @@ export const LinkMatrix: Story = {
       <StyleSection title="link/primary" buttonStyle="link" variant="primary" />
       <StyleSection title="link/secondary" buttonStyle="link" variant="secondary" />
       <StyleSection title="link/tertiary" buttonStyle="link" variant="tertiary" />
+    </div>
+  ),
+};
+
+// ============ Code Examples ============
+export const CodeExamples: Story = {
+  parameters: { layout: 'padded' },
+  render: () => (
+    <div style={{ maxWidth: 800 }}>
+      <h3 style={{ margin: '0 0 12px', fontSize: 18, fontWeight: 600 }}>
+        Kullanım Örnekleri
+      </h3>
+      <p style={{ margin: '0 0 8px', color: '#6B7280', fontSize: 14 }}>
+        Aşağıdaki kodu kopyalayıp projenize yapıştırabilirsiniz.
+      </p>
+      <p style={{ margin: '0 0 16px', color: '#9CA3AF', fontSize: 12, maxWidth: 640 }}>
+        Not (Migration Mapping): Secondary (pembe) varyant yalnızca Faz 2&apos;de ve tasarım
+        ekibinin özel talebiyle kullanılmalı — mevcut ikincil aksiyonlar Faz 1&apos;de Primary
+        ile gösterilmeye devam eder. Ghost varyantın TatilBudur ürünlerinde henüz karşılığı
+        yok; sadece tasarım ekibinin yeni ekranlarda onayladığı senaryolarda uygulanmalı.
+      </p>
+
+      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, marginBottom: 24, alignItems: 'center' }}>
+        <Button buttonStyle="filled" variant="primary" size="lg">Rez Yap</Button>
+        <Button buttonStyle="outline" variant="primary" size="lg">Oteli İncele</Button>
+        <Button buttonStyle="link" variant="primary">Devamını Oku</Button>
+      </div>
+
+      <CodeBlock
+        tabs={[
+          {
+            label: 'React (Web)',
+            language: 'tsx',
+            code: `import { Button } from '@iammuhammedyazici/tatilbudur-design-system';
+
+export const Example = () => {
+  return (
+    <>
+      {/* Ana aksiyon (CTA) — Primary CTA Rules */}
+      <Button buttonStyle="filled" variant="primary" size="lg" onPress={() => {}}>
+        Rez Yap
+      </Button>
+
+      {/* Primary'ye yakın, daha düşük vurgu — Outlined CTA Rules */}
+      <Button buttonStyle="outline" variant="primary" size="lg" onPress={() => {}}>
+        Oteli İncele
+      </Button>
+
+      {/* Metin bazlı yönlendirme — Link CTA Rules */}
+      <Button buttonStyle="link" variant="primary" onPress={() => {}}>
+        Devamını Oku
+      </Button>
+    </>
+  );
+};`,
+          },
+          {
+            label: 'React Native',
+            language: 'tsx',
+            code: `import { Button } from '@iammuhammedyazici/tatilbudur-design-system/native';
+
+export const Example = () => {
+  return (
+    <>
+      <Button buttonStyle="filled" variant="primary" size="lg" onPress={() => {}}>
+        Rez Yap
+      </Button>
+
+      <Button buttonStyle="outline" variant="primary" size="lg" onPress={() => {}}>
+        Oteli İncele
+      </Button>
+
+      <Button buttonStyle="link" variant="primary" onPress={() => {}}>
+        Devamını Oku
+      </Button>
+    </>
+  );
+};`,
+          },
+          {
+            label: 'HTML/CSS',
+            language: 'html',
+            code: `<!-- Filled / Primary / Large -->
+<button
+  style="
+    height: 48px;
+    padding: 0 24px;
+    background: #004CAA;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  "
+>
+  Rez Yap
+</button>
+
+<!-- Outline / Primary / Large -->
+<button
+  style="
+    height: 48px;
+    padding: 0 24px;
+    background: transparent;
+    color: #004CAA;
+    border: 1.5px solid #004CAA;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  "
+>
+  Oteli İncele
+</button>
+
+<!-- Link / Primary -->
+<button
+  style="
+    background: transparent;
+    color: #004CAA;
+    border: none;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+  "
+>
+  Devamını Oku
+</button>`,
+          },
+          {
+            label: 'Tüm Props',
+            language: 'tsx',
+            code: `<Button
+  children="Rez Yap"          // Buton içeriği
+  buttonStyle="filled"        // filled | outline | ghost | link
+  variant="primary"           // primary | secondary | tertiary
+  size="lg"                   // sm (32px) | md (40px) | lg (48px)
+  onPress={() => {}}          // Tıklama handler
+  disabled={false}            // Devre dışı
+  loading={false}             // Yükleniyor (spinner)
+  fullWidth={false}           // Tam genişlik
+  leftIcon={<Icon />}         // Sol ikon
+  rightIcon={<Icon />}        // Sağ ikon
+  iconOnly={false}            // Sadece ikon (kare buton)
+  testID="my-button"          // Test için
+/>`,
+          },
+        ]}
+      />
     </div>
   ),
 };
