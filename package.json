@@ -1,6 +1,6 @@
 {
   "name": "@iammuhammedyazici/tatilbudur-design-system",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "TatilBudur Design System — icons & components",
   "type": "module",
   "main": "./dist/index.web.js",
