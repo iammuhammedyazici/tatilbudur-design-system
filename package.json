@@ -33,7 +33,7 @@
   },
   "scripts": {
     "clean": "rm -rf dist src/icons",
-    "build:icons:web": "svgr --typescript --out-dir src/icons/web src/svg",
+    "build:icons:web": "svgr --config-file ./svgr.web.config.cjs --out-dir src/icons/web src/svg",
     "build:icons:native": "svgr --config-file ./svgr.native.config.cjs --out-dir src/icons/native src/svg",
     "build:icons": "npm run build:icons:web && npm run build:icons:native",
     "build:lib": "tsc --project tsconfig.lib.json",
