@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <mask id="cutout-x">
+      <!-- Mask base (visible area) -->
+      <rect width="64" height="64" fill="white"/>
+      
+      <!-- X will be cut out (black = transparent) -->
+      <path d="M22 22 L42 42 M42 22 L22 42"
+            stroke="black"
+            stroke-width="8"
+            stroke-linecap="round"
+            stroke-linejoin="round"/>
+    </mask>
+  </defs>
+
+  <!-- Filled circle with X cut out -->
+  <circle cx="32" cy="32" r="28"
+          fill="currentColor"
+          mask="url(#cutout-x)"/>
+</svg>
