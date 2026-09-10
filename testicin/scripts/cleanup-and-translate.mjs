@@ -388,7 +388,7 @@ fs.writeFileSync(path.join(outDir, 'naming-review.md'), md);
 // ============ SUMMARY ============
 console.log('\n📊 Sonuç:');
 console.log(`   📦 Inventory:     ${inventory.length} kayıt`);
-console.log(`   ✨ Unique:        ${cleanIcons.length} icon`);
+console.log(`   Unique:        ${cleanIcons.length} icon`);
 console.log(`   ⚠️  Review:        ${reviewIcons.length} icon`);
 console.log(`   📁 Kopyalandı:    ${copiedCount} SVG`);
 console.log(`   ❌ Eksik:         ${missingCount} SVG`);
