@@ -38,11 +38,14 @@
     "build:icons": "npm run build:icons:web && npm run build:icons:native",
     "build:lib": "tsc --project tsconfig.lib.json",
     "build": "npm run clean && npm run build:icons && npm run build:lib",
-    "storybook": "npm run build:icons:web && storybook dev -p 6006",
-    "build-storybook": "npm run build:icons:web && storybook build",
+    "storybook": "npm run build:icons && storybook dev -p 6006",
+    "build-storybook": "npm run build:icons && storybook build",
     "prepublishOnly": "npm run build",
+    "pretest": "npm run build:icons:web",
     "test": "vitest run --project=unit",
+    "pretest:watch": "npm run build:icons:web",
     "test:watch": "vitest --project=unit",
+    "pretest:all": "npm run build:icons",
     "test:all": "vitest run"
   },
   "keywords": [
@@ -55,7 +58,7 @@
   "author": "Muhammed YAZICI",
   "license": "UNLICENSED",
   "peerDependencies": {
-    "react": ">=17",
+    "react": ">=18",
     "react-native-svg": ">=12"
   },
   "peerDependenciesMeta": {

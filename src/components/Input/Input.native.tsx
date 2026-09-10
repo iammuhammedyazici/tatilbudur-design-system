@@ -1,141 +1,245 @@
-import React, { useState } from 'react';
+import { forwardRef } from 'react';
 import {
-  View,
+  StyleSheet,
   Text,
   TextInput,
-  ViewStyle,
-  TextStyle,
-  KeyboardTypeOptions,
+  TouchableOpacity,
+  View,
 } from 'react-native';
-import { colors } from '../../theme/colors';
-import { spacing, radius, fontSize, fontWeight } from '../../theme/spacing';
-import type { InputProps, InputSize, InputStatus } from './Input.types';
+import type {
+  KeyboardTypeOptions,
+  StyleProp,
+  TextInputProps,
+  TextStyle,
+  ViewStyle,
+} from 'react-native';
+import ErrorIcon from '../../icons/native/InputError';
+import EyeIcon from '../../icons/native/InputEye';
+import EyeOffIcon from '../../icons/native/InputEyeOff';
+import type { InputProps, InputType } from './Input.types';
+import { inputHeights, inputTokens as tokens } from './Input.tokens';
+import { useInputState } from './useInputState';
 
-// ============ SIZE TOKENS (mobile-first touch targets) ============
-const sizeMap: Record<InputSize, { minHeight: number; fontSize: number; paddingV: number; paddingH: number }> = {
-  sm: { minHeight: 36, fontSize: fontSize.sm, paddingV: spacing.small, paddingH: spacing.default },
-  md: { minHeight: 44, fontSize: fontSize.base, paddingV: spacing.default, paddingH: spacing.medium },
-  lg: { minHeight: 52, fontSize: fontSize.base, paddingV: spacing.medium, paddingH: spacing.large },
-};
+export interface NativeInputProps
+  extends InputProps,
+    Omit<TextInputProps, keyof InputProps | 'secureTextEntry'> {
+  containerStyle?: StyleProp<ViewStyle>;
+  labelStyle?: StyleProp<TextStyle>;
+  helperTextStyle?: StyleProp<TextStyle>;
+}
 
-const statusColors: Record<InputStatus, { border: string; focus: string; helper: string }> = {
-  default: {
-    border: colors.neutral.border,
-    focus: colors.primary.default,
-    helper: colors.neutral.textMuted,
-  },
-  error: {
-    border: colors.error.default,
-    focus: colors.error.default,
-    helper: colors.error.default,
-  },
-  success: {
-    border: colors.success.default,
-    focus: colors.success.default,
-    helper: colors.success.default,
-  },
-};
-
-const keyboardMap: Record<NonNullable<InputProps['type']>, KeyboardTypeOptions> = {
+const keyboardMap: Record<InputType, KeyboardTypeOptions> = {
   text: 'default',
-  email: 'email-address',
   password: 'default',
+  tc: 'number-pad',
+  email: 'email-address',
   number: 'numeric',
   tel: 'phone-pad',
 };
 
-export const Input: React.FC<InputProps> = ({
-  value,
-  onChangeText,
-  placeholder,
-  label,
-  helperText,
-  size = 'md',
-  status = 'default',
-  disabled = false,
-  readOnly = false,
-  leftIcon,
-  rightIcon,
-  fullWidth = false,
-  required = false,
-  type = 'text',
-  testID,
-}) => {
-  const [focused, setFocused] = useState(false);
-  const stateColors = statusColors[status];
-  const sizeTokens = sizeMap[size];
-  const isInteractive = !disabled && !readOnly;
-
-  const borderColor = focused && isInteractive ? stateColors.focus : stateColors.border;
-
-  const containerStyle: ViewStyle = {
-    flexDirection: 'column',
-    gap: spacing.xs,
-    width: fullWidth ? '100%' : undefined,
-    opacity: disabled ? 0.6 : 1,
-  };
-
-  const wrapperStyle: ViewStyle = {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.small,
-    borderWidth: 1.5,
-    borderColor,
-    borderRadius: radius.md,
-    backgroundColor: disabled ? colors.neutral.bg : colors.white,
-    minHeight: sizeTokens.minHeight,
-    paddingVertical: sizeTokens.paddingV,
-    paddingHorizontal: sizeTokens.paddingH,
-  };
-
-  const inputStyle: TextStyle = {
-    flex: 1,
-    fontSize: sizeTokens.fontSize,
-    color: colors.neutral.text,
-    padding: 0,
-  };
-
-  const labelStyle: TextStyle = {
-    fontSize: fontSize.sm,
-    fontWeight: fontWeight.medium as TextStyle['fontWeight'],
-    color: colors.neutral.text,
-  };
-
-  const helperStyle: TextStyle = {
-    fontSize: fontSize.xs,
-    color: stateColors.helper,
-  };
+export const Input = forwardRef<TextInput, NativeInputProps>(function Input(
+  {
+    type = 'text',
+    label,
+    error,
+    helperText,
+    status = 'default',
+    size = 'md',
+    rightIcon,
+    leftIcon,
+    onRightIconPress,
+    rightIconAccessibilityLabel,
+    containerStyle,
+    style,
+    labelStyle,
+    helperTextStyle,
+    testID,
+    onChangeText,
+    maxLength,
+    keyboardType,
+    value,
+    defaultValue,
+    disabled = false,
+    readOnly = false,
+    editable = true,
+    fullWidth = false,
+    required = false,
+    accessibilityLabel,
+    accessibilityState,
+    ...props
+  },
+  ref
+) {
+  const state = useInputState({
+    type,
+    value,
+    defaultValue,
+    onChangeText,
+    maxLength,
+    error,
+    helperText,
+    status,
+  });
+  const icon =
+    rightIcon ??
+    (state.showPasswordIcon ? (
+      state.passwordVisible ? (
+        <EyeIcon />
+      ) : (
+        <EyeOffIcon />
+      )
+    ) : undefined);
+  const iconAction =
+    onRightIconPress ?? (state.isPassword ? state.togglePassword : undefined);
+  const iconLabel =
+    rightIconAccessibilityLabel ??
+    (state.isPassword
+      ? state.passwordVisible
+        ? 'Şifreyi gizle'
+        : 'Şifreyi göster'
+      : 'Alan işlemi');
 
   return (
-    <View style={containerStyle}>
-      {label && (
-        <Text style={labelStyle}>
+    <View
+      style={[
+        fullWidth && { width: '100%' },
+        disabled && { opacity: 0.6 },
+        containerStyle,
+        styles.container,
+      ]}
+    >
+      {!!label && (
+        <Text style={[styles.label, labelStyle]}>
           {label}
-          {required && <Text style={{ color: colors.error.default }}> *</Text>}
+          {required && <Text style={{ color: tokens.error }}> *</Text>}
         </Text>
       )}
-
-      <View style={wrapperStyle}>
-        {leftIcon && <View>{leftIcon}</View>}
-
+      <View
+        style={[
+          styles.box,
+          { height: inputHeights[size] },
+          status === 'success' && { borderColor: '#10B981' },
+          state.hasError && styles.boxError,
+        ]}
+      >
+        {leftIcon && <View style={styles.icon}>{leftIcon}</View>}
         <TextInput
-          value={value}
-          onChangeText={onChangeText}
-          placeholder={placeholder}
-          placeholderTextColor={colors.neutral.placeholder}
-          editable={isInteractive}
-          secureTextEntry={type === 'password'}
-          keyboardType={keyboardMap[type]}
-          onFocus={() => setFocused(true)}
-          onBlur={() => setFocused(false)}
-          style={inputStyle}
+          {...props}
+          ref={ref}
           testID={testID}
+          accessibilityLabel={accessibilityLabel ?? label ?? props.placeholder}
+          accessibilityState={{
+            ...accessibilityState,
+            disabled: disabled || !editable,
+          }}
+          accessibilityHint={state.error ?? props.accessibilityHint}
+          style={[styles.input, style]}
+          placeholderTextColor={
+            props.placeholderTextColor ?? tokens.placeholder
+          }
+          keyboardType={
+            state.isTc ? 'number-pad' : keyboardType ?? keyboardMap[type]
+          }
+          secureTextEntry={state.isPassword && !state.passwordVisible}
+          maxLength={state.maxLength}
+          onChangeText={state.changeText}
+          value={state.value}
+          editable={!disabled && !readOnly && editable}
+          readOnly={readOnly}
         />
-
-        {rightIcon && <View>{rightIcon}</View>}
+        {!!icon &&
+          (iconAction ? (
+            <TouchableOpacity
+              onPress={iconAction}
+              disabled={disabled || !editable}
+              style={styles.icon}
+              accessibilityRole="button"
+              accessibilityLabel={iconLabel}
+              accessibilityState={{ disabled: disabled || !editable }}
+              hitSlop={{ top: 8, bottom: 8, left: 8, right: 8 }}
+              testID={testID && `${testID}-right-icon`}
+            >
+              {icon}
+            </TouchableOpacity>
+          ) : (
+            <View style={styles.icon} testID={testID && `${testID}-right-icon`}>
+              {icon}
+            </View>
+          ))}
       </View>
-
-      {helperText && <Text style={helperStyle}>{helperText}</Text>}
+      {!!state.message && (
+        <View
+          style={styles.messageRow}
+          accessibilityLiveRegion={state.hasError ? 'polite' : 'none'}
+          testID={state.hasError && testID ? `${testID}-error` : undefined}
+        >
+          {state.hasError && (
+            <ErrorIcon width={12} height={12} style={styles.errorIcon} />
+          )}
+          <Text
+            style={[
+              styles.message,
+              status === 'success' && { color: '#10B981' },
+              state.hasError && { color: tokens.error },
+              helperTextStyle,
+            ]}
+          >
+            {state.message}
+          </Text>
+        </View>
+      )}
     </View>
   );
-};
+});
+
+const styles = StyleSheet.create({
+  container: { gap: tokens.gap },
+  box: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderRadius: tokens.radius,
+    borderWidth: tokens.borderWidth,
+    borderColor: tokens.border,
+    backgroundColor: tokens.background,
+    paddingHorizontal: tokens.paddingHorizontal,
+    gap: tokens.iconGap,
+  },
+  boxError: {
+    borderColor: tokens.error,
+    backgroundColor: tokens.errorBackground,
+  },
+  input: {
+    flex: 1,
+    minWidth: 0,
+    height: '100%',
+    padding: 0,
+    fontFamily: tokens.fontRegular,
+    fontSize: tokens.fontSize,
+    color: tokens.text,
+  },
+  label: {
+    fontSize: tokens.fontSize,
+    fontFamily: tokens.fontMedium,
+    color: tokens.text,
+    marginBottom: 2,
+  },
+  icon: {
+    width: 24,
+    height: 24,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  messageRow: {
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    gap: 4,
+    marginTop: 4,
+  },
+  errorIcon: { marginTop: 2 },
+  message: {
+    flex: 1,
+    color: tokens.placeholder,
+    fontFamily: tokens.fontRegular,
+    fontSize: tokens.helperFontSize,
+  },
+});

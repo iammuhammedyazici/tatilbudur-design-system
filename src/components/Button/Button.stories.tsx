@@ -1,13 +1,27 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { expect, userEvent, within, fn } from 'storybook/test';
-import { Button } from './Button.web';
+import { Button as WebButton } from './Button.web';
+import { Button as NativeButton } from './Button.native';
+import type { ButtonProps } from './Button.types';
+import Svg, { Path } from 'react-native-svg';
+import { CompareDecorator, usePreviewPlatform } from '../../stories/CompareDecorator';
 import { CodeBlock } from '../../stories/CodeBlock';
+
+const Button = (props: ButtonProps) => {
+  const platform = usePreviewPlatform();
+  return platform === 'native'
+    ? <NativeButton {...props} textStyle={[{ fontFamily: 'Poppins, system-ui, sans-serif', fontWeight: '500' }, props.textStyle]} />
+    : <WebButton {...props} />;
+};
 
 const meta: Meta<typeof Button> = {
   title: 'Components/Button',
-  component: Button,
+  component: WebButton,
+  render: (args) => <Button {...args} />,
+  decorators: [CompareDecorator],
   parameters: {
-    layout: 'centered',
+    layout: 'padded',
+    usage: UsageExamples,
     docs: {
       description: {
         component:
@@ -41,7 +55,16 @@ export default meta;
 type Story = StoryObj<typeof Button>;
 
 // ============ Helper: Basit ok ikonu ============
-const ArrowRight = ({ size = 16 }: { size?: number }) => (
+const ArrowRight = ({ size = 16 }: { size?: number }) => {
+  const platform = usePreviewPlatform();
+  if (platform === 'native') {
+    return (
+      <Svg width={size} height={size} viewBox="0 0 24 24" fill="none">
+        <Path d="M5 12h14m0 0l-6-6m6 6l-6 6" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+      </Svg>
+    );
+  }
+  return (
   <svg width={size} height={size} viewBox="0 0 24 24" fill="none">
     <path
       d="M5 12h14m0 0l-6-6m6 6l-6 6"
@@ -51,7 +74,8 @@ const ArrowRight = ({ size = 16 }: { size?: number }) => (
       strokeLinejoin="round"
     />
   </svg>
-);
+  );
+};
 
 // ============ DEFAULT (Playground) ============
 export const Playground: Story = {
@@ -163,6 +187,7 @@ const StyleSection: React.FC<{
   buttonStyle: 'filled' | 'outline' | 'ghost' | 'link';
   variant: 'primary' | 'secondary' | 'tertiary';
 }> = ({ title, buttonStyle, variant }) => {
+  const native = usePreviewPlatform() === 'native';
   const sizes: Array<'lg' | 'md' | 'sm'> = ['lg', 'md', 'sm'];
   const sizeLabels = { lg: 'Large', md: 'Medium', sm: 'Small' };
 
@@ -177,8 +202,8 @@ const StyleSection: React.FC<{
           <p style={{ margin: '0 0 8px', fontSize: 13, color: '#6B7280' }}>{sizeLabels[size]}</p>
 
           {/* Default row */}
-          <div style={{ display: 'flex', gap: 12, marginBottom: 8, alignItems: 'center' }}>
-            <span style={{ width: 80, fontSize: 12, color: '#9CA3AF' }}>Default</span>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, marginBottom: 8, alignItems: 'center' }}>
+            <span style={{ width: native ? '100%' : 80, fontSize: 12, color: '#9CA3AF' }}>Default</span>
             <Button buttonStyle={buttonStyle} variant={variant} size={size}>Button</Button>
             <Button buttonStyle={buttonStyle} variant={variant} size={size} leftIcon={<ArrowRight />}>Button</Button>
             <Button buttonStyle={buttonStyle} variant={variant} size={size} rightIcon={<ArrowRight />}>Button</Button>
@@ -186,8 +211,8 @@ const StyleSection: React.FC<{
           </div>
 
           {/* Disabled row */}
-          <div style={{ display: 'flex', gap: 12, alignItems: 'center' }}>
-            <span style={{ width: 80, fontSize: 12, color: '#9CA3AF' }}>Disabled</span>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 12, alignItems: 'center' }}>
+            <span style={{ width: native ? '100%' : 80, fontSize: 12, color: '#9CA3AF' }}>Disabled</span>
             <Button buttonStyle={buttonStyle} variant={variant} size={size} disabled>Button</Button>
             <Button buttonStyle={buttonStyle} variant={variant} size={size} disabled leftIcon={<ArrowRight />}>Button</Button>
             <Button buttonStyle={buttonStyle} variant={variant} size={size} disabled rightIcon={<ArrowRight />}>Button</Button>
@@ -244,9 +269,8 @@ export const LinkMatrix: Story = {
 };
 
 // ============ Code Examples ============
-export const CodeExamples: Story = {
-  parameters: { layout: 'padded' },
-  render: () => (
+function UsageExamples() {
+  return (
     <div style={{ maxWidth: 800 }}>
       <h3 style={{ margin: '0 0 12px', fontSize: 18, fontWeight: 600 }}>
         Kullanım Örnekleri
@@ -392,8 +416,8 @@ export const Example = () => {
         ]}
       />
     </div>
-  ),
-};
+  );
+}
 
 // ============ INTERACTION TESTS ============
 export const ClickInteraction: Story = {
@@ -403,7 +427,7 @@ export const ClickInteraction: Story = {
     testID: 'click-btn',
   },
   play: async ({ args, canvasElement }) => {
-    const canvas = within(canvasElement);
+    const canvas = within(within(canvasElement).getByRole('region', { name: 'Web önizlemesi' }));
     const button = canvas.getByTestId('click-btn');
 
     await userEvent.click(button);
@@ -419,7 +443,7 @@ export const DisabledNoClick: Story = {
     testID: 'disabled-btn',
   },
   play: async ({ args, canvasElement }) => {
-    const canvas = within(canvasElement);
+    const canvas = within(within(canvasElement).getByRole('region', { name: 'Web önizlemesi' }));
     const button = canvas.getByTestId('disabled-btn');
 
     await userEvent.click(button);
