@@ -461,6 +461,7 @@ function detectMultiColor(svgJsx) {
 // ============================================================
 function convertJsxToSvg(jsx, canonicalName = '') {
   let s = jsx;
+  const hasSourceViewBox = /<Svg\b[^>]*\bviewBox\s*=/.test(jsx);
   const preserveColor = PRESERVE_COLOR.has(canonicalName);
   const coloredBox = COLORED_BOX.has(canonicalName);
 
@@ -687,9 +688,9 @@ function convertJsxToSvg(jsx, canonicalName = '') {
   }
 
   // 16c) viewBox clipPath rect boyutlarından türet
-  // <clipPath> içinde "M0 0hXvYH0z" patternı varsa, gerçek içerik boyutu budur
-  // Ancak coloredBox ikonlarda viewBox zaten dönüşüm sonrası doğru set edildi, üstesine yazma
-  if (!coloredBox) {
+  // clipPath yalnızca bir alt şekli sınırlayabilir (tb-club-2: 16x16).
+  // Kaynağın açık viewBox'ını veya manuel düzeltmeyi bununla küçültme.
+  if (!coloredBox && !hasSourceViewBox && !VIEWBOX_OVERRIDE[canonicalName]) {
     const cpMatch = s.match(/<clipPath[^>]*>[\s\S]*?<path[^>]*d="M0 0h([\d.]+)v([\d.]+)/);
     if (cpMatch) {
       const cpW = cpMatch[1], cpH = cpMatch[2];

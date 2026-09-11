@@ -26,6 +26,7 @@ const ACCENT_SOFT = colors.primary.pressedBg; // '#CCE3FF' — açık mavi zemin
 const NEUTRAL_BORDER = '#E5E7EB';
 const NEUTRAL_TEXT = '#111827';
 const NEUTRAL_MUTED = '#6B7280';
+const isClubBenefit = (name: string) => /^TbClub[123]$/.test(name);
 
 // ============ HELPER ============
 const copyToClipboard = async (text: string) => {
@@ -66,6 +67,7 @@ const IconCard = ({
   const { name, Component } = icon;
   const [hover, setHover] = useState(false);
   const active = isSelected || hover;
+  const clubBenefit = isClubBenefit(name);
 
   return (
     <div
@@ -94,17 +96,22 @@ const IconCard = ({
     >
       <div
         style={{
-          width: 56,
-          height: 56,
-          borderRadius: '50%',
+          width: clubBenefit ? 112 : 56,
+          height: clubBenefit ? 64 : 56,
+          borderRadius: clubBenefit ? 8 : '50%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          background: isSelected ? '#FFFFFF' : active ? ACCENT_SOFT : '#F9FAFB',
+          background: clubBenefit ? ACCENT : isSelected ? '#FFFFFF' : active ? ACCENT_SOFT : '#F9FAFB',
           transition: 'background 0.15s ease',
         }}
       >
-        <Component width={size} height={size} color={isSelected ? ACCENT : color} />
+        <Component
+          width={clubBenefit ? size * 74 / 32 : size}
+          height={clubBenefit ? size * 42 / 32 : size}
+          style={clubBenefit ? { maxWidth: '100%', maxHeight: '100%' } : undefined}
+          color={isSelected ? ACCENT : color}
+        />
       </div>
       <span
         style={{
@@ -163,7 +170,7 @@ const DetailPanel = ({
   icon: IconType;
   onClose: () => void;
 }) => {
-  const [detailSize, setDetailSize] = useState(64);
+  const [detailSize, setDetailSize] = useState(isClubBenefit(icon.name) ? 128 : 64);
   const [detailColor, setDetailColor] = useState(NEUTRAL_TEXT);
   const svgRef = useRef<HTMLDivElement>(null);
 
@@ -316,7 +323,7 @@ const DetailPanel = ({
               alignItems: 'center',
               justifyContent: 'center',
               padding: 32,
-              background:
+              background: isClubBenefit(name) ? ACCENT :
                 'repeating-conic-gradient(#F9FAFB 0% 25%, #FFFFFF 0% 50%) 50% / 16px 16px',
               borderRadius: 16,
               border: `1px solid ${NEUTRAL_BORDER}`,
