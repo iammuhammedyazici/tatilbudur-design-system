@@ -41,6 +41,9 @@ export interface InputProps {
   /** Sol icon */
   leftIcon?: ReactNode;
 
+  /** Alanın başında ülke kodu gibi doğal genişliğiyle gösterilen içerik. */
+  prefix?: ReactNode;
+
   /** Sağ icon */
   rightIcon?: ReactNode;
   onRightIconPress?: () => void;

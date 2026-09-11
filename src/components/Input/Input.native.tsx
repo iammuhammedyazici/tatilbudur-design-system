@@ -47,6 +47,7 @@ export const Input = forwardRef<TextInput, NativeInputProps>(function Input(
     size = 'md',
     rightIcon,
     leftIcon,
+    prefix,
     onRightIconPress,
     rightIconAccessibilityLabel,
     containerStyle,
@@ -122,6 +123,7 @@ export const Input = forwardRef<TextInput, NativeInputProps>(function Input(
           state.hasError && styles.boxError,
         ]}
       >
+        {prefix}
         {leftIcon && <View style={styles.icon}>{leftIcon}</View>}
         <TextInput
           {...props}

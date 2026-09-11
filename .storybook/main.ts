@@ -1,4 +1,5 @@
 import type { StorybookConfig } from '@storybook/react-vite';
+import { fileURLToPath } from 'node:url';
 
 const config: StorybookConfig = {
   // Web ve native örnekleri aynı bileşen sayfasında karşılaştırılır.
@@ -22,7 +23,7 @@ const config: StorybookConfig = {
     viteConfig.resolve = viteConfig.resolve ?? {};
     viteConfig.resolve.alias = [
       ...(Array.isArray(viteConfig.resolve.alias) ? viteConfig.resolve.alias : []),
-      { find: /^react-native$/, replacement: 'react-native-web' },
+      { find: /^react-native$/, replacement: fileURLToPath(new URL('./react-native-preview.jsx', import.meta.url)) },
     ];
     viteConfig.resolve.extensions = [
       '.web.tsx', '.web.ts', '.web.jsx', '.web.js',

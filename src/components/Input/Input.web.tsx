@@ -30,6 +30,7 @@ export const Input = forwardRef<HTMLInputElement, WebInputProps>(function Input(
     readOnly = false,
     editable = true,
     leftIcon,
+    prefix,
     rightIcon,
     onRightIconPress,
     rightIconAccessibilityLabel,
@@ -156,6 +157,7 @@ export const Input = forwardRef<HTMLInputElement, WebInputProps>(function Input(
           outlineOffset: 2,
         }}
       >
+        {prefix}
         {leftIcon && <span style={iconStyle}>{leftIcon}</span>}
         <input
           {...props}

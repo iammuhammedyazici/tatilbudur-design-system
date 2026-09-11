@@ -1,22 +1,17 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
-import React, { useState, useMemo, useRef } from 'react';
-import { renderToStaticMarkup } from 'react-dom/server';
+import React, { useState, useMemo } from 'react';
+import * as icons from '../icons/web';
+import { IconDetailPanel } from './IconDetailPanel';
 import { colors } from '../theme/colors';
-
-// src/icons/ klasöründeki tüm icon'ları otomatik import et
-const iconModules = import.meta.glob('../icons/web/*.tsx', { eager: true });
 
 type IconType = {
   name: string;
   Component: React.ComponentType<React.SVGProps<SVGSVGElement>>;
 };
 
-const allIcons: IconType[] = Object.entries(iconModules)
-  .map(([path, module]) => {
-    const name = path.split('/').pop()?.replace('.tsx', '') ?? 'Unknown';
-    const Component = (module as { default: React.ComponentType<React.SVGProps<SVGSVGElement>> }).default;
-    return { name, Component };
-  })
+// Galeri ve kullanım örnekleri paketin gerçek named export'larını kullanır.
+const allIcons: IconType[] = Object.entries(icons)
+  .map(([name, Component]) => ({ name, Component }))
   .sort((a, b) => a.name.localeCompare(b.name));
 
 // ============ TATİLBUDUR MARKA RENKLERİ ============
@@ -27,28 +22,6 @@ const NEUTRAL_BORDER = '#E5E7EB';
 const NEUTRAL_TEXT = '#111827';
 const NEUTRAL_MUTED = '#6B7280';
 const isClubBenefit = (name: string) => /^TbClub[123]$/.test(name);
-
-// ============ HELPER ============
-const copyToClipboard = async (text: string) => {
-  try {
-    await navigator.clipboard.writeText(text);
-    return true;
-  } catch {
-    return false;
-  }
-};
-
-const downloadFile = (filename: string, content: string, mimeType: string) => {
-  const blob = new Blob([content], { type: mimeType });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = filename;
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-};
 
 // ============ ICON CARD ============
 const IconCard = ({
@@ -70,11 +43,16 @@ const IconCard = ({
   const clubBenefit = isClubBenefit(name);
 
   return (
-    <div
+    <button
+      type="button"
+      aria-label={`${name} ikonunu incele`}
+      aria-haspopup="dialog"
       onClick={onClick}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
       style={{
+        fontFamily: 'inherit',
+        width: '100%',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -127,409 +105,7 @@ const IconCard = ({
       >
         {name}
       </span>
-    </div>
-  );
-};
-
-// ============ COPY BUTTON ============
-const CopyButton = ({ text, label }: { text: string; label: string }) => {
-  const [copied, setCopied] = useState(false);
-  const handleClick = async () => {
-    const ok = await copyToClipboard(text);
-    if (ok) {
-      setCopied(true);
-      setTimeout(() => setCopied(false), 1500);
-    }
-  };
-  return (
-    <button
-      onClick={handleClick}
-      style={{
-        padding: '6px 12px',
-        fontSize: 12,
-        fontWeight: 500,
-        border: `1px solid ${copied ? ACCENT : NEUTRAL_BORDER}`,
-        borderRadius: 8,
-        background: copied ? ACCENT : '#FFFFFF',
-        color: copied ? '#FFFFFF' : '#374151',
-        cursor: 'pointer',
-        transition: 'all 0.15s',
-        fontFamily: 'inherit',
-      }}
-    >
-      {copied ? '✓ Kopyalandı' : label}
     </button>
-  );
-};
-
-// ============ DETAIL PANEL ============
-const DetailPanel = ({
-  icon,
-  onClose,
-}: {
-  icon: IconType;
-  onClose: () => void;
-}) => {
-  const [detailSize, setDetailSize] = useState(isClubBenefit(icon.name) ? 128 : 64);
-  const [detailColor, setDetailColor] = useState(NEUTRAL_TEXT);
-  const svgRef = useRef<HTMLDivElement>(null);
-
-  const { name, Component } = icon;
-
-  // SVG string'i üret (current state ile)
-  const svgString = useMemo(() => {
-    return renderToStaticMarkup(
-      <Component width={detailSize} height={detailSize} color={detailColor} />
-    );
-  }, [Component, detailSize, detailColor]);
-
-  const importSnippet = `import ${name}Icon from '@tatilbudur/icons/${name}';`;
-  const usageSnippet = `<${name}Icon width={${detailSize}} height={${detailSize}} color="${detailColor}" />`;
-
-  const handleDownloadSvg = () => {
-    downloadFile(`${name.toLowerCase()}.svg`, svgString, 'image/svg+xml');
-  };
-
-  const handleDownloadPng = async () => {
-    // SVG'yi canvas'a çiz, PNG'ye çevir
-    const img = new Image();
-    const svgBlob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });
-    const url = URL.createObjectURL(svgBlob);
-
-    img.onload = () => {
-      const canvas = document.createElement('canvas');
-      canvas.width = detailSize * 4; // 4x retina
-      canvas.height = detailSize * 4;
-      const ctx = canvas.getContext('2d');
-      if (ctx) {
-        ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
-        canvas.toBlob((blob) => {
-          if (blob) {
-            const pngUrl = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = pngUrl;
-            a.download = `${name.toLowerCase()}.png`;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(pngUrl);
-          }
-        }, 'image/png');
-      }
-      URL.revokeObjectURL(url);
-    };
-    img.src = url;
-  };
-
-  const sectionLabelStyle: React.CSSProperties = {
-    fontSize: 13,
-    fontWeight: 600,
-    color: '#374151',
-  };
-
-  const codeBlockStyle: React.CSSProperties = {
-    margin: 0,
-    padding: 12,
-    background: '#0F172A',
-    color: '#E2E8F0',
-    fontSize: 11,
-    borderRadius: 10,
-    overflow: 'auto',
-    fontFamily: '"JetBrains Mono", "SF Mono", Menlo, monospace',
-  };
-
-  return (
-    <>
-      {/* Backdrop */}
-      <div
-        onClick={onClose}
-        style={{
-          position: 'fixed',
-          inset: 0,
-          background: 'rgba(15, 23, 42, 0.25)',
-          zIndex: 9998,
-          animation: 'tb-fadeIn 0.15s ease',
-        }}
-      />
-
-      {/* Panel */}
-      <div
-        style={{
-          position: 'fixed',
-          top: 0,
-          right: 0,
-          bottom: 0,
-          width: 'clamp(380px, 30vw, 480px)',
-          maxWidth: '100vw',
-          background: 'rgba(255, 255, 255, 0.98)',
-          backdropFilter: 'blur(16px)',
-          WebkitBackdropFilter: 'blur(16px)',
-          borderLeft: `1px solid ${NEUTRAL_BORDER}`,
-          boxShadow: '-16px 0 40px rgba(15, 23, 42, 0.14)',
-          zIndex: 9999,
-          display: 'flex',
-          flexDirection: 'column',
-          animation: 'tb-slideIn 0.22s cubic-bezier(0.16, 1, 0.3, 1)',
-        }}
-      >
-        {/* Header */}
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            padding: '18px 20px',
-            borderBottom: `1px solid ${NEUTRAL_BORDER}`,
-          }}
-        >
-          <div>
-            <div style={{ fontSize: 17, fontWeight: 700, color: NEUTRAL_TEXT, letterSpacing: -0.2 }}>
-              {name}
-            </div>
-            <div style={{ fontSize: 12, color: NEUTRAL_MUTED, marginTop: 2 }}>
-              Icon detayları
-            </div>
-          </div>
-          <button
-            onClick={onClose}
-            style={{
-              width: 32,
-              height: 32,
-              border: 'none',
-              background: '#F3F4F6',
-              borderRadius: 8,
-              cursor: 'pointer',
-              fontSize: 18,
-              color: NEUTRAL_MUTED,
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              transition: 'background 0.15s',
-            }}
-            onMouseEnter={(e) => (e.currentTarget.style.background = '#E5E7EB')}
-            onMouseLeave={(e) => (e.currentTarget.style.background = '#F3F4F6')}
-          >
-            ×
-          </button>
-        </div>
-
-        {/* Content (scrollable) */}
-        <div style={{ flex: 1, overflow: 'auto', padding: 20 }}>
-          {/* Preview */}
-          <div
-            ref={svgRef}
-            style={{
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              padding: 32,
-              background: isClubBenefit(name) ? ACCENT :
-                'repeating-conic-gradient(#F9FAFB 0% 25%, #FFFFFF 0% 50%) 50% / 16px 16px',
-              borderRadius: 16,
-              border: `1px solid ${NEUTRAL_BORDER}`,
-              marginBottom: 20,
-              minHeight: 180,
-            }}
-          >
-            <Component width={detailSize} height={detailSize} color={detailColor} />
-          </div>
-
-          {/* Controls card */}
-          <div
-            style={{
-              background: '#F9FAFB',
-              border: `1px solid ${NEUTRAL_BORDER}`,
-              borderRadius: 14,
-              padding: 16,
-              marginBottom: 20,
-            }}
-          >
-            {/* Size Control */}
-            <div style={{ marginBottom: 18 }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
-                <label style={sectionLabelStyle}>Boyut</label>
-                <span
-                  style={{
-                    fontSize: 12,
-                    color: ACCENT,
-                    fontWeight: 600,
-                    fontFamily: '"JetBrains Mono", monospace',
-                  }}
-                >
-                  {detailSize}px
-                </span>
-              </div>
-              <input
-                type="range"
-                min={16}
-                max={128}
-                step={2}
-                value={detailSize}
-                onChange={(e) => setDetailSize(Number(e.target.value))}
-                style={{ width: '100%', accentColor: ACCENT }}
-              />
-              <div style={{ display: 'flex', gap: 6, marginTop: 8 }}>
-                {[16, 24, 32, 48, 64, 96].map((s) => (
-                  <button
-                    key={s}
-                    onClick={() => setDetailSize(s)}
-                    style={{
-                      flex: 1,
-                      padding: '5px 8px',
-                      fontSize: 11,
-                      fontWeight: 500,
-                      border: `1px solid ${detailSize === s ? ACCENT : NEUTRAL_BORDER}`,
-                      background: detailSize === s ? ACCENT_SOFT : '#FFFFFF',
-                      color: detailSize === s ? ACCENT : NEUTRAL_MUTED,
-                      borderRadius: 6,
-                      cursor: 'pointer',
-                      fontFamily: '"JetBrains Mono", monospace',
-                      transition: 'all 0.15s',
-                    }}
-                  >
-                    {s}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Color Control */}
-            <div>
-              <label style={{ ...sectionLabelStyle, display: 'block', marginBottom: 8 }}>
-                Renk
-              </label>
-              <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-                <input
-                  type="color"
-                  value={detailColor}
-                  onChange={(e) => setDetailColor(e.target.value)}
-                  style={{
-                    width: 40,
-                    height: 40,
-                    border: `1px solid ${NEUTRAL_BORDER}`,
-                    borderRadius: 8,
-                    cursor: 'pointer',
-                    background: 'none',
-                  }}
-                />
-                <input
-                  type="text"
-                  value={detailColor}
-                  onChange={(e) => setDetailColor(e.target.value)}
-                  style={{
-                    flex: 1,
-                    padding: '8px 12px',
-                    fontSize: 13,
-                    border: `1px solid ${NEUTRAL_BORDER}`,
-                    borderRadius: 8,
-                    fontFamily: '"JetBrains Mono", monospace',
-                    outline: 'none',
-                    background: '#FFFFFF',
-                  }}
-                />
-              </div>
-              <div style={{ display: 'flex', gap: 6, marginTop: 8 }}>
-                {[NEUTRAL_TEXT, ACCENT, colors.secondary.default, '#10B981', '#EF4444', '#FFFFFF'].map(
-                  (c) => (
-                    <button
-                      key={c}
-                      onClick={() => setDetailColor(c)}
-                      style={{
-                        flex: 1,
-                        height: 28,
-                        background: c,
-                        border: `2px solid ${
-                          detailColor.toLowerCase() === c.toLowerCase() ? ACCENT : NEUTRAL_BORDER
-                        }`,
-                        borderRadius: 6,
-                        cursor: 'pointer',
-                        transition: 'border-color 0.15s',
-                      }}
-                    />
-                  )
-                )}
-              </div>
-            </div>
-          </div>
-
-          {/* Import Snippet */}
-          <div style={{ marginBottom: 16 }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-              <label style={sectionLabelStyle}>Import</label>
-              <CopyButton text={importSnippet} label="Kopyala" />
-            </div>
-            <pre style={codeBlockStyle}>{importSnippet}</pre>
-          </div>
-
-          {/* Usage Snippet */}
-          <div style={{ marginBottom: 16 }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-              <label style={sectionLabelStyle}>Kullanım</label>
-              <CopyButton text={usageSnippet} label="Kopyala" />
-            </div>
-            <pre style={codeBlockStyle}>{usageSnippet}</pre>
-          </div>
-
-          {/* SVG Code */}
-          <div style={{ marginBottom: 16 }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-              <label style={sectionLabelStyle}>SVG Kodu</label>
-              <CopyButton text={svgString} label="Kopyala" />
-            </div>
-            <pre style={{ ...codeBlockStyle, maxHeight: 160, lineHeight: 1.5 }}>{svgString}</pre>
-          </div>
-
-          {/* Download Buttons */}
-          <div style={{ display: 'flex', gap: 8 }}>
-            <button
-              onClick={handleDownloadSvg}
-              style={{
-                flex: 1,
-                padding: '11px 16px',
-                fontSize: 13,
-                fontWeight: 600,
-                border: `1px solid ${NEUTRAL_BORDER}`,
-                background: '#FFFFFF',
-                color: '#374151',
-                borderRadius: 10,
-                cursor: 'pointer',
-                fontFamily: 'inherit',
-              }}
-            >
-              ⬇ SVG İndir
-            </button>
-            <button
-              onClick={handleDownloadPng}
-              style={{
-                flex: 1,
-                padding: '11px 16px',
-                fontSize: 13,
-                fontWeight: 600,
-                border: 'none',
-                background: ACCENT,
-                color: '#FFFFFF',
-                borderRadius: 10,
-                cursor: 'pointer',
-                fontFamily: 'inherit',
-              }}
-            >
-              ⬇ PNG İndir
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <style>{`
-        @keyframes tb-slideIn {
-          from { transform: translateX(100%); }
-          to { transform: translateX(0); }
-        }
-        @keyframes tb-fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-      `}</style>
-    </>
   );
 };
 
@@ -709,7 +285,7 @@ const IconGallery = ({ size, color }: { size: number; color: string }) => {
           ))
         )}
 
-        {selectedIcon && <DetailPanel icon={selectedIcon} onClose={() => setSelectedIcon(null)} />}
+        {selectedIcon && <IconDetailPanel key={selectedIcon.name} icon={selectedIcon} onClose={() => setSelectedIcon(null)} />}
       </div>
     </div>
   );

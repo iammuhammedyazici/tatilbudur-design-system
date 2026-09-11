@@ -55,3 +55,12 @@
 .tb-code pre { margin: 0; padding: 24px; overflow: auto; font: 12px/1.8 ui-monospace, SFMono-Regular, Consolas, monospace; color: #cedbec; max-height: 540px; }
 @container (max-width: 740px) { .tb-preview-grid { grid-template-columns: minmax(0, 1fr); } .tb-system-badge { display: none; } .tb-web-stage { min-height: 280px; padding: 22px; } }
 @media (max-width: 480px) { .tb-workspace { padding: 16px; border-radius: 14px; } .tb-preview-toolbar { flex-wrap: wrap; } .tb-phone-stage { padding: 16px; } .tb-usage { padding: 16px; } .tb-code-toolbar { flex-wrap: wrap; padding: 10px; } }
+
+/* Native modal portals are bounded by each simulator's screen. */
+.tb-phone-screen { position: relative; isolation: isolate; }
+.tb-phone-modal-host { position: absolute; inset: 0; z-index: 20; pointer-events: none; }
+.tb-phone-modal { position: absolute; inset: 0; display: flex; flex-direction: column; min-height: 0; overflow: hidden; pointer-events: auto; outline: none; }
+.tb-phone-modal > div { min-height: 0; }
+.tb-phone-modal[data-animation="slide"] { animation: tb-phone-modal-enter .2s ease-out; }
+@keyframes tb-phone-modal-enter { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+@media (prefers-reduced-motion: reduce) { .tb-phone-modal[data-animation="slide"] { animation: none; } }
