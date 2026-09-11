@@ -10,7 +10,7 @@ const cities: DropdownItem<string>[] = [
   'İstanbul', 'Ankara', 'İzmir', 'Antalya', 'Bursa', 'Muğla', 'Nevşehir', 'Trabzon',
 ].map((label) => ({ id: label, label, value: label }));
 
-function PreviewDropdown<T extends DropdownValue>(props: DropdownProps<T>) {
+function PreviewDropdown(props: DropdownProps<string>) {
   const platform = usePreviewPlatform();
   return platform === 'native' ? (
     <NativeDropdown {...props} />
@@ -19,9 +19,21 @@ function PreviewDropdown<T extends DropdownValue>(props: DropdownProps<T>) {
   );
 }
 
+// NOT (bilinen sınırlama): Storybook'un otomatik props tablosu bu component
+// için JSDoc açıklamalarını göstermiyor — Button/Input/Picker/ContactInput'ta
+// çalışan react-docgen-typescript, burada sessizce boş sonuç döndürüyor.
+// Denenip işe yaramayanlar: forwardRef+generic cast'i (WebDropdown yerine) bu
+// düz sarmalayıcıyla değiştirmek, union yerine tek varyantlı prop tipi kullanmak,
+// bu fonksiyonu gerçek component ile aynı isimde tanımlamak, DropdownBaseProps'u
+// export etmek. Açıklamalar Dropdown.types.ts'te doğru ve eksiksiz duruyor
+// (IDE tooltip'lerinde görünür), sadece bu tablo onları okuyamıyor.
+function Dropdown(props: DropdownSingleProps<string>) {
+  return <WebDropdown {...props} />;
+}
+
 const meta = {
   title: 'Components/Dropdown',
-  component: PreviewDropdown,
+  component: Dropdown,
   decorators: [CompareDecorator],
   parameters: {
     layout: 'padded',
@@ -46,7 +58,7 @@ const meta = {
     clearable: { control: 'boolean' },
   },
   tags: ['autodocs'],
-} satisfies Meta<typeof PreviewDropdown>;
+} satisfies Meta<typeof Dropdown>;
 export default meta;
 type Story = StoryObj<typeof meta>;
 

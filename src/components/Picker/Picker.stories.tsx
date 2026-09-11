@@ -45,7 +45,8 @@ function PreviewPicker(props: PickerProps) {
 }
 const meta = {
   title: 'Components/Picker',
-  component: PreviewPicker,
+  component: WebPicker,
+  render: (args) => <PreviewPicker {...args} />,
   decorators: [CompareDecorator],
   parameters: {
     layout: 'padded',
@@ -70,7 +71,7 @@ const meta = {
     onPress: { control: false },
   },
   tags: ['autodocs'],
-} satisfies Meta<typeof PreviewPicker>;
+} satisfies Meta<typeof WebPicker>;
 export default meta;
 type Story = StoryObj<typeof meta>;
 export const Default: Story = {};
@@ -235,7 +236,7 @@ const topics = [
 export function ContactTopic() {
   const [topic, setTopic] = useState<string | null>(null);
   return (
-    <Picker
+    <PreviewPicker
       items={topics}
       value={topic}
       onChange={item => setTopic(item.value)}

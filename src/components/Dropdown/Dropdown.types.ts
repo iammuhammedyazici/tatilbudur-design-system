@@ -20,12 +20,16 @@ export interface DropdownItem<T extends DropdownValue = string> {
 }
 
 export interface DropdownSection<T extends DropdownValue = string> {
+  /** Bölüm başlığı */
   title: string;
+  /** Bölüme ait öğeler */
   data: DropdownItem<T>[];
 }
 
+/** Tetikleyicinin yüksekliğini ve iç boşluğunu belirler. */
 export type DropdownSize = 'small' | 'medium' | 'large';
 
+/** Renk teması — 7 hazır varyanttan biri (TatilBudur marka tokenlarına göre). */
 export type DropdownThemeVariant =
   | 'default'
   | 'light'
@@ -42,24 +46,38 @@ export type DropdownThemeVariant =
  */
 export type DropdownMode = 'default' | 'modal' | 'inline';
 
+/** Listenin tetikleyiciye göre hangi yöne açılacağı — auto en uygun yönü otomatik seçer. */
 export type DropdownDirection = 'auto' | 'top' | 'bottom';
 
 export interface DropdownHandle {
+  /** Listeyi programatik olarak açar */
   open: () => void;
+  /** Listeyi programatik olarak kapatır */
   close: () => void;
+  /** Seçimi temizler (handleClear ile aynı davranış) */
   clear: () => void;
 }
 
-interface DropdownBaseProps<T extends DropdownValue> {
+export interface DropdownBaseProps<T extends DropdownValue> {
+  /** Listelenecek tüm seçenekler */
   items: DropdownItem<T>[];
+  /** Hiçbir şey seçili değilken gösterilen metin */
   placeholder?: string;
+  /** Tetikleyicinin üstünde gösterilen etiket */
   label?: string;
+  /** Doğrulama hatası — kırmızı kenarlık ve hata metni tetikler */
   error?: string;
+  /** Tetikleyicinin altında gösterilen yardım metni */
   helperText?: string;
+  /** Tüm etkileşimi devre dışı bırakır */
   disabled?: boolean;
+  /** Tetikleyici içinde yükleniyor göstergesi gösterir */
   loading?: boolean;
+  /** Değeri gösterir ama etkileşimi engeller */
   readonly?: boolean;
+  /** Liste içinde bir arama kutusu gösterir */
   searchable?: boolean;
+  /** Arama kutusunun placeholder metni */
   searchPlaceholder?: string;
   /**
    * Arama sorgusu her değiştiğinde çağrılır.
@@ -67,11 +85,15 @@ interface DropdownBaseProps<T extends DropdownValue> {
    * Promise beklerken bir yükleniyor göstergesi gösterilir.
    */
   onSearch?: (query: string) => void | Promise<void>;
+  /** Açılan listenin nasıl render edileceği — default | modal | inline */
   mode?: DropdownMode;
+  /** Listenin açılma yönü — auto | top | bottom */
   direction?: DropdownDirection;
+  /** Renk teması — default | light | dark | outline | filled | danger | success */
   theme?: DropdownThemeVariant;
+  /** Tetikleyici boyutu — small | medium | large */
   size?: DropdownSize;
-  /** Açılan listenin azami yüksekliği */
+  /** Açılan listenin azami yüksekliği (piksel) */
   maxHeight?: number;
   /**
    * Kaydırma başlamadan önce görünecek öğe sayısını sınırlar.
@@ -84,39 +106,55 @@ interface DropdownBaseProps<T extends DropdownValue> {
   clearable?: boolean;
   /** Seçili değerleri chip olarak göster (multiple modunda) */
   showChips?: boolean;
+  /** Tetikleyici ve listenin köşe yuvarlaklığını özelleştirir */
   borderRadius?: number;
+  /** Tetikleyicinin solunda gösterilen ikon */
   leftIcon?: ReactNode;
-  /** Varsayılan oku değiştirir */
+  /** Varsayılan açılır oku değiştirir */
   rightIcon?: ReactNode;
+  /** Liste öğesinin görünümünü tamamen özelleştirmek için render fonksiyonu */
   renderItem?: (item: DropdownItem<T>, isSelected: boolean) => ReactElement;
+  /** Tetikleyicideki seçili değer gösterimini özelleştirmek için render fonksiyonu */
   renderSelectedValue?: (
     selected: DropdownItem<T> | DropdownItem<T>[]
   ) => ReactElement;
-  /** Varsayılan: String(item.id) */
+  /** React key üretici — varsayılan: String(item.id) */
   keyExtractor?: (item: DropdownItem<T>) => string;
   /** Bölümlenmiş veri (items'a alternatif) */
   sections?: DropdownSection<T>[];
-  /** Liste sonuna ulaşıldığında tetiklenir — sayfalama için */
+  /** Liste sonuna ulaşıldığında tetiklenir — sayfalama için kullanılır */
   onEndReached?: () => void;
+  /** Liste açıldığında çağrılır */
   onOpen?: () => void;
+  /** Liste kapandığında çağrılır */
   onClose?: () => void;
+  /** Etiketin yanında zorunlu alan (*) işareti gösterir */
   required?: boolean;
+  /** Test ve otomasyon için tanımlayıcı */
   testID?: string;
 }
 
 export interface DropdownSingleProps<T extends DropdownValue>
   extends DropdownBaseProps<T> {
+  /** Çoklu seçim kapalı (varsayılan) */
   multiple?: false;
+  /** Kontrollü seçili değer — seçimi temizlemek için null kullanın */
   value: T | null;
+  /** Kontrolsüz kullanımda başlangıç değeri */
   defaultValue?: T | null;
+  /** Seçim her değiştiğinde çağrılır */
   onChange: (value: T | null, item: DropdownItem<T> | null) => void;
 }
 
 export interface DropdownMultipleProps<T extends DropdownValue>
   extends DropdownBaseProps<T> {
+  /** Çoklu seçimi açar */
   multiple: true;
+  /** Kontrollü seçili değerler dizisi — temizlemek için null kullanın */
   value: T[] | null;
+  /** Kontrolsüz kullanımda başlangıç değerleri */
   defaultValue?: T[] | null;
+  /** Seçim her değiştiğinde çağrılır */
   onChange: (value: T[] | null, items: DropdownItem<T>[]) => void;
 }
 

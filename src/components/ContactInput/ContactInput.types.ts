@@ -3,7 +3,9 @@ export type ContactInputMode = 'phone' | 'email';
 export interface ContactInputProps {
   /** Ulusal telefon numarası veya e-posta; ülke kodu bu değere eklenmez. */
   value?: string;
+  /** Kontrolsüz kullanımda başlangıç değeri. */
   defaultValue?: string;
+  /** Değer her değiştiğinde çağrılır. */
   onChangeText?: (value: string) => void;
   /** İlk render ve mod değişimlerinde bildirilir. Altı rakam telefon modunu açar. */
   onModeChange?: (isPhoneMode: boolean) => void;

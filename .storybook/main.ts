@@ -14,6 +14,13 @@ const config: StorybookConfig = {
     "@storybook/addon-onboarding"
   ],
   "framework": "@storybook/react-vite",
+  // Varsayılan 'react-docgen' JSDoc yorumlarını okumuyor, sadece basit tip
+  // tahmini yapıyor (Description sütununda "array"/"string" gibi çıkıyordu).
+  // 'react-docgen-typescript' .types.ts dosyalarındaki /** ... */ yorumlarını
+  // gerçek açıklama olarak gösterir.
+  "typescript": {
+    reactDocgen: "react-docgen-typescript",
+  },
   // Native (.native.tsx) bileşenlerini tarayıcıda önizleyebilmek için
   // 'react-native' importlarını react-native-web'e yönlendiriyoruz.
   // Not: bu sadece bir DOM/CSS simülasyonudur — Android/iOS'a özgü

@@ -46,6 +46,7 @@ export interface InputProps {
 
   /** Sağ icon */
   rightIcon?: ReactNode;
+  /** Sağ ikona tıklanınca çalışır — verilirse ikon tıklanabilir hale gelir. */
   onRightIconPress?: () => void;
   /** Özel sağ ikon aksiyonunun erişilebilir adı. */
   rightIconAccessibilityLabel?: string;
@@ -58,7 +59,9 @@ export interface InputProps {
 
   /** tc: yalnızca rakam, en fazla 11 karakter; kimlik doğrulaması yapmaz. */
   type?: InputType;
+  /** Girilebilecek azami karakter sayısı. */
   maxLength?: number;
+  /** Ekran açılır açılmaz alana otomatik odaklanır. */
   autoFocus?: boolean;
 
   /** Test ID */
