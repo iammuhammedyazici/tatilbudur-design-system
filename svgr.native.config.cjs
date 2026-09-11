@@ -15,6 +15,16 @@ module.exports = {
           },
         },
       },
+      // Tüm kaynak SVG'ler aynı id="a" gibi clipPath id'lerini kullanıyor.
+      // Birden fazla icon aynı ekranda render edildiğinde bu id'ler çakışıp
+      // yanlış clipPath uygulanmasına (icon'un kırpılmış/bozuk görünmesine) sebep oluyordu.
+      {
+        name: "prefixIds",
+        params: {
+          prefixIds: true,
+          prefixClassNames: false,
+        },
+      },
       {
         name: "inlineStyles",
         params: {

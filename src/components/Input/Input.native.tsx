@@ -13,9 +13,9 @@ import type {
   TextStyle,
   ViewStyle,
 } from 'react-native';
-import ErrorIcon from '../../icons/native/InputError';
-import EyeIcon from '../../icons/native/InputEye';
-import EyeOffIcon from '../../icons/native/InputEyeOff';
+import ErrorIcon from '../../icons/native/Warning';
+import EyeIcon from '../../icons/native/Eye';
+import EyeOffIcon from '../../icons/native/EyeOff';
 import type { InputProps, InputType } from './Input.types';
 import { inputHeights, inputTokens as tokens } from './Input.tokens';
 import { useInputState } from './useInputState';
@@ -174,7 +174,7 @@ export const Input = forwardRef<TextInput, NativeInputProps>(function Input(
           testID={state.hasError && testID ? `${testID}-error` : undefined}
         >
           {state.hasError && (
-            <ErrorIcon width={12} height={12} style={styles.errorIcon} />
+            <ErrorIcon width={12} height={12} color={tokens.error} style={styles.errorIcon} />
           )}
           <Text
             style={[

@@ -14,6 +14,17 @@ module.exports = {
           },
         },
       },
+      // Tüm kaynak SVG'ler aynı id="a" gibi clipPath id'lerini kullanıyor.
+      // Galeri gibi birden fazla icon'un aynı DOM'da render edildiği yerlerde
+      // bu id'ler çakışıyor ve tarayıcı yanlış clipPath'i uygulayarak
+      // icon'ların kırpılmış/bozuk görünmesine sebep oluyordu.
+      {
+        name: "prefixIds",
+        params: {
+          prefixIds: true,
+          prefixClassNames: false,
+        },
+      },
     ],
   },
 };

@@ -1,8 +1,8 @@
 import { forwardRef, useId, useState } from 'react';
 import type { CSSProperties, InputHTMLAttributes } from 'react';
-import ErrorIcon from '../../icons/web/InputError';
-import EyeIcon from '../../icons/web/InputEye';
-import EyeOffIcon from '../../icons/web/InputEyeOff';
+import ErrorIcon from '../../icons/web/Warning';
+import EyeIcon from '../../icons/web/Eye';
+import EyeOffIcon from '../../icons/web/EyeOff';
 import type { InputProps } from './Input.types';
 import { inputHeights, inputTokens as tokens } from './Input.tokens';
 import { useInputState } from './useInputState';
@@ -263,6 +263,7 @@ export const Input = forwardRef<HTMLInputElement, WebInputProps>(function Input(
             <ErrorIcon
               width={12}
               height={12}
+              color={tokens.error}
               aria-hidden="true"
               style={{ marginTop: 2, flexShrink: 0 }}
             />
