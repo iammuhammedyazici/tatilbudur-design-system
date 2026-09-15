@@ -133,9 +133,8 @@ const IconGallery = ({ size, color }: { size: number; color: string }) => {
   }, [filteredIcons]);
 
   return (
-    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', overflow: 'hidden', background: '#FAFBFC' }}>
+    <div className="tb-icon-gallery" style={{ width: '100%', height: '100dvh', minWidth: 0, display: 'flex', flexDirection: 'column', overflow: 'hidden', background: '#FAFBFC', fontFamily: 'Poppins, system-ui, sans-serif' }}>
       <style>{`
-        html, body, #storybook-root { height: 100% !important; margin: 0 !important; padding: 0 !important; overflow: hidden !important; }
         .tb-icon-search::placeholder { color: #9CA3AF; }
       `}</style>
 
@@ -223,7 +222,7 @@ const IconGallery = ({ size, color }: { size: number; color: string }) => {
       </div>
 
       {/* Scrollable content */}
-      <div style={{ flex: 1, overflowY: 'auto', padding: '0 32px 32px' }}>
+      <div className="tb-icon-gallery-content" style={{ flex: 1, minHeight: 0, overflowY: 'auto', padding: '0 32px 32px' }}>
         {filteredIcons.length === 0 ? (
           <div
             style={{
@@ -296,6 +295,13 @@ const meta = {
   component: IconGallery,
   parameters: {
     layout: 'fullscreen',
+    // Galeri, Docs'ta da dokümantasyon kartına gömülmeden ekranı doldurur.
+    docs: {
+      container: ({ children }: { children: React.ReactNode }) => (
+        <div style={{ width: '100%', minWidth: 0 }}>{children}</div>
+      ),
+      page: () => <IconGallery size={32} color="#111827" />,
+    },
     html: {
       root: '#storybook-root',
       selector: '#storybook-root',
